@@ -198,6 +198,12 @@ body{
 }
 .press-item{font-size:.78rem;color:var(--text-muted);font-weight:500;opacity:.6}
 
+/* ═══════════ 5. FAQ ═══════════ */
+.faq-item[open] .faq-icon{transform:rotate(45deg)}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary{list-style:none}
+.faq-item summary::-moz-list-bullet{list-style-type:none}
+
 /* ═══════════ 6. LATEST GUIDES ═══════════ */
 .article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .article-card{
@@ -438,7 +444,64 @@ footer .footer-bottom{
 </div>
 </section>
 
-<!-- ═══════════ 5. LATEST GUIDES ═══════════ -->
+<!-- ═══════════ 5. FAQ — Like BabyList design pattern ═══════════ -->
+<section class="section-pad section-warm">
+<div class="container">
+<div class="text-center">
+<h2 class="section-title">❓ Common Baby Sleep Questions</h2>
+<p class="section-sub">Quick answers to the questions every Australian parent asks.</p>
+</div>
+<div class="faq-list" style="max-width:720px;margin:0 auto">
+<details class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden">
+<summary style="padding:18px 22px;font-weight:600;font-size:.9rem;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:space-between;list-style:none">
+<span>When should I start sleep training my baby?</span>
+<span class="faq-icon" style="color:var(--primary);font-size:1.1rem;transition:transform .25s">+</span>
+</summary>
+<div style="padding:0 22px 18px;font-size:.85rem;color:var(--text-light);line-height:1.7">
+Most experts recommend waiting until your baby is at least 4-6 months old before starting formal sleep training. Every baby is different though — trust your instincts and consult your maternal health nurse if unsure.
+</div>
+</details>
+<details class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden">
+<summary style="padding:18px 22px;font-weight:600;font-size:.9rem;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:space-between;list-style:none">
+<span>Is it safe for my newborn to sleep in a bassinet?</span>
+<span class="faq-icon" style="color:var(--primary);font-size:1.1rem;transition:transform .25s">+</span>
+</summary>
+<div style="padding:0 22px 18px;font-size:.85rem;color:var(--text-light);line-height:1.7">
+Yes! Bassinets are designed specifically for newborns and meet strict Australian safety standards (AS/NZS 4385:2020). Just make sure it has a firm, flat mattress, a fitted sheet, and no soft toys or bumpers inside.
+</div>
+</details>
+<details class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden">
+<summary style="padding:18px 22px;font-weight:600;font-size:.9rem;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:space-between;list-style:none">
+<span>What's the best swaddle for Australian summers?</span>
+<span class="faq-icon" style="color:var(--primary);font-size:1.1rem;transition:transform .25s">+</span>
+</summary>
+<div style="padding:0 22px 18px;font-size:.85rem;color:var(--text-light);line-height:1.7">
+Look for swaddles made from breathable fabrics like cotton or bamboo. Love to Dream's Swaddle Up in their lightweight TOG rating is an Australian favourite — designed for our climate and allows arms-up positioning which many bubs prefer.
+</div>
+</details>
+<details class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden">
+<summary style="padding:18px 22px;font-weight:600;font-size:.9rem;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:space-between;list-style:none">
+<span>How do I know which baby mattress is safest?</span>
+<span class="faq-icon" style="color:var(--primary);font-size:1.1rem;transition:transform .25s">+</span>
+</summary>
+<div style="padding:0 22px 18px;font-size:.85rem;color:var(--text-light);line-height:1.7">
+Always look for the Australian Standards certification (AS/NZS 8811). The mattress should be firm, flat, and fit snugly in the cot with no gaps. We've tested the top brands — check our <a href="#" style="color:var(--primary);font-weight:600;text-decoration:none">Best Baby Mattress guide</a> for our top picks.
+</div>
+</details>
+<details class="faq-item" style="background:#fff;border:1px solid var(--border);border-radius:12px;margin-bottom:10px;overflow:hidden">
+<summary style="padding:18px 22px;font-weight:600;font-size:.9rem;color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:space-between;list-style:none">
+<span>How many wake windows should my newborn have?</span>
+<span class="faq-icon" style="color:var(--primary);font-size:1.1rem;transition:transform .25s">+</span>
+</summary>
+<div style="padding:0 22px 18px;font-size:.85rem;color:var(--text-light);line-height:1.7">
+Newborns (0-3 months) typically have wake windows of 45-90 minutes. That's not long! Watch for sleepy cues like yawning, rubbing eyes, or fussiness. With 5-6 naps a day, you'll be spending most of your time feeding and settling — and that's completely normal.
+</div>
+</details>
+</div>
+</div>
+</section>
+
+<!-- ═══════════ 6. LATEST GUIDES ═══════════ -->
 <section class="section-pad section-light">
 <div class="container">
 <div class="text-center">
