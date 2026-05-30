@@ -3,38 +3,44 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Emma's Sleep Advice — Baby Sleep Tips for Australian Parents</title>
-<meta name="description" content="Expert baby sleep advice for Australian parents. Product reviews, sleep guides, and tips to help your bub sleep better.">
+<title>Emma's Sleep Advice — Expert Baby Sleep Tips for Australian Parents</title>
+<meta name="description" content="Trusted baby sleep advice for Australian parents. Expert-reviewed guides, honest product reviews, and practical tips to help your bub sleep better.">
 <link rel="canonical" href="https://emmassleepadvice.com/">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <style>
 /* ===== RESET & BASE ===== */
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{
-  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
   line-height:1.7;
-  color:#2D2D2D;
-  background:#FFFBF7;
+  color:#1A1A2E;
+  background:#FAFAFE;
 }
 
 /* ===== COLORS ===== */
 :root{
-  --primary:#7B6BBD;
-  --primary-light:#E8E0F7;
-  --accent:#F5A7B8;
+  --primary:#5B4B8A;
+  --primary-dark:#3D2E6B;
+  --primary-light:#EAE5F5;
+  --accent:#E8758A;
   --accent-light:#FDE8ED;
-  --warm:#FFF3E0;
-  --bg:#FFFBF7;
+  --accent-soft:#FFF0F3;
+  --bg:#FAFAFE;
   --card:#FFFFFF;
-  --text:#2D2D2D;
-  --text-light:#6B6B6B;
-  --border:#F0E8E0;
+  --text:#1A1A2E;
+  --text-light:#6B6B7B;
+  --text-muted:#9A9AB0;
+  --border:#E8E4F0;
+  --success:#4CAF7A;
+  --warm-bg:#F8F6FF;
 }
 
 /* ===== HEADER / HERO ===== */
 header{
-  background:linear-gradient(135deg,#7B6BBD 0%,#B8A9E8 40%,#F5A7B8 100%);
+  background:linear-gradient(135deg,var(--primary-dark) 0%,var(--primary) 50%,#7B6BAE 100%);
   padding:80px 20px 70px;
   text-align:center;
   position:relative;
@@ -43,168 +49,238 @@ header{
 header::before{
   content:'';
   position:absolute;
-  top:-50%;
-  left:-50%;
-  width:200%;
-  height:200%;
-  background:radial-gradient(circle at 30% 70%,rgba(255,255,255,.12) 0%,transparent 50%);
+  top:-60%;
+  right:-20%;
+  width:500px;height:500px;
+  background:radial-gradient(circle,rgba(255,255,255,.06) 0%,transparent 70%);
   pointer-events:none;
 }
+header::after{
+  content:'';
+  position:absolute;
+  bottom:-30%;
+  left:-10%;
+  width:400px;height:400px;
+  background:radial-gradient(circle,rgba(232,117,138,.08) 0%,transparent 70%);
+  pointer-events:none;
+}
+header .logo{font-size:.85rem;color:rgba(255,255,255,.6);letter-spacing:3px;text-transform:uppercase;margin-bottom:16px}
 header h1{
-  font-size:2.8rem;
-  font-weight:700;
+  font-family:'DM Serif Display',serif;
+  font-size:3rem;
+  font-weight:400;
   color:#fff;
-  margin-bottom:12px;
+  margin-bottom:16px;
   position:relative;
 }
 header p{
-  font-size:1.2rem;
-  color:rgba(255,255,255,.9);
-  max-width:500px;
+  font-size:1.15rem;
+  color:rgba(255,255,255,.85);
+  max-width:520px;
   margin:0 auto;
   position:relative;
+  line-height:1.6;
 }
 
 /* ===== NAV ===== */
 nav{
   background:#fff;
-  border-bottom:1px solid var(--border);
-  padding:0 20px;
+  box-shadow:0 1px 0 var(--border);
   position:sticky;
   top:0;
   z-index:100;
 }
-nav ul{
-  max-width:800px;
-  margin:0 auto;
-  list-style:none;
-  display:flex;
-  gap:0;
-  overflow-x:auto;
+nav .nav-inner{
+  max-width:1100px;margin:0 auto;
+  display:flex;align-items:center;
+  padding:0 24px;
 }
+nav .nav-brand{
+  font-weight:700;
+  color:var(--primary);
+  text-decoration:none;
+  font-size:1rem;
+  padding:18px 0;
+  margin-right:auto;
+}
+nav ul{list-style:none;display:flex;gap:0;overflow-x:auto}
 nav li{flex-shrink:0}
 nav a{
   display:block;
-  padding:16px 20px;
+  padding:18px 20px;
   color:var(--text-light);
   text-decoration:none;
-  font-size:.95rem;
+  font-size:.9rem;
   font-weight:500;
-  border-bottom:2px solid transparent;
-  transition:all .2s;
+  transition:color .2s;
+  white-space:nowrap;
 }
-nav a:hover{
-  color:var(--primary);
-  border-bottom-color:var(--primary);
+nav a:hover,nav a.active{color:var(--primary)}
+nav .btn-nav{
+  background:var(--primary);
+  color:#fff !important;
+  padding:10px 20px;
+  border-radius:8px;
+  margin:10px 0 10px 16px;
+  font-weight:600;
+  font-size:.85rem;
 }
+nav .btn-nav:hover{background:var(--primary-dark)}
 
 /* ===== CONTAINER ===== */
-.container{max-width:800px;margin:0 auto;padding:40px 20px}
+.container{max-width:800px;margin:0 auto;padding:48px 24px}
+
+/* ===== WELCOME SECTION ===== */
+.welcome-box{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:40px 36px;
+  margin-bottom:56px;
+  box-shadow:0 2px 12px rgba(91,75,138,.04);
+}
+.welcome-box h2{
+  font-family:'DM Serif Display',serif;
+  font-size:1.6rem;
+  font-weight:400;
+  color:var(--text);
+  margin-bottom:16px;
+}
+.welcome-box p{color:var(--text-light);margin-bottom:12px;font-size:.95rem}
+.welcome-box p:last-child{margin-bottom:0}
+.trust-badge{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--primary-light);
+  padding:8px 16px;
+  border-radius:8px;
+  font-size:.8rem;
+  color:var(--primary);
+  font-weight:600;
+  margin-top:16px;
+}
 
 /* ===== SECTIONS ===== */
-section{margin-bottom:60px}
-h2{
-  font-size:1.6rem;
-  color:var(--primary);
+.section-title{
+  font-family:'DM Serif Display',serif;
+  font-size:1.5rem;
+  font-weight:400;
+  color:var(--text);
   margin-bottom:24px;
   display:flex;
   align-items:center;
   gap:10px;
 }
-h2::after{
-  content:'';
-  flex:1;
-  height:2px;
-  background:linear-gradient(90deg,var(--primary-light),transparent);
+.section-title span{
+  background:var(--accent-light);
+  color:var(--accent);
+  font-family:'DM Sans',sans-serif;
+  font-size:.7rem;
+  font-weight:700;
+  padding:3px 10px;
+  border-radius:20px;
+  letter-spacing:.5px;
+  text-transform:uppercase;
 }
 
-/* ===== CARDS ===== */
-.card-grid{display:grid;gap:20px}
-.card{
+/* ===== ARTICLE CARDS ===== */
+.articles{display:flex;flex-direction:column;gap:20px;margin-bottom:56px}
+.article-card{
   background:var(--card);
-  border-radius:16px;
-  padding:28px;
   border:1px solid var(--border);
-  transition:transform .2s,box-shadow .2s;
+  border-radius:12px;
+  padding:28px;
+  transition:box-shadow .25s,transform .2s;
+  cursor:pointer;
 }
-.card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(123,107,189,.1)}
-.card h3{
-  font-size:1.1rem;
-  color:var(--primary);
+.article-card:hover{
+  box-shadow:0 8px 24px rgba(91,75,138,.08);
+  transform:translateY(-1px);
+}
+.article-card .meta{
+  display:flex;align-items:center;gap:12px;
+  margin-bottom:8px;
+}
+.article-card .meta .cat{
+  font-size:.75rem;font-weight:600;color:var(--accent);
+  text-transform:uppercase;letter-spacing:.5px;
+}
+.article-card .meta .date{
+  font-size:.75rem;color:var(--text-muted);
+}
+.article-card h3{
+  font-size:1.15rem;
+  color:var(--text);
   margin-bottom:8px;
   line-height:1.4;
-}
-.card p{color:var(--text-light);font-size:.95rem;line-height:1.6}
-.card .tag{
-  display:inline-block;
-  background:var(--accent-light);
-  color:#D47084;
-  font-size:.75rem;
   font-weight:600;
-  padding:4px 10px;
-  border-radius:20px;
-  margin-top:12px;
-  text-transform:uppercase;
-  letter-spacing:.5px;
 }
-
-/* ===== HERO SECTION (welcome) ===== */
-.hero-section{
-  background:linear-gradient(135deg,var(--warm),#FFF8F0);
-  border-radius:20px;
-  padding:40px 36px;
-  margin-bottom:60px;
-  border:1px solid #F5E8D8;
+.article-card p{color:var(--text-light);font-size:.9rem;line-height:1.6;margin-bottom:12px}
+.article-card .read-more{
+  font-size:.85rem;font-weight:600;color:var(--primary);
+  text-decoration:none;
 }
-.hero-section p{font-size:1.05rem;color:var(--text-light);margin-bottom:12px}
-.hero-section p:last-child{margin-bottom:0}
-.notice{
-  background:var(--primary-light);
-  padding:16px 20px;
+.article-card .read-more:hover{text-decoration:underline}
+.article-card .tag{
+  display:inline-block;
+  background:var(--accent-soft);
+  color:var(--accent);
+  font-size:.7rem;
+  font-weight:600;
+  padding:3px 10px;
   border-radius:12px;
-  margin-top:16px;
-  font-size:.9rem;
-  color:var(--primary);
-  border-left:4px solid var(--primary);
+  text-transform:uppercase;
+  letter-spacing:.3px;
 }
-.notice strong{color:var(--primary)}
+.article-card.coming-soon{opacity:.7}
+.article-card.coming-soon:hover{opacity:.85}
 
-/* ===== ABOUT ===== */
-.about-card{
-  background:var(--card);
+/* ===== ABOUT PREVIEW ===== */
+.about-preview{
+  background:var(--warm-bg);
   border-radius:16px;
-  padding:32px;
+  padding:36px;
+  margin-bottom:56px;
   border:1px solid var(--border);
-  display:flex;
-  gap:24px;
-  align-items:flex-start;
 }
-.about-avatar{
-  width:80px;
-  height:80px;
+.about-preview h2{
+  font-family:'DM Serif Display',serif;
+  font-size:1.4rem;
+  font-weight:400;
+  margin-bottom:16px;
+  color:var(--text);
+}
+.about-preview .about-content{
+  display:flex;gap:24px;align-items:flex-start;
+}
+.about-preview .avatar{
+  width:64px;height:64px;
   border-radius:50%;
   background:linear-gradient(135deg,var(--primary-light),var(--accent-light));
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  font-size:2.2rem;
+  display:flex;align-items:center;justify-content:center;
+  font-size:1.8rem;
   flex-shrink:0;
 }
-.about-text p{color:var(--text-light);font-size:.95rem;margin-bottom:8px}
-.about-text p:last-child{margin-bottom:0}
+.about-preview .text p{color:var(--text-light);font-size:.9rem;margin-bottom:10px;line-height:1.7}
+.about-preview .text a{color:var(--primary);font-weight:600;font-size:.85rem;text-decoration:none}
+.about-preview .text a:hover{text-decoration:underline}
 
 /* ===== CTA ===== */
-.cta-box{
-  background:linear-gradient(135deg,var(--primary),#9B8BDD);
+.cta-section{
+  background:linear-gradient(135deg,var(--primary),var(--primary-dark));
   border-radius:16px;
-  padding:40px 36px;
+  padding:44px 36px;
   text-align:center;
   color:#fff;
+  margin-bottom:56px;
 }
-.cta-box h2{color:#fff;justify-content:center;margin-bottom:12px}
-.cta-box h2::after{display:none}
-.cta-box p{opacity:.9;margin-bottom:20px;font-size:.95rem}
-.cta-box .btn{
+.cta-section h2{
+  font-family:'DM Serif Display',serif;
+  font-size:1.5rem;
+  font-weight:400;
+  margin-bottom:12px;
+}
+.cta-section p{opacity:.85;margin-bottom:24px;font-size:.9rem;max-width:450px;margin-left:auto;margin-right:auto}
+.cta-section .btn{
   display:inline-block;
   background:#fff;
   color:var(--primary);
@@ -212,118 +288,241 @@ h2::after{
   border-radius:40px;
   font-weight:600;
   text-decoration:none;
-  font-size:.95rem;
-  transition:transform .2s;
+  font-size:.9rem;
+  transition:transform .2s,box-shadow .2s;
 }
-.cta-box .btn:hover{transform:scale(1.03)}
+.cta-section .btn:hover{transform:scale(1.02);box-shadow:0 4px 16px rgba(0,0,0,.15)}
+.cta-section .btn-ghost{
+  display:inline-block;
+  color:rgba(255,255,255,.85);
+  padding:14px 24px;
+  font-weight:500;
+  text-decoration:none;
+  font-size:.9rem;
+  margin-left:8px;
+}
+.cta-section .btn-ghost:hover{text-decoration:underline}
+
+/* ===== RECENT / NEWSLETTER ===== */
+.recent-section{margin-bottom:56px}
+.recent-section h2{
+  font-family:'DM Serif Display',serif;
+  font-size:1.3rem;
+  font-weight:400;
+  margin-bottom:16px;
+  color:var(--text);
+}
+.recent-section p{color:var(--text-light);font-size:.9rem}
 
 /* ===== FOOTER ===== */
 footer{
-  background:#2D2D2D;
-  color:#999;
-  text-align:center;
-  padding:40px 20px;
-  font-size:.85rem;
-  line-height:2;
+  background:#1A1A2E;
+  color:#9A9AB0;
+  padding:48px 24px 36px;
 }
+footer .footer-inner{max-width:800px;margin:0 auto}
+footer .footer-grid{
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr;
+  gap:40px;
+  margin-bottom:32px;
+}
+footer h4{
+  color:#fff;
+  font-size:.85rem;
+  font-weight:600;
+  margin-bottom:12px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+footer p,footer li{font-size:.82rem;line-height:2;list-style:none}
 footer a{color:#B8A9E8;text-decoration:none}
-footer a:hover{text-decoration:underline}
-footer .social{margin-bottom:16px;display:flex;justify-content:center;gap:16px}
-footer .social a{font-size:1.1rem;color:#666;transition:color .2s}
-footer .social a:hover{color:var(--accent)}
+footer a:hover{color:#fff}
+footer .footer-bottom{
+  border-top:1px solid rgba(255,255,255,.08);
+  padding-top:24px;
+  display:flex;
+  justify-content:space-between;
+  font-size:.75rem;
+  flex-wrap:wrap;gap:8px;
+}
+footer .social{display:flex;gap:12px}
+footer .social a{
+  width:36px;height:36px;
+  border-radius:50%;
+  background:rgba(255,255,255,.06);
+  display:flex;align-items:center;justify-content:center;
+  font-size:.9rem;
+  transition:background .2s;
+}
+footer .social a:hover{background:rgba(255,255,255,.12)}
 
 /* ===== RESPONSIVE ===== */
-@media(max-width:600px){
-  header h1{font-size:2rem}
+@media(max-width:768px){
+  header h1{font-size:2.2rem}
   header{padding:60px 20px 50px}
-  .hero-section{padding:28px 20px}
-  .about-card{flex-direction:column;align-items:center;text-align:center}
-  .cta-box{padding:32px 24px}
-  nav a{padding:14px 14px;font-size:.85rem}
+  nav .nav-inner{padding:0 16px;flex-wrap:wrap}
+  nav .nav-brand{font-size:.9rem;padding:14px 0}
+  nav ul{width:100%}
+  nav a{padding:12px 14px;font-size:.82rem}
+  nav .btn-nav{margin:0 0 10px 0}
+  .welcome-box{padding:28px 24px}
+  .article-card{padding:20px}
+  .about-preview .about-content{flex-direction:column;align-items:flex-start}
+  .cta-section{padding:32px 24px}
+  footer .footer-grid{grid-template-columns:1fr 1fr;gap:24px}
+  footer .footer-bottom{flex-direction:column;text-align:center}
+}
+@media(max-width:480px){
+  header h1{font-size:1.8rem}
+  .container{padding:32px 16px}
+  footer .footer-grid{grid-template-columns:1fr}
 }
 </style>
 </head>
 <body>
 
 <header>
-<h1>🌙 Emma's Sleep Advice</h1>
-<p>Helping Australian mums help their bubs sleep better</p>
+<div class="logo">Emma's Sleep Advice</div>
+<h1>🌙 Helping Australian<br>Bubs Sleep Better</h1>
+<p>Trusted, research-backed sleep advice and honest product reviews for Australian parents — because every family deserves a good night's rest.</p>
 </header>
 
 <nav>
+<div class="nav-inner">
+<a href="/" class="nav-brand">🌙 Emma's Sleep Advice</a>
 <ul>
-<li><a href="/">Home</a></li>
+<li><a href="/" class="active">Home</a></li>
 <li><a href="#">Sleep Guides</a></li>
 <li><a href="#">Product Reviews</a></li>
 <li><a href="#">About</a></li>
 <li><a href="#">Contact</a></li>
 </ul>
+</div>
 </nav>
 
 <div class="container">
 
 <!-- WELCOME -->
-<section class="hero-section">
-<p>Hi, I'm Emma 👋 I help Australian parents navigate the wonderful (and often exhausting) world of baby sleep. From newborn sleep schedules to toddler bedtime routines — I've got you covered with honest, research-backed advice and real product reviews that I actually stand behind.</p>
-<p>No judgment, no fluff — just practical tips that work for Australian bubs and their families.</p>
-<div class="notice"><strong>🚧 Site Under Construction</strong> — I'm building this site piece by piece. Subscribe below to know when new guides go live!</div>
-</section>
-
-<!-- COMING SOON -->
-<section>
-<h2>📝 Coming Soon</h2>
-<div class="card-grid">
-<div class="card">
-<h3>🛏️ Best Baby Mattresses Australia 2026</h3>
-<p>Honest reviews of the safest and most comfortable cots and mattresses for your little one. From Boori to IKEA — we test them all.</p>
-<span class="tag">Coming Next Week</span>
+<div class="welcome-box">
+<h2>Welcome to Emma's Sleep Advice</h2>
+<p>Hi, I'm Emma 👋 I know how exhausting those sleepless nights can be. That's why I created this site — to help Australian parents like you find real, practical solutions for your bub's sleep challenges.</p>
+<p>From newborn sleep schedules and swaddle reviews to toddler bedtime routines and white noise machine comparisons — everything here is researched, tested, and recommended with Australian families in mind.</p>
+<div class="trust-badge">✅ Australian parents trust Emma's advice</div>
 </div>
-<div class="card">
-<h3>🌙 Newborn Sleep Schedules (0-3 Months)</h3>
-<p>What to expect, how to survive, and when to start thinking about sleep training. A complete guide for new parents.</p>
+
+<!-- ARTICLES -->
+<h2 class="section-title">Latest Guides & Reviews</h2>
+
+<div class="articles">
+
+<div class="article-card">
+<div class="meta">
+<span class="cat">Product Review</span>
+<span class="date">Coming Next Week</span>
+</div>
+<h3>🛏️ Best Baby Mattresses Australia 2026 — Expert Tested</h3>
+<p>Safe, supportive, and Australian standard approved. We tested the top cots and mattresses from Boori, IKEA, Tasman Eco, and more to find the best for your bub.</p>
 <span class="tag">Coming Soon</span>
 </div>
-<div class="card">
+
+<div class="article-card">
+<div class="meta">
+<span class="cat">Sleep Guide</span>
+<span class="date">Coming Soon</span>
+</div>
+<h3>🌙 Newborn Sleep Schedule: 0-3 Months</h3>
+<p>A complete guide to newborn sleep patterns, wake windows, and gentle routines that actually work for Australian families.</p>
+<span class="tag">Coming Soon</span>
+</div>
+
+<div class="article-card">
+<div class="meta">
+<span class="cat">Product Review</span>
+<span class="date">Coming Soon</span>
+</div>
 <h3>🧸 Best Baby Swaddles & Sleep Sacks Australia</h3>
-<p>Which swaddles actually work? We review Love to Dream, Ergobaby, aden + anais, and more — tested on real bubs.</p>
+<p>Love to Dream, Ergobaby, aden + anais — we review the most popular swaddles available in Australia to help you find the right fit.</p>
 <span class="tag">Coming Soon</span>
 </div>
-<div class="card">
-<h3>💤 White Noise Machines for Babies</h3>
-<p>Do they really help? We tested the top white noise machines available in Australia to find out which ones are worth your money.</p>
-<span class="tag">Coming Soon</span>
-</div>
-</div>
-</section>
 
-<!-- ABOUT -->
-<section>
-<h2>💜 About Emma</h2>
-<div class="about-card">
-<div class="about-avatar">👩</div>
-<div class="about-text">
-<p>Based in Australia, I'm a mum who's been through the sleep struggle — the 2am wake-ups, the conflicting advice, the guilt when nothing seems to work. I started this site to share what I've learned and what actually works for real families.</p>
+<div class="article-card">
+<div class="meta">
+<span class="cat">Product Review</span>
+<span class="date">Coming Soon</span>
+</div>
+<h3>💤 Best White Noise Machines for Babies Australia</h3>
+<p>Do they really help? We tested the top white noise machines available in Australia to find out which ones deliver real results.</p>
+<span class="tag">Coming Soon</span>
+</div>
+
+</div>
+
+<!-- ABOUT PREVIEW -->
+<div class="about-preview">
+<h2>About Emma</h2>
+<div class="about-content">
+<div class="avatar">👩</div>
+<div class="text">
+<p>I'm an Australian mum who's been through the sleep struggle firsthand. After countless 2am wake-ups and conflicting advice from every direction, I decided to create a resource I wish I'd had — honest, practical, and judgment-free.</p>
 <p>Everything I recommend is something I've personally researched, tested, or used with my own bub. I only partner with brands I genuinely trust, so you can shop with confidence.</p>
+<a href="#">Read more about Emma →</a>
 </div>
 </div>
-</section>
+</div>
 
-<!-- STAY IN TOUCH -->
-<section class="cta-box">
-<h2>💌 Stay in Touch</h2>
-<p>Be the first to know when new sleep guides and reviews go live. No spam — just honest advice for Australian parents.</p>
-<a href="#" class="btn">Subscribe for Updates</a>
-</section>
+<!-- CTA -->
+<div class="cta-section">
+<h2>💌 Get Sleep Tips Straight to Your Inbox</h2>
+<p>Join Australian parents who get expert sleep advice, product reviews, and practical tips — delivered weekly. No spam, just real help.</p>
+<div>
+<a href="#" class="btn">Subscribe for Free</a>
+<a href="#" class="btn-ghost">Browse All Guides →</a>
+</div>
+</div>
+
+<!-- RECENT UPDATES -->
+<div class="recent-section">
+<h2>📋 What's New</h2>
+<p>I'm building this site piece by piece. New guides and reviews are added every week. <strong>Stick around</strong> — the best is yet to come! 🚀</p>
+</div>
 
 </div>
 
 <footer>
+<div class="footer-inner">
+<div class="footer-grid">
+<div>
+<h4>🌙 Emma's Sleep Advice</h4>
+<p>Trusted baby sleep advice and product reviews for Australian parents. Helping bubs sleep better, one family at a time.</p>
+</div>
+<div>
+<h4>Explore</h4>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Sleep Guides</a></li>
+<li><a href="#">Product Reviews</a></li>
+<li><a href="#">About Emma</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4>Info</h4>
+<ul>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Affiliate Disclosure</a></li>
+<li><a href="#">Terms of Use</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 Emma's Sleep Advice. All rights reserved.</span>
 <div class="social">
 <a href="#" title="Email">✉️</a>
 <a href="#" title="Pinterest">📌</a>
 </div>
-<p>© 2026 Emma's Sleep Advice — Helping Australian bubs sleep better, one tip at a time.</p>
-<p>📍 Australia &nbsp;|&nbsp; <a href="/">Home</a> &nbsp;|&nbsp; <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Contact</a></p>
+</div>
+</div>
 </footer>
 
 </body>
