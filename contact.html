@@ -8,145 +8,65 @@
 <link rel="canonical" href="https://emmassleepadvice.com/contact.html">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{
-  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
-  line-height:1.6;color:#1A1A2E;background:#FFFFFF;
-}
-:root{
-  --primary:#5B4B8A;--primary-dark:#3D2E6B;--accent:#E8758A;
-  --text:#1A1A2E;--text-light:#6B6B7B;--text-muted:#9A9AB0;
-  --bg-light:#F8F7FB;--border:#EDEAF3;--border-light:#F5F3F8;
-}
+body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7;color:#1A1A2E;background:#FFFFFF}
+:root{--primary:#5B4B8A;--primary-dark:#3D2E6B;--primary-light:#7B6BAE;--accent:#E8758A;--text:#1A1A2E;--text-light:#6B6B7B;--text-muted:#9A9AB0;--bg-light:#F8F7FB;--border:#EDEAF3;--border-light:#F5F3F8}
 .container{max-width:800px;margin:0 auto;padding:0 24px}
-.section-pad{padding:72px 0}
 .text-center{text-align:center}
 
-nav{
-  background:#fff;border-bottom:1px solid var(--border-light);position:sticky;top:0;z-index:100;
-}
-nav .nav-inner{
-  max-width:1100px;margin:0 auto;
-  display:flex;align-items:center;justify-content:space-between;
-  padding:0 24px;
-}
-nav .nav-brand{
-  font-weight:700;color:var(--primary);
-  text-decoration:none;font-size:1rem;
-  padding:16px 0;display:flex;align-items:center;gap:8px;
-}
+nav{background:#fff;border-bottom:1px solid var(--border-light);position:sticky;top:0;z-index:100}
+nav .nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 24px}
+nav .nav-brand{font-weight:700;color:var(--primary);text-decoration:none;font-size:1rem;padding:16px 0;display:flex;align-items:center;gap:8px}
 nav ul{list-style:none;display:flex;gap:4px}
-nav a{
-  display:block;padding:16px 16px;
-  color:var(--text-light);text-decoration:none;
-  font-size:.88rem;font-weight:500;transition:color .2s;
-}
-nav a:hover,nav a.active{color:var(--primary)}
-nav .btn-nav{
-  background:var(--primary);color:#fff !important;padding:9px 18px;
-  border-radius:8px;margin:8px 0;font-weight:600;font-size:.82rem;
-}
-nav .btn-nav:hover{background:var(--primary-dark)}
+nav a.nav-link{display:block;padding:16px 16px;color:var(--text-light);text-decoration:none;font-size:.88rem;font-weight:500;transition:color .2s}
+nav a.nav-link:hover,nav a.active{color:var(--primary)}
 
-.page-header{
-  background:linear-gradient(135deg,var(--primary-dark),var(--primary));
-  padding:72px 24px 64px;text-align:center;
-}
-.page-header h1{
-  font-family:'Playfair Display',serif;
-  font-size:2.8rem;font-weight:400;color:#fff;margin-bottom:12px;
-}
-.page-header p{
-  font-size:1.05rem;color:rgba(255,255,255,.8);max-width:500px;margin:0 auto;
-}
+.page-header{background:linear-gradient(135deg,var(--primary-dark),var(--primary));padding:72px 24px 64px;text-align:center}
+.page-header h1{font-size:2.2rem;font-weight:700;color:#fff;margin-bottom:12px;letter-spacing:-.3px}
+.page-header p{font-size:1rem;color:rgba(255,255,255,.8);max-width:500px;margin:0 auto}
 
-.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-bottom:56px}
-.contact-info h2{
-  font-family:'Playfair Display',serif;
-  font-size:1.5rem;font-weight:400;margin-bottom:16px;
-}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;margin-bottom:56px;padding-top:56px}
+.contact-info h2{font-size:1.4rem;font-weight:600;margin-bottom:16px;letter-spacing:-.3px}
 .contact-info p{color:var(--text-light);font-size:.9rem;margin-bottom:20px;line-height:1.7}
-.contact-info .info-item{
-  display:flex;align-items:center;gap:12px;margin-bottom:16px;
-  padding:14px 18px;background:var(--bg-light);border-radius:10px;
-}
+.contact-info .info-item{display:flex;align-items:center;gap:12px;margin-bottom:16px;padding:14px 18px;background:var(--bg-light);border-radius:10px}
 .contact-info .info-item .i-icon{font-size:1.3rem}
 .contact-info .info-item .i-text{font-size:.88rem;color:var(--text-light)}
 .contact-info .info-item .i-text strong{color:var(--text);display:block;font-size:.82rem;margin-bottom:2px}
 
 .contact-form{display:flex;flex-direction:column;gap:16px}
-.contact-form label{
-  font-size:.82rem;font-weight:600;color:var(--text);
-  display:flex;flex-direction:column;gap:6px;
-}
-.contact-form input,.contact-form textarea,.contact-form select{
-  padding:12px 16px;border:1px solid var(--border);border-radius:10px;
-  font-size:.9rem;font-family:inherit;transition:border-color .2s;
-  background:#fff;
-}
-.contact-form input:focus,.contact-form textarea:focus,.contact-form select:focus{
-  outline:none;border-color:var(--primary);
-}
+.contact-form label{font-size:.82rem;font-weight:600;color:var(--text);display:flex;flex-direction:column;gap:6px}
+.contact-form input,.contact-form textarea,.contact-form select{padding:12px 16px;border:1px solid var(--border);border-radius:10px;font-size:.9rem;font-family:inherit;transition:border-color .2s;background:#fff}
+.contact-form input:focus,.contact-form textarea:focus,.contact-form select:focus{outline:none;border-color:var(--primary)}
 .contact-form textarea{resize:vertical;min-height:140px}
-.contact-form button{
-  background:var(--primary);color:#fff;border:none;
-  padding:14px 24px;border-radius:10px;font-weight:600;font-size:.9rem;
-  font-family:inherit;cursor:pointer;transition:background .2s;
-  width:100%;
-}
+.contact-form button{background:var(--primary);color:#fff;border:none;padding:14px 24px;border-radius:10px;font-weight:600;font-size:.9rem;font-family:inherit;cursor:pointer;transition:background .2s;width:100%}
 .contact-form button:hover{background:var(--primary-dark)}
 
 .other-ways{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:56px}
-.other-card{
-  background:var(--bg-light);border:1px solid var(--border-light);border-radius:12px;
-  padding:24px;text-align:center;
-}
+.other-card{background:var(--bg-light);border:1px solid var(--border-light);border-radius:12px;padding:24px;text-align:center}
 .other-card .o-icon{font-size:2rem;margin-bottom:8px}
 .other-card h3{font-size:.9rem;font-weight:600;color:var(--text);margin-bottom:4px}
 .other-card p{font-size:.8rem;color:var(--text-muted)}
 
-.faq-simple h2{
-  font-family:'Playfair Display',serif;
-  font-size:1.4rem;font-weight:400;margin-bottom:20px;
-}
-.faq-simple .faq-item{
-  padding:16px 0;border-bottom:1px solid var(--border-light);
-}
-.faq-simple .faq-item h4{font-size:.9rem;font-weight:600;color:var(--text);margin-bottom:4px}
-.faq-simple .faq-item p{font-size:.85rem;color:var(--text-light);line-height:1.6}
-
 footer{background:#1A1A2E;color:#9A9AB0;padding:48px 24px 36px}
 footer .footer-inner{max-width:1100px;margin:0 auto}
 footer .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:32px}
-footer h4{color:#fff;font-size:.8rem;font-weight:600;margin-bottom:14px;text-transform:uppercase;letter-spacing:1px}
-footer p,footer li{font-size:.78rem;line-height:2.2;list-style:none}
+footer h4{color:#fff;font-size:.78rem;font-weight:600;margin-bottom:14px;text-transform:uppercase;letter-spacing:1px}
+footer p,footer li{font-size:.76rem;line-height:2.2;list-style:none}
 footer a{color:#B8A9E8;text-decoration:none}
 footer a:hover{color:#fff}
-footer .footer-bottom{
-  border-top:1px solid rgba(255,255,255,.08);padding-top:20px;
-  display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.7rem;
-}
-footer .footer-social{display:flex;gap:10px}
-footer .footer-social a{
-  width:34px;height:34px;border-radius:50%;
-  background:rgba(255,255,255,.06);
-  display:flex;align-items:center;justify-content:center;
-  font-size:.82rem;transition:background .2s;
-}
-footer .footer-social a:hover{background:rgba(255,255,255,.12)}
+footer .footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.68rem}
 
 @media(max-width:768px){
   nav ul{display:none}
-  .page-header h1{font-size:2rem}
+  .page-header h1{font-size:1.6rem}
   .contact-grid{grid-template-columns:1fr}
   .other-ways{grid-template-columns:1fr}
   footer .footer-grid{grid-template-columns:1fr 1fr}
 }
 @media(max-width:480px){
-  .page-header{padding:56px 20px 48px}
   footer .footer-grid{grid-template-columns:1fr}
 }
 </style>
@@ -155,14 +75,12 @@ footer .footer-social a:hover{background:rgba(255,255,255,.12)}
 
 <nav>
 <div class="nav-inner">
-<a href="/" class="nav-brand">🌙 Emma's Sleep Advice</a>
+<a href="/" class="nav-brand">😴 Emma's Sleep Advice</a>
 <ul>
-<li><a href="/">Home</a></li>
-<li><a href="#">Guides</a></li>
-<li><a href="#">Reviews</a></li>
-<li><a href="/about.html">About</a></li>
-<li><a href="/contact.html" class="active">Contact</a></li>
-<li><a href="/" class="btn-nav">Start Here →</a></li>
+<li><a href="/" class="nav-link">Home</a></li>
+<li><a href="/#editors-choice" class="nav-link">🏆 Best Picks</a></li>
+<li><a href="/#latest-guides" class="nav-link">📖 Guides</a></li>
+<li><a href="/about.html" class="nav-link">👩 About</a></li>
 </ul>
 </div>
 </nav>
@@ -172,7 +90,7 @@ footer .footer-social a:hover{background:rgba(255,255,255,.12)}
 <p>Have a question about baby sleep? Want to collaborate or suggest a product to review? I'd love to hear from you.</p>
 </section>
 
-<div class="container" style="padding:72px 24px">
+<div class="container">
 
 <div class="contact-grid">
 
@@ -183,26 +101,17 @@ footer .footer-social a:hover{background:rgba(255,255,255,.12)}
 
 <div class="info-item">
 <div class="i-icon">✉️</div>
-<div class="i-text">
-<strong>Email</strong>
-emma@emmassleepadvice.com
-</div>
+<div class="i-text"><strong>Email</strong>emma@emmassleepadvice.com</div>
 </div>
 
 <div class="info-item">
 <div class="i-icon">📌</div>
-<div class="i-text">
-<strong>Social</strong>
-Follow me on Pinterest for quick sleep tips
-</div>
+<div class="i-text"><strong>Social</strong>Follow me on Pinterest for quick sleep tips</div>
 </div>
 
 <div class="info-item">
 <div class="i-icon">🕐</div>
-<div class="i-text">
-<strong>Response Time</strong>
-I typically reply within 24-48 hours
-</div>
+<div class="i-text"><strong>Response Time</strong>I typically reply within 24-48 hours</div>
 </div>
 
 <p style="margin-top:20px;font-size:.82rem;color:var(--text-muted);background:var(--bg-light);padding:16px;border-radius:10px;">
@@ -212,51 +121,21 @@ I typically reply within 24-48 hours
 
 <!-- FORM -->
 <form class="contact-form">
-<label>
-Name
-<input type="text" placeholder="Your name" required>
-</label>
-<label>
-Email
-<input type="email" placeholder="your@email.com" required>
-</label>
-<label>
-Subject
-<select>
-<option>General enquiry</option>
-<option>Sleep question</option>
-<option>Product review request</option>
-<option>Collaboration / Partnership</option>
-<option>Other</option>
-</select>
-</label>
-<label>
-Message
-<textarea placeholder="Tell me how I can help..." required></textarea>
-</label>
+<label>Name<input type="text" placeholder="Your name" required></label>
+<label>Email<input type="email" placeholder="your@email.com" required></label>
+<label>Subject<select><option>General enquiry</option><option>Sleep question</option><option>Product review request</option><option>Collaboration / Partnership</option><option>Other</option></select></label>
+<label>Message<textarea placeholder="Tell me how I can help..." required></textarea></label>
 <button type="button">Send Message →</button>
 </form>
 
 </div>
 
 <!-- OTHER WAYS -->
-<h2 style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:400;margin-bottom:20px">Other Ways to Connect</h2>
+<h2 style="font-size:1.2rem;font-weight:600;margin-bottom:20px;letter-spacing:-.3px">Other Ways to Connect</h2>
 <div class="other-ways">
-<div class="other-card">
-<div class="o-icon">📖</div>
-<h3>Browse Guides</h3>
-<p>Find answers in our sleep guides</p>
-</div>
-<div class="other-card">
-<div class="o-icon">🛒</div>
-<h3>Read Reviews</h3>
-<p>See what products made the cut</p>
-</div>
-<div class="other-card">
-<div class="o-icon">💌</div>
-<h3>Subscribe</h3>
-<p>Get weekly tips in your inbox</p>
-</div>
+<div class="other-card"><div class="o-icon">📖</div><h3>Browse Guides</h3><p>Find answers in our sleep guides</p></div>
+<div class="other-card"><div class="o-icon">🛒</div><h3>Read Reviews</h3><p>See what products made the cut</p></div>
+<div class="other-card"><div class="o-icon">💌</div><h3>Subscribe</h3><p>Get weekly tips in your inbox</p></div>
 </div>
 
 </div>
@@ -265,38 +144,25 @@ Message
 <div class="footer-inner">
 <div class="footer-grid">
 <div>
-<h4>🌙 Emma's Sleep Advice</h4>
-<p>Trusted baby sleep advice and honest product reviews for Australian parents. Helping bubs sleep better, one family at a time.</p>
+<h4>😴 Emma's Sleep Advice</h4>
+<p>Helping Australian bubs sleep better — honest advice from one tired mom to another.</p>
 </div>
 <div>
-<h4>Explore</h4>
-<ul>
-<li><a href="/">Home</a></li>
-<li><a href="#">Sleep Guides</a></li>
-<li><a href="#">Product Reviews</a></li>
-<li><a href="/about.html">About</a></li>
-</ul>
+<h4>Best Picks</h4>
+<ul><li><a href="/#editors-choice">Best Mattress</a></li><li><a href="/#editors-choice">Best Swaddle</a></li><li><a href="/#editors-choice">Best White Noise</a></li><li><a href="/#editors-choice">Best Monitors</a></li></ul>
 </div>
 <div>
-<h4>About</h4>
-<ul>
-<li><a href="/about.html">About Emma</a></li>
-<li><a href="/contact.html">Contact</a></li>
-<li><a href="#">Privacy Policy</a></li>
-<li><a href="#">Affiliate Disclosure</a></li>
-</ul>
+<h4>Guides</h4>
+<ul><li><a href="/#latest-guides">Newborn Sleep</a></li><li><a href="/#latest-guides">Baby Sleep</a></li><li><a href="/#latest-guides">Calming Tips</a></li><li><a href="/#latest-guides">View All →</a></li></ul>
 </div>
 <div>
-<h4>Connect</h4>
-<div class="footer-social">
-<a href="#" title="Email">✉️</a>
-<a href="#" title="Pinterest">📌</a>
-</div>
+<h4>Company</h4>
+<ul><li><a href="/about.html">About Emma</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/affiliate-disclosure.html">Affiliate Disclosure</a></li><li><a href="/privacy-policy.html">Privacy Policy</a></li></ul>
 </div>
 </div>
 <div class="footer-bottom">
 <span>© 2026 Emma's Sleep Advice</span>
-<span>Made with 💜 for Australian families</span>
+<span>As an Amazon Associate, I earn from qualifying purchases.</span>
 </div>
 </div>
 </footer>
