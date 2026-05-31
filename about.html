@@ -171,9 +171,6 @@ footer a:hover{text-decoration:underline}
   .header-nav{gap:0}
   .header-nav a{padding:10px 10px;font-size:.78rem}
   .hamburger{display:block}
-  .nav-links{display:none}
-  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:64px;left:0;right:0;background:#fff;border-bottom:1px solid var(--border);padding:12px}
-  .nav-links.open a{padding:12px 16px}
   .about-hero h1{font-size:1.6rem}
   .about-intro{flex-direction:column}
   .about-photo{flex:0 0 auto;max-width:260px;width:100%;height:auto;aspect-ratio:1}
@@ -187,14 +184,14 @@ footer a:hover{text-decoration:underline}
 <!-- ═══════════ HEADER (same as homepage) ═══════════ -->
 <header class="header">
 <div class="header-inner">
-<a href="/" class="header-logo">💜 Emma's Sleep Advice</a>
-<button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
-<nav class="header-nav nav-links">
-<a href="/">Home</a>
-<a href="/about.html" class="nav-active">About</a>
-<a href="/">Reviews</a>
-<a href="#">Guides</a>
-<span class="nav-disclosure">Disclosure: Affiliate links</span>
+<a href="/" class="header-logo"><img src="/logo-header.svg" alt="Emma's Sleep Advice" height="40" style="vertical-align:middle"></a>
+<button class="hamburger" onclick="var n=document.querySelector('.header-nav');if(n.style.display==='flex'){n.style.display='none'}else{n.style.display='flex';n.style.flexDirection='column';n.style.position='absolute';n.style.top='64px';n.style.left='0';n.style.right='0';n.style.background='#fff';n.style.padding='16px';n.style.boxShadow='0 8px 24px rgba(0,0,0,.1)'}">☰</button>
+<nav class="header-nav">
+  <a href="/">Home</a>
+  <a href="/#editors-choice">🏆 Best Picks</a>
+  <a href="/#latest-guides">📖 Guides</a>
+  <a href="/about.html" class="nav-active">👩 About</a>
+  <a href="/affiliate-disclosure.html" class="nav-disclosure">Affiliate Disclosure</a>
 </nav>
 </div>
 </header>
