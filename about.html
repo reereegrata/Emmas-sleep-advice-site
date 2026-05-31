@@ -3,194 +3,304 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Emma — Emma's Sleep Advice</title>
-<meta name="description" content="Meet Emma: an Australian mum on a mission to help parents and their bubs sleep better. Honest, research-backed sleep advice from someone who's been there.">
+<title>About Emma's Sleep Advice — Real Reviews from an Australian Mum</title>
+<meta name="description" content="Meet Emma — an Australian mum who tested dozens of baby sleep products so you don't have to. No sponsors, no fluff, just honest advice.">
 <link rel="canonical" href="https://emmassleepadvice.com/about.html">
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
+/* ═══════════════════════════════════
+   RESET & BASE (same as homepage)
+   ═══════════════════════════════════ */
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7;color:#1A1A2E;background:#FFFFFF}
-:root{--primary:#5B4B8A;--primary-dark:#3D2E6B;--primary-light:#7B6BAE;--accent:#E8758A;--accent-soft:#FFF0F3;--text:#1A1A2E;--text-light:#6B6B7B;--text-muted:#9A9AB0;--bg-light:#F8F7FB;--bg-warm:#FFF8F5;--border:#EDEAF3;--border-light:#F5F3F8}
-.container{max-width:800px;margin:0 auto;padding:0 24px}
-.text-center{text-align:center}
-
-nav{background:#fff;border-bottom:1px solid var(--border-light);position:sticky;top:0;z-index:100}
-nav .nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 24px}
-nav .nav-brand{font-weight:700;color:var(--primary);text-decoration:none;font-size:1rem;padding:16px 0;display:flex;align-items:center;gap:8px}
-nav ul{list-style:none;display:flex;gap:4px}
-nav a.nav-link{display:block;padding:16px 16px;color:var(--text-light);text-decoration:none;font-size:.88rem;font-weight:500;transition:color .2s}
-nav a.nav-link:hover,nav a.active{color:var(--primary)}
-
-.page-header{background:linear-gradient(135deg,var(--primary-dark),var(--primary));padding:72px 24px 64px;text-align:center}
-.page-header h1{font-size:2.2rem;font-weight:700;color:#fff;margin-bottom:12px;letter-spacing:-.3px}
-.page-header p{font-size:1rem;color:rgba(255,255,255,.8);max-width:500px;margin:0 auto}
-
-.about-intro{display:flex;gap:48px;align-items:flex-start;margin-bottom:56px;padding-top:56px}
-.about-intro .avatar{width:160px;height:160px;border-radius:50%;background:linear-gradient(135deg,var(--accent-soft),#F4D0B4);display:flex;align-items:center;justify-content:center;font-size:4rem;flex-shrink:0}
-.about-intro .text{flex:1}
-.about-intro .text h2{font-size:1.6rem;font-weight:600;margin-bottom:12px;letter-spacing:-.3px}
-.about-intro .text p{color:var(--text-light);font-size:.9rem;margin-bottom:12px;line-height:1.7}
-
-.values-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:56px}
-.value-card{background:var(--bg-light);border:1px solid var(--border-light);border-radius:14px;padding:28px 24px;text-align:center}
-.value-card .v-icon{font-size:2.5rem;margin-bottom:12px}
-.value-card h3{font-size:1rem;font-weight:600;color:var(--text);margin-bottom:6px}
-.value-card p{font-size:.82rem;color:var(--text-muted);line-height:1.6}
-
-.mission-box{background:var(--bg-warm);border:1px solid var(--border);border-radius:16px;padding:36px;margin-bottom:56px;text-align:center}
-.mission-box h2{font-size:1.3rem;font-weight:600;margin-bottom:12px}
-.mission-box p{color:var(--text-light);font-size:.9rem;max-width:600px;margin:0 auto;line-height:1.7}
-
-.timeline{margin-bottom:56px}
-.timeline h2{font-size:1.3rem;font-weight:600;margin-bottom:24px}
-.timeline-item{display:flex;gap:20px;margin-bottom:24px;padding-left:24px;border-left:2px solid var(--border)}
-.timeline-item .tl-year{font-size:.82rem;font-weight:600;color:var(--primary);white-space:nowrap;min-width:80px}
-.timeline-item .tl-text p{font-size:.88rem;color:var(--text-light);line-height:1.6}
-
-.cta-section{background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:16px;padding:40px 36px;text-align:center;color:#fff}
-.cta-section h2{font-size:1.3rem;font-weight:600;margin-bottom:10px}
-.cta-section p{opacity:.85;font-size:.9rem;margin-bottom:24px}
-.cta-section .btn{display:inline-block;background:#fff;color:var(--primary);padding:13px 32px;border-radius:10px;font-weight:600;font-size:.88rem;text-decoration:none;transition:transform .2s}
-.cta-section .btn:hover{transform:scale(1.03)}
-
-footer{background:#1A1A2E;color:#9A9AB0;padding:48px 24px 36px}
-footer .footer-inner{max-width:1100px;margin:0 auto}
-footer .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:32px}
-footer h4{color:#fff;font-size:.78rem;font-weight:600;margin-bottom:14px;text-transform:uppercase;letter-spacing:1px}
-footer p,footer li{font-size:.76rem;line-height:2.2;list-style:none}
-footer a{color:#B8A9E8;text-decoration:none}
-footer a:hover{color:#fff}
-footer .footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.68rem}
-
-@media(max-width:768px){
-  nav ul{display:none}
-  .page-header h1{font-size:1.6rem}
-  .about-intro{flex-direction:column;align-items:center;text-align:center}
-  .about-intro .avatar{width:120px;height:120px;font-size:3rem}
-  .values-grid{grid-template-columns:1fr}
-  footer .footer-grid{grid-template-columns:1fr 1fr}
+body{
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  line-height:1.6;color:#1A1A2E;background:#FFFFFF;
 }
-@media(max-width:480px){
-  footer .footer-grid{grid-template-columns:1fr}
+:root{
+  --primary:#5B4B8A;--primary-dark:#3D2E6B;--primary-light:#7B6BAE;
+  --accent:#E8758A;--accent-soft:#FFF0F3;
+  --text:#1A1A2E;--text-light:#6B6B7B;--text-muted:#9A9AB0;
+  --bg-light:#F8F7FB;--bg-warm:#FFF8F5;--bg-card:#FFFFFF;
+  --border:#EDEAF3;--border-light:#F5F3F8;
+  --sage:#7EC8A8;--sage-light:#E8F8F0;
+  --terracotta:#B55D45;--peach:#F4D0B4;--gold:#D4A847;
+}
+.container{max-width:900px;margin:0 auto;padding:0 24px}
+
+/* ═══════════ STICKY HEADER (same as homepage) ═══════════ */
+.header{
+  position:sticky;top:0;z-index:100;
+  background:#fff;border-bottom:1px solid var(--border-light);
+  backdrop-filter:blur(8px);
+}
+.header-inner{
+  max-width:1100px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 24px;height:64px;
+}
+.header-logo{font-weight:700;color:var(--primary);text-decoration:none;font-size:1rem;display:flex;align-items:center;gap:8px}
+.header-nav{display:flex;align-items:center;gap:2px;list-style:none}
+.header-nav a{
+  padding:10px 16px;color:var(--text-light);text-decoration:none;
+  font-size:.85rem;font-weight:500;transition:color .2s;border-radius:8px;
+}
+.header-nav a:hover{color:var(--primary);background:var(--bg-light)}
+.header-nav .nav-active{color:var(--primary);background:var(--bg-light);font-weight:600}
+.header-nav .nav-disclosure{
+  font-size:.7rem;color:var(--text-muted);padding:10px 12px;text-decoration:none;font-weight:400;
+}
+.hamburger{display:none;background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--text);padding:8px}
+
+/* ═══════════ HERO — About ═══════════ */
+.about-hero{
+  background:linear-gradient(135deg,var(--primary-dark) 0%,var(--primary) 50%,var(--primary-light) 100%);
+  padding:80px 0 60px;text-align:center;position:relative;overflow:hidden;
+}
+.about-hero-pattern{
+  position:absolute;inset:0;
+  background:radial-gradient(circle at 20% 30%,rgba(255,255,255,.04) 0%,transparent 50%),
+              radial-gradient(circle at 80% 70%,rgba(232,117,138,.08) 0%,transparent 50%);
+  pointer-events:none;
+}
+.about-hero .container{position:relative}
+.about-hero h1{
+  font-size:2.2rem;font-weight:700;color:#fff;margin-bottom:8px;letter-spacing:-.5px;
+}
+.about-hero h1 span{color:var(--peach)}
+.about-hero p{
+  font-size:.95rem;color:rgba(255,255,255,.8);max-width:560px;margin:0 auto;
+}
+
+/* ═══════════ MAIN ABOUT CONTENT ═══════════ */
+.about-main{padding:64px 0 80px}
+.about-intro{
+  display:flex;gap:48px;align-items:center;margin-bottom:60px;
+}
+.about-photo{
+  flex:0 0 360px;border-radius:16px;overflow:hidden;
+  box-shadow:0 12px 40px rgba(91,75,138,.12);
+}
+.about-photo img{width:100%;height:auto;display:block}
+.about-intro-text{flex:1}
+.about-intro-text h2{
+  font-size:1.5rem;font-weight:600;color:var(--text);margin-bottom:4px;
+}
+.about-intro-text .about-label{
+  font-size:.8rem;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px;
+}
+.about-intro-text p{
+  font-size:.9rem;color:var(--text-light);line-height:1.7;margin-bottom:14px;
+}
+
+/* ═══════════ STORY SECTION ═══════════ */
+.about-story{margin-bottom:56px}
+.about-story h3{
+  font-size:1.2rem;font-weight:600;color:var(--text);margin-bottom:16px;
+}
+.about-story p{
+  font-size:.9rem;color:var(--text-light);line-height:1.8;margin-bottom:14px;
+}
+
+/* ═══════════ VALUES ═══════════ */
+.about-values{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:56px;
+}
+.value-card{
+  background:var(--bg-light);border-radius:14px;padding:28px 24px;text-align:center;
+  border:1px solid var(--border);
+}
+.value-card .value-icon{font-size:2rem;margin-bottom:10px}
+.value-card h4{font-size:.9rem;font-weight:600;color:var(--text);margin-bottom:6px}
+.value-card p{font-size:.82rem;color:var(--text-light);line-height:1.6}
+
+/* ═══════════ TRUST BAR ═══════════ */
+.about-trust-bar{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:48px;
+  padding:32px 28px;background:var(--bg-warm);border-radius:14px;border:1px solid var(--border);
+}
+.trust-item{text-align:center}
+.trust-item .trust-num{font-size:1.4rem;font-weight:700;color:var(--primary)}
+.trust-item .trust-label{font-size:.78rem;color:var(--text-light);margin-top:2px}
+
+/* ═══════════ AFFILIATE DISCLAIMER ═══════════ */
+.about-disclosure{
+  background:#fff;border:1px solid var(--border);border-radius:12px;padding:24px;
+}
+.about-disclosure h4{
+  font-size:.85rem;font-weight:600;color:var(--text);margin-bottom:8px;
+}
+.about-disclosure p{
+  font-size:.8rem;color:var(--text-muted);line-height:1.7;
+}
+.about-disclosure p a{color:var(--primary);font-weight:500;text-decoration:none}
+.about-disclosure p a:hover{text-decoration:underline}
+
+/* ═══════════ CTA ═══════════ */
+.about-cta-section{
+  text-align:center;padding:48px 0 0;
+}
+.about-cta-section h3{
+  font-size:1.2rem;font-weight:600;color:var(--text);margin-bottom:8px;
+}
+.about-cta-section p{
+  font-size:.9rem;color:var(--text-light);margin-bottom:24px;
+}
+.about-cta-btn{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--primary);color:#fff;padding:14px 32px;border-radius:10px;
+  font-weight:600;font-size:.9rem;text-decoration:none;font-family:inherit;
+  transition:all .2s;
+}
+.about-cta-btn:hover{background:var(--primary-dark);transform:translateY(-2px);box-shadow:0 8px 24px rgba(91,75,138,.25)}
+
+/* ═══════════ FOOTER ═══════════ */
+footer{
+  padding:32px 0;text-align:center;
+  border-top:1px solid var(--border-light);margin-top:24px;
+}
+footer p{font-size:.78rem;color:var(--text-muted)}
+footer a{color:var(--primary);text-decoration:none}
+footer a:hover{text-decoration:underline}
+
+/* ═══════════ RESPONSIVE ═══════════ */
+@media(max-width:768px){
+  .header-nav{gap:0}
+  .header-nav a{padding:10px 10px;font-size:.78rem}
+  .hamburger{display:block}
+  .nav-links{display:none}
+  .nav-links.open{display:flex;flex-direction:column;position:absolute;top:64px;left:0;right:0;background:#fff;border-bottom:1px solid var(--border);padding:12px}
+  .nav-links.open a{padding:12px 16px}
+  .about-hero h1{font-size:1.6rem}
+  .about-intro{flex-direction:column}
+  .about-photo{flex:0 0 auto;max-width:360px;width:100%}
+  .about-values{grid-template-columns:1fr}
+  .about-trust-bar{grid-template-columns:repeat(2,1fr)}
 }
 </style>
 </head>
 <body>
 
-<nav>
-<div class="nav-inner">
-<a href="/" class="nav-brand"><img src="/logo-header.svg" alt="Emma's Sleep Advice" height="36" style="vertical-align:middle"></a>
-<ul>
-<li><a href="/" class="nav-link">Home</a></li>
-<li><a href="/#editors-choice" class="nav-link">🏆 Best Picks</a></li>
-<li><a href="/#latest-guides" class="nav-link">📖 Guides</a></li>
-<li><a href="/about.html" class="nav-link active">👩 About</a></li>
-</ul>
-</div>
+<!-- ═══════════ HEADER (same as homepage) ═══════════ -->
+<header class="header">
+<div class="header-inner">
+<a href="/" class="header-logo">💜 Emma's Sleep Advice</a>
+<button class="hamburger" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+<nav class="header-nav nav-links">
+<a href="/">Home</a>
+<a href="/about.html" class="nav-active">About</a>
+<a href="/">Reviews</a>
+<a href="#">Guides</a>
+<span class="nav-disclosure">Disclosure: Affiliate links</span>
 </nav>
+</div>
+</header>
 
-<section class="page-header">
-<h1>About Emma</h1>
-<p>An Australian mum on a mission to help parents and their bubs sleep better — one honest guide at a time.</p>
+<!-- ═══════════ HERO ═══════════ -->
+<section class="about-hero">
+<div class="about-hero-pattern"></div>
+<div class="container">
+<h1>Hey there, I'm <span>Emma</span> 💜</h1>
+<p>An Australian mum who tested dozens of baby sleep products so you don't have to.</p>
+</div>
 </section>
 
+<!-- ═══════════ MAIN ABOUT CONTENT ═══════════ -->
+<section class="about-main">
 <div class="container">
 
-<!-- INTRO -->
+<!-- Introduction with photo -->
 <div class="about-intro">
-<div class="avatar">👩</div>
-<div class="text">
-<h2>Hi, I'm Emma 👋</h2>
-<p>I'm an Australian mum who's been through the sleep struggle firsthand — the 2am wake-ups, the conflicting advice from every direction, and the guilt when nothing seems to work.</p>
-<p>After my own bub struggled with sleep for months, I realised there was no single place for Australian parents to get honest, practical, and research-backed advice without the fluff. So I created it.</p>
-<p>Emma's Sleep Advice is my way of sharing what I've learned — and what actually works — with other families who deserve a good night's rest as much as their bubs do.</p>
+<div class="about-photo">
+<img src="/images/about-emma.webp" alt="Emma — founder of Emma's Sleep Advice" width="600" height="400" loading="eager">
+</div>
+<div class="about-intro-text">
+<div class="about-label">About Emma</div>
+<h2>I'm a mum on a mission.</h2>
+<p>After my first, I tested every swaddle, mattress, baby monitor, and white noise machine I could find — because I refused to believe "some babies just don't sleep."</p>
+<p>I'm not a doctor or a certified sleep consultant. I'm just a real mum who spent way too many nights doom-scrolling Google at 3am, trying to figure out why my baby wouldn't sleep — and what actually worked.</p>
+<p>Emma's Sleep Advice is where I share everything I learned: honest product comparisons, evidence-based tips, and practical tools that actually make a difference. No fluff, no sponsored nonsense — just what works.</p>
 </div>
 </div>
 
-<!-- VALUES -->
-<div class="values-grid">
+<!-- The Story -->
+<div class="about-story">
+<h3>How It Started</h3>
+<p>When my first baby arrived, I hit the same wall every new parent hits: sleep deprivation so intense you forget what a full night feels like. I tried every gadget, every technique, every "magic" solution I could find online. Some worked. Most didn't.</p>
+<p>What I discovered was that there's <strong>no shortage of sleep advice online</strong> — just a shortage of <strong>honest, practical advice</strong>. Most reviews are sponsored. Most guides are written by people who've never changed a nappy at 2am.</p>
+<p>So I started testing products myself. Reading the research. Talking to other Aussie mums. And slowly, I built a system that worked for my family — and started sharing it with friends. Word spread, and Emma's Sleep Advice was born.</p>
+</div>
+
+<!-- Values -->
+<div class="about-values">
 <div class="value-card">
-<div class="v-icon">🔬</div>
-<h3>Evidence-Based</h3>
-<p>Every guide and review is backed by research, expert recommendations, or real-world testing — never guesswork.</p>
+<div class="value-icon">🔬</div>
+<h4>Evidence-Based</h4>
+<p>Every recommendation is backed by research and real-world testing. I follow Red Nose Australia guidelines and current paediatric advice.</p>
 </div>
 <div class="value-card">
-<div class="v-icon">💜</div>
-<h3>Honest Reviews</h3>
-<p>I only recommend products I've personally tested or genuinely trust. No sponsored fluff, no fake endorsements.</p>
+<div class="value-icon">💜</div>
+<h4>No Sponsors</h4>
+<p>I don't accept payment for reviews. Every product I recommend is something I've personally tested and genuinely believe in.</p>
 </div>
 <div class="value-card">
-<div class="v-icon">🇦🇺</div>
-<h3>Australian Made</h3>
-<p>All content is tailored for Australian families — AU standards, AU brands, and advice that works in our context.</p>
+<div class="value-icon">🇦🇺</div>
+<h4>For Aussie Families</h4>
+<p>Australian safety standards, Australian prices (in AUD), and products you can actually buy here — not US-only recommendations.</p>
 </div>
 </div>
 
-<!-- MISSION -->
-<div class="mission-box">
-<h2>💜 My Mission</h2>
-<p>To help every Australian parent feel confident, supported, and well-rested — by providing the honest, practical sleep advice I wish I'd had from day one.</p>
+<!-- Trust Bar -->
+<div class="about-trust-bar">
+<div class="trust-item">
+<div class="trust-num">20+</div>
+<div class="trust-label">Products Tested</div>
+</div>
+<div class="trust-item">
+<div class="trust-num">🔬</div>
+<div class="trust-label">Research-Backed</div>
+</div>
+<div class="trust-item">
+<div class="trust-num">🇦🇺</div>
+<div class="trust-label">AU Standards</div>
+</div>
+<div class="trust-item">
+<div class="trust-num">0</div>
+<div class="trust-label">Sponsored Reviews</div>
+</div>
 </div>
 
-<!-- STORY -->
-<div class="timeline">
-<h2>📖 Emma's Story</h2>
-<div class="timeline-item">
-<div class="tl-year">2023</div>
-<div class="tl-text"><p>Had my first bub. Spent months navigating sleepless nights, contradictory advice, and endless product research. Felt overwhelmed and alone.</p></div>
-</div>
-<div class="timeline-item">
-<div class="tl-year">2024</div>
-<div class="tl-text"><p>Started sharing what I learned with other mums — sleep schedules, product recommendations, gentle routines. Realised how much Australian parents needed a trusted resource.</p></div>
-</div>
-<div class="timeline-item">
-<div class="tl-year">2025</div>
-<div class="tl-text"><p>Decided to build Emma's Sleep Advice — a home for honest, research-backed sleep guidance made specifically for Australian families. No judgment, no fluff, just real help.</p></div>
-</div>
-<div class="timeline-item">
-<div class="tl-year">2026</div>
-<div class="tl-text"><p>Launched the site. Now helping hundreds of Australian parents get the sleep advice they deserve — and growing every week. 🚀</p></div>
-</div>
+<!-- Affiliate Disclosure -->
+<div class="about-disclosure">
+<h4>📋 Affiliate Disclosure</h4>
+<p>Some links on Emma's Sleep Advice are affiliate links. If you buy a product through these links, I earn a small commission at no extra cost to you. I only recommend products I've personally tested and genuinely believe will help your family. See our full <a href="/disclosure.html">disclosure policy</a>.</p>
 </div>
 
 <!-- CTA -->
-<div class="cta-section">
-<h2>💌 Let's Stay in Touch</h2>
-<p>Get weekly sleep tips, honest product reviews, and practical advice — delivered straight to your inbox.</p>
-<a href="/" class="btn">Subscribe Free →</a>
+<div class="about-cta-section">
+<h3>Ready to get your baby sleeping better?</h3>
+<p>Check out my honest reviews and start your journey to better sleep tonight.</p>
+<a href="/" class="about-cta-btn">See My Top Picks →</a>
 </div>
 
 </div>
+</section>
 
+<!-- ═══════════ FOOTER ═══════════ -->
 <footer>
-<div class="footer-inner">
-<div class="footer-grid">
-<div>
-<h4>😴 Emma's Sleep Advice</h4>
-<p>Helping Australian bubs sleep better — honest advice from one tired mom to another.</p>
-</div>
-<div>
-<h4>Best Picks</h4>
-<ul><li><a href="/#editors-choice">Best Mattress</a></li><li><a href="/#editors-choice">Best Swaddle</a></li><li><a href="/#editors-choice">Best White Noise</a></li><li><a href="/#editors-choice">Best Monitors</a></li></ul>
-</div>
-<div>
-<h4>Guides</h4>
-<ul><li><a href="/#latest-guides">Newborn Sleep</a></li><li><a href="/#latest-guides">Baby Sleep</a></li><li><a href="/#latest-guides">Calming Tips</a></li><li><a href="/#latest-guides">View All →</a></li></ul>
-</div>
-<div>
-<h4>Company</h4>
-<ul><li><a href="/about.html">About Emma</a></li><li><a href="/contact.html">Contact</a></li><li><a href="/affiliate-disclosure.html">Affiliate Disclosure</a></li><li><a href="/privacy-policy.html">Privacy Policy</a></li></ul>
-</div>
-</div>
-<div class="footer-bottom">
-<span>© 2026 Emma's Sleep Advice</span>
-<span>As an Amazon Associate, I earn from qualifying purchases.</span>
-</div>
+<div class="container">
+<p>© 2026 Emma's Sleep Advice. Australian-owned. Aussie mum-approved. 💜</p>
+<p style="margin-top:6px;font-size:.75rem"><a href="/privacy.html">Privacy</a> · <a href="/disclosure.html">Disclosure</a></p>
 </div>
 </footer>
 
+<script>
+// Mobile hamburger fix
+document.querySelector('.hamburger')?.addEventListener('click', function(){
+  document.querySelector('.nav-links').classList.toggle('open');
+});
+</script>
 </body>
 </html>
