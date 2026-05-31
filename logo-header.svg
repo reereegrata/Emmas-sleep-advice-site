@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 60" width="500" height="60">
+  <!-- Sleeping crescent moon icon -->
+  <defs>
+    <linearGradient id="moonGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7B6BAE"/>
+      <stop offset="100%" stop-color="#5B4B8A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Moon -->
+  <circle cx="30" cy="30" r="22" fill="url(#moonGrad)"/>
+  <circle cx="40" cy="25" r="18" fill="#FFFFFF"/>
+  <!-- Closed eye -->
+  <path d="M18 28 Q23 24 28 28" stroke="#FFFFFF" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Text -->
+  <text x="62" y="35" font-family="Poppins, sans-serif" font-weight="700" font-size="22" fill="#5B4B8A" letter-spacing="-0.3">Emma's</text>
+  <text x="165" y="55" font-family="Poppins, sans-serif" font-weight="400" font-size="12" fill="#7B6BAE" letter-spacing="1.5">SLEEP ADVICE</text>
+</svg>

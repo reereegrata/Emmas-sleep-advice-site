@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3D2E6B"/>
+      <stop offset="100%" stop-color="#5B4B8A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="200" rx="24" fill="url(#bg)"/>
+
+  <!-- Moon icon (left) - crescent sleeping moon -->
+  <g transform="translate(48, 50)">
+    <!-- Crescent moon shape -->
+    <circle cx="50" cy="50" r="45" fill="#F4D0B4"/>
+    <circle cx="68" cy="38" r="38" fill="url(#bg)"/>
+    <!-- Closed eye (sleeping) -->
+    <path d="M28 48 Q36 42 44 48" stroke="#3D2E6B" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- Zzz -->
+    <text x="75" y="18" font-family="Poppins, sans-serif" font-weight="700" font-size="14" fill="#F4D0B4" opacity="0.8">z</text>
+    <text x="88" y="8" font-family="Poppins, sans-serif" font-weight="700" font-size="10" fill="#F4D0B4" opacity="0.5">z</text>
+  </g>
+
+  <!-- Text -->
+  <text x="160" y="88" font-family="Poppins, sans-serif" font-weight="700" font-size="36" fill="#FFFFFF" letter-spacing="-0.5">Emma's</text>
+  <text x="160" y="128" font-family="Poppins, sans-serif" font-weight="400" font-size="22" fill="rgba(255,255,255,0.8)" letter-spacing="1.5">SLEEP ADVICE</text>
+
+  <!-- Tagline -->
+  <text x="160" y="158" font-family="Poppins, sans-serif" font-weight="400" font-size="11" fill="rgba(255,255,255,0.45)">Helping Australian Bubs Sleep Better</text>
+
+  <!-- Small star accents -->
+  <text x="520" y="50" font-size="12" fill="#F4D0B4" opacity="0.4">✦</text>
+  <text x="555" y="75" font-size="8" fill="rgba(255,255,255,0.3)" opacity="0.4">✦</text>
+  <text x="540" y="140" font-size="6" fill="rgba(255,255,255,0.2)" opacity="0.3">✦</text>
+</svg>
