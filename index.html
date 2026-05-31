@@ -264,8 +264,9 @@ body{
 }
 .article-card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(91,75,138,.08);border-color:var(--primary-light)}
 .article-card .card-img{
-  height:150px;display:flex;align-items:center;justify-content:center;font-size:3rem;
+  height:150px;display:flex;align-items:center;justify-content:center;font-size:3rem;overflow:hidden;
 }
+.article-card .card-img img{width:100%;height:100%;object-fit:cover;display:block}
 .card-img.guides-bg{background:linear-gradient(135deg,#EAE5F5,#F8F6FF)}
 .card-img.reviews-bg{background:linear-gradient(135deg,#FDE8ED,#FFF0F3)}
 .article-card .card-body{padding:20px;flex:1;display:flex;flex-direction:column}
@@ -713,7 +714,7 @@ The ideal baby room temperature is <strong>18-22°C</strong>. Australian summers
 </div>
 </a>
 <a href="#" class="article-card">
-<div class="card-img reviews-bg">📹</div>
+<div class="card-img reviews-bg"><img src="/images/monitor-article-card.webp" alt="Nooie and Lionelo baby monitors side by side comparison" width="600" height="300" loading="lazy"></div>
 <div class="card-body">
 <div class="cat-tag reviews">Comparison</div>
 <h3>Nooie vs Lionelo vs Motorola: Best Baby Monitor</h3>
