@@ -190,7 +190,27 @@ body{
 /* ═══════ DISCLAIMER BOX ═══════ */
 .disclaimer-box{
   background:var(--bg-warm);border:1px solid var(--border);
-  border-radius:12px;padding:20px;margin:40px 0;font-size:.78rem;color:var(--text-muted);line-height:1.7;
+  border-radius:12px;padding:20px;margin:40px 0 24px;font-size:.78rem;color:var(--text-muted);line-height:1.7;
+}
+
+/* ═══════ AUTHOR BIO ═══════ */
+.author-bio{
+  display:flex;gap:24px;align-items:center;
+  background:var(--bg-light);border:1px solid var(--border);border-radius:16px;
+  padding:28px;margin:32px 0;
+}
+.author-avatar{flex:0 0 80px;width:80px;height:80px;border-radius:50%;overflow:hidden}
+.author-avatar img{width:100%;height:100%;object-fit:cover;display:block}
+.author-info{flex:1}
+.author-label{font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--accent);margin-bottom:2px}
+.author-info h4{font-size:.9rem;font-weight:600;color:var(--text);margin-bottom:4px}
+.author-info p{font-size:.8rem;color:var(--text-light);line-height:1.6;margin:0 0 6px !important}
+.author-link{font-size:.78rem;font-weight:600;color:var(--primary);text-decoration:none}
+.author-link:hover{text-decoration:underline}
+
+@media(max-width:640px){
+  .author-bio{flex-direction:column;text-align:center;padding:20px}
+  .author-avatar{flex:0 0 60px;width:60px;height:60px}
 }
 
 /* ═══════ BACK LINK ═══════ */
@@ -514,6 +534,19 @@ footer a:hover{color:#fff}
 
 <div class="disclaimer-box">
 <strong>📋 Disclosure:</strong> Some links in this article are affiliate links. If you purchase through them, we may earn a small commission at no extra cost to you. All opinions are our own. Updated June 2026.
+</div>
+
+<!-- ═══════ AUTHOR BIO ═══════ -->
+<div class="author-bio">
+<div class="author-avatar">
+<img src="/images/emma-avatar.webp" alt="Emma — founder of Emma's Sleep Advice" width="400" height="400" loading="lazy">
+</div>
+<div class="author-info">
+<div class="author-label">About the Author</div>
+<h4>Hey, I'm Emma! 💜</h4>
+<p>I'm an Australian mum who tested dozens of baby sleep products so you don't have to. No sponsors, no fake reviews — just honest advice from one tired mum to another. I follow Red Nose Australia guidelines and Australian safety standards in every recommendation.</p>
+<a href="/about.html" class="author-link">Learn more about Emma →</a>
+</div>
 </div>
 
 </div>
