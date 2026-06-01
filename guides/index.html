@@ -46,7 +46,8 @@ body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-seri
 .guide-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .guide-card{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;text-decoration:none;transition:all .25s;display:flex;flex-direction:column}
 .guide-card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(91,75,138,.08);border-color:var(--primary-light)}
-.guide-card .card-top{height:140px;display:flex;align-items:center;justify-content:center;font-size:2.5rem}
+.guide-card .card-top{height:140px;display:flex;align-items:center;justify-content:center;font-size:2.5rem;overflow:hidden}
+.guide-card .card-top img{width:100%;height:100%;object-fit:cover;display:block}
 .guide-card .card-top.buying{background:linear-gradient(135deg,#FDE8ED,#FFF0F3)}
 .guide-card .card-top.sleep{background:linear-gradient(135deg,#EAE5F5,#F8F6FF)}
 .guide-card .card-top.toddler{background:linear-gradient(135deg,#FFF8E8,#FFF3E0)}
@@ -129,7 +130,7 @@ footer a:hover{color:#fff}
 <div class="guide-cards">
 
 <a href="/guides/how-to-choose-baby-monitor/" class="guide-card">
-<div class="card-top buying">📖</div>
+<div class="card-top buying"><img src="/images/guide-choose-monitor.webp" alt="How to Choose a Baby Monitor in Australia" loading="lazy"></div>
 <div class="card-body">
 <div class="card-tag">Buying Guide</div>
 <h3>How to Choose a Baby Monitor in Australia</h3>
