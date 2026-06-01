@@ -57,22 +57,22 @@
 
   <!-- Utility Pages -->
   <url>
-    <loc>https://emmassleepadvice.com/about.html</loc>
+    <loc>https://emmassleepadvice.com/about/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://emmassleepadvice.com/contact.html</loc>
+    <loc>https://emmassleepadvice.com/contact/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://emmassleepadvice.com/affiliate-disclosure.html</loc>
+    <loc>https://emmassleepadvice.com/affiliate-disclosure/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://emmassleepadvice.com/privacy-policy.html</loc>
+    <loc>https://emmassleepadvice.com/privacy-policy/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
