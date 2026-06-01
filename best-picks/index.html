@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Baby Sleep Products Australia — Honest Reviews by Emma</title>
+<meta name="description" content="Honest reviews of the best baby sleep products in Australia. Baby monitors, swaddles, white noise machines — tested by an Australian mum. No sponsored fluff.">
+<link rel="canonical" href="https://emmassleepadvice.com/best-picks/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  line-height:1.6;color:#1A1A2E;background:#FFFFFF;
+}
+:root{
+  --primary:#5B4B8A;--primary-dark:#3D2E6B;--primary-light:#7B6BAE;
+  --accent:#E8758A;--accent-soft:#FFF0F3;
+  --text:#1A1A2E;--text-light:#6B6B7B;--text-muted:#9A9AB0;
+  --bg-light:#F8F7FB;--bg-warm:#FFF8F5;--bg-card:#FFFFFF;
+  --border:#EDEAF3;--border-light:#F5F3F8;
+  --sage:#7EC8A8;--sage-light:#E8F8F0;
+  --peach:#F4D0B4;--gold:#D4A847;
+}
+.container{max-width:960px;margin:0 auto;padding:0 24px}
+
+/* HEADER */
+.header{
+  position:sticky;top:0;z-index:100;
+  background:#fff;border-bottom:1px solid var(--border-light);
+  backdrop-filter:blur(8px);
+}
+.header-inner{
+  max-width:1100px;margin:0 auto;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 24px;height:64px;
+}
+.header-logo{font-weight:700;color:var(--primary);text-decoration:none;font-size:1rem;display:flex;align-items:center;gap:8px}
+.header-nav{display:flex;align-items:center;gap:2px;list-style:none}
+.header-nav a{
+  padding:10px 16px;color:var(--text-light);text-decoration:none;
+  font-size:.85rem;font-weight:500;transition:color .2s;border-radius:8px;
+}
+.header-nav a:hover{color:var(--primary);background:var(--bg-light)}
+.header-nav .nav-active{color:var(--primary);background:var(--bg-light);font-weight:600}
+.header-nav .nav-disclosure{
+  font-size:.7rem;color:var(--text-muted);padding:10px 12px;text-decoration:none;font-weight:400;
+}
+.hamburger{display:none;background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--text);padding:8px}
+
+/* HERO */
+.picks-hero{
+  background:linear-gradient(135deg,var(--primary-dark) 0%,var(--primary) 50%,var(--primary-light) 100%);
+  padding:80px 0 60px;text-align:center;position:relative;overflow:hidden;
+}
+.picks-hero-pattern{
+  position:absolute;inset:0;
+  background:radial-gradient(circle at 20% 30%,rgba(255,255,255,.04) 0%,transparent 50%),
+              radial-gradient(circle at 80% 70%,rgba(232,117,138,.08) 0%,transparent 50%);
+  pointer-events:none;
+}
+.picks-hero .container{position:relative}
+.picks-hero h1{
+  font-size:2rem;font-weight:700;color:#fff;line-height:1.2;margin-bottom:8px;letter-spacing:-.5px;
+}
+.picks-hero h1 span{color:var(--peach)}
+.picks-hero p{font-size:.9rem;color:rgba(255,255,255,.75);max-width:560px;margin:0 auto}
+
+/* PICKS GRID */
+.picks-section{padding:64px 0}
+.picks-section .section-title{font-size:1.3rem;font-weight:600;color:var(--text);margin-bottom:4px}
+.picks-section .section-sub{font-size:.85rem;color:var(--text-light);margin-bottom:32px}
+.picks-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.pick-card{
+  background:#fff;border:1px solid var(--border);border-radius:16px;
+  overflow:hidden;text-decoration:none;transition:all .25s;
+  display:flex;flex-direction:column;
+}
+.pick-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(91,75,138,.1);border-color:var(--primary-light)}
+.pick-card-img{
+  height:180px;display:flex;align-items:center;justify-content:center;
+  font-size:3rem;position:relative;overflow:hidden;
+}
+.pick-card-img img{width:100%;height:100%;object-fit:cover;display:block}
+.pick-card-img.monitor{background:linear-gradient(135deg,#FDE8ED,#FFF0F3)}
+.pick-card-img.swaddle{background:linear-gradient(135deg,#EAE5F5,#F8F6FF)}
+.pick-card-img.whitenoise{background:linear-gradient(135deg,#FFF8E8,#FFF3E0)}
+.pick-card-body{padding:24px 20px;flex:1;display:flex;flex-direction:column}
+.pick-card-body .pick-badge{
+  font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px;
+  color:var(--accent);
+}
+.pick-card-body h3{font-size:1rem;font-weight:600;color:var(--text);margin-bottom:4px}
+.pick-card-body p{font-size:.8rem;color:var(--text-light);line-height:1.6;flex:1;margin-bottom:12px}
+.pick-card-body .pick-cta{
+  font-size:.8rem;font-weight:600;color:var(--primary);
+  display:flex;align-items:center;gap:4px;margin-top:auto;
+}
+.pick-card:hover .pick-cta{gap:8px}
+
+/* COMING SOON */
+.pick-card.coming{cursor:default;opacity:.7}
+.pick-card.coming:hover{transform:none;box-shadow:none;border-color:var(--border)}
+.coming-tag{
+  display:inline-block;align-self:flex-start;
+  background:var(--bg-light);color:var(--text-muted);
+  font-size:.65rem;font-weight:600;padding:3px 10px;border-radius:12px;margin-top:6px;
+}
+
+/* INTRO */
+.intro-text{max-width:700px;margin:0 auto 40px;text-align:center}
+.intro-text p{font-size:.88rem;color:var(--text-light);line-height:1.7}
+
+/* FOOTER */
+footer{
+  border-top:1px solid var(--border-light);
+  background:#1A1A2E;color:#9A9AB0;font-size:.78rem;
+  padding:32px 0;text-align:center;
+}
+footer a{color:#B8A9E8;text-decoration:none}
+footer a:hover{color:#fff}
+
+@media(max-width:768px){
+  .header-nav{gap:0}
+  .header-nav a{padding:10px 10px;font-size:.78rem}
+  .hamburger{display:block}
+  .picks-hero h1{font-size:1.4rem}
+  .picks-grid{grid-template-columns:1fr}
+}
+@media(max-width:640px){
+  .header-nav{display:none}
+  .hamburger{display:block}
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<div class="header-inner">
+<a href="/" class="header-logo"><img src="/logo-header.svg" alt="Emma's Sleep Advice" height="40" style="vertical-align:middle"></a>
+<nav class="header-nav">
+<a href="/">Home</a>
+<a href="/best-picks/" class="nav-active">Best Picks</a>
+<a href="/#latest-guides">Guides</a>
+<a href="/about.html">About</a>
+<a href="/affiliate-disclosure.html" class="nav-disclosure">Affiliate Disclosure</a>
+</nav>
+<button class="hamburger" onclick="var n=document.querySelector('.header-nav');if(n.style.display==='flex'){n.style.display='none'}else{n.style.display='flex';n.style.flexDirection='column';n.style.position='absolute';n.style.top='64px';n.style.left='0';n.style.right='0';n.style.background='#fff';n.style.padding='16px';n.style.boxShadow='0 8px 24px rgba(0,0,0,.1)'}">☰</button>
+</div>
+</header>
+
+<!-- HERO -->
+<section class="picks-hero">
+<div class="picks-hero-pattern"></div>
+<div class="container">
+<h1>🏆 Best Picks — <span>Honest Reviews</span> for Australian Families</h1>
+<p>Every product I recommend is personally tested, research-backed, and chosen for Aussie families. No sponsors. No fake reviews. Just what actually works.</p>
+</div>
+</section>
+
+<!-- PICKS -->
+<section class="picks-section">
+<div class="container">
+
+<div class="intro-text">
+<p>I've tested dozens of baby sleep products so you don't have to. Below are my top picks for each category — click through for full reviews, comparison tables, and buying tips.</p>
+</div>
+
+<div class="picks-grid">
+
+<!-- 1. Baby Monitor -->
+<a href="/best-baby-monitor-australia/" class="pick-card">
+<div class="pick-card-img monitor"><img src="/images/monitor-editor-pick.webp" alt="Nooie baby monitor — best baby monitor Australia 2026" width="600" height="600" loading="lazy"></div>
+<div class="pick-card-body">
+<div class="pick-badge">🎥 Editor's Choice</div>
+<h3>Best Baby Monitor</h3>
+<p>Nooie, Cubo AI, Eufy, Lollipop, Uniden, and VTech compared. From ~AU$30 to AU$449 — find the perfect monitor for your family.</p>
+<span class="pick-cta">Read Full Review →</span>
+</div>
+</a>
+
+<!-- 2. Swaddle (Coming Soon) -->
+<div class="pick-card coming">
+<div class="pick-card-img swaddle"><img src="/images/swaddle-keababies.webp" alt="KeaBabies swaddle — best baby swaddle Australia" width="600" height="584" loading="lazy"></div>
+<div class="pick-card-body">
+<div class="pick-badge">👕 Coming Soon</div>
+<h3>Best Baby Swaddle</h3>
+<p>KeaBabies, Mama Cheetah, Meyco, and more — which swaddle actually keeps your newborn sleeping?</p>
+<span class="coming-tag">In Progress</span>
+</div>
+</div>
+
+<!-- 3. White Noise (Coming Soon) -->
+<div class="pick-card coming">
+<div class="pick-card-img whitenoise"><img src="/images/whitenoise-editor-pick.webp" alt="Dreamegg white noise machine — best white noise machine Australia" width="600" height="584" loading="lazy"></div>
+<div class="pick-card-body">
+<div class="pick-badge">🔊 Coming Soon</div>
+<h3>Best White Noise Machine</h3>
+<p>We tested 6 machines for sound quality, safety, and price. Which one helps your baby sleep better?</p>
+<span class="coming-tag">In Progress</span>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div style="max-width:800px;margin:0 auto;padding:0 24px">
+<p>© 2026 Emma's Sleep Advice. Australian-owned. Aussie mum-approved. 💜</p>
+<p style="margin-top:6px"><a href="/privacy.html">Privacy</a> · <a href="/disclosure.html">Disclosure</a> · <a href="/about.html">About Emma</a></p>
+</div>
+</footer>
+
+</body>
+</html>
