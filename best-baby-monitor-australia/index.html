@@ -42,6 +42,23 @@ body{
 }
 .hamburger{display:none;background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--text);padding:8px}
 
+/* ═══════ CRAWLABLE DROPDOWN ═══════ */
+.dropdown{position:relative;display:inline-block}
+.dropdown > a{padding:10px 16px;color:var(--text-light);text-decoration:none;font-size:.85rem;font-weight:500;border-radius:8px;cursor:default}
+.dropdown:hover > a{color:var(--primary);background:var(--bg-light)}
+.dropdown-arrow{font-size:.6rem;margin-left:3px;display:inline-block}
+.dropdown-content{display:none;position:absolute;top:100%;left:0;z-index:200;background:#fff;border:1px solid var(--border);border-radius:0 12px 12px 12px;box-shadow:0 12px 40px rgba(0,0,0,.1);min-width:220px;padding:8px;white-space:nowrap}
+.dropdown:hover .dropdown-content{display:block}
+.dropdown-content a{display:block;padding:10px 14px;color:var(--text-light);text-decoration:none;font-size:.82rem;font-weight:500;border-radius:8px;transition:all .15s}
+.dropdown-content a:hover{background:var(--bg-light);color:var(--primary)}
+.dropdown-content .dropdown-label{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--text-muted);padding:6px 14px 2px;cursor:default}
+.dropdown-content .dropdown-all{display:block;padding:10px 14px 6px;color:var(--primary);text-decoration:none;font-size:.78rem;font-weight:600;border-top:1px solid var(--border-light);margin-top:4px}
+.dropdown-content .dropdown-all:hover{color:var(--primary-dark);background:transparent}
+
+@media(max-width:640px){
+  .dropdown{display:block}
+  .dropdown-content{position:static;display:none;box-shadow:none;border:none;padding-left:16px}
+}
 /* ═══════ ARTICLE STYLES ═══════ */
 .article-hero{
   background:linear-gradient(135deg,var(--primary-dark) 0%,var(--primary) 50%,var(--primary-light) 100%);
@@ -224,8 +241,26 @@ footer a:hover{color:#fff}
 <a href="/" class="header-logo"><img src="/logo-header.svg" alt="Emma's Sleep Advice" height="40" style="vertical-align:middle"></a>
 <nav class="header-nav">
 <a href="/">Home</a>
-<a href="/#editors-choice">Best Picks</a>
-<a href="/#latest-guides">Guides</a>
+<div class="dropdown">
+<a href="/best-picks/">Best Picks <span class="dropdown-arrow">▼</span></a>
+<div class="dropdown-content">
+<div class="dropdown-label">🏆 Product Reviews</div>
+<a href="/best-baby-monitor-australia/">Best Baby Monitor 2026</a>
+<a href="#">Best Baby Swaddle 2026</a>
+<a href="#">Best White Noise 2026</a>
+<a href="/best-picks/" class="dropdown-all">View All Best Picks →</a>
+</div>
+</div>
+<div class="dropdown">
+<a href="/guides/">Guides <span class="dropdown-arrow">▼</span></a>
+<div class="dropdown-content">
+<div class="dropdown-label">📖 Sleep Guides</div>
+<a href="#">Newborn Sleep Guide</a>
+<a href="#">Baby Sleep Guide</a>
+<a href="#">Toddler Sleep Guide</a>
+<a href="#" class="dropdown-all">View All Guides →</a>
+</div>
+</div>
 <a href="/about.html">About</a>
 <a href="/affiliate-disclosure.html" class="nav-disclosure">Affiliate Disclosure</a>
 </nav>
