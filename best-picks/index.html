@@ -20,7 +20,7 @@ body{
   --primary:#5B4B8A;--primary-dark:#3D2E6B;--primary-light:#7B6BAE;
   --accent:#E8758A;--accent-soft:#FFF0F3;
   --text:#1A1A2E;--text-light:#6B6B7B;--text-muted:#9A9AB0;
-  --bg-light:#F8F7FB;--bg-warm:#FFF8F5;--bg-card:#FFFFFF;
+  --bg-light:#F6F4F1;--bg-warm:#FFF8F5;--bg-card:#FFFFFF;
   --border:#EDEAF3;--border-light:#F5F3F8;
   --sage:#7EC8A8;--sage-light:#E8F8F0;
   --peach:#F4D0B4;--gold:#D4A847;
@@ -56,7 +56,7 @@ body{
 .dropdown > a{padding:10px 16px;color:var(--text-light);text-decoration:none;font-size:.85rem;font-weight:500;border-radius:8px;cursor:default}
 .dropdown:hover > a{color:var(--primary);background:var(--bg-light)}
 .dropdown-arrow{font-size:.6rem;margin-left:3px;display:inline-block}
-.dropdown-content{display:none;position:absolute;top:100%;left:0;z-index:200;background:#fff;border:1px solid var(--border);border-radius:0 12px 12px 12px;box-shadow:0 12px 40px rgba(0,0,0,.1);min-width:220px;padding:8px;white-space:nowrap}
+.dropdown-content{display:none;position:absolute;top:100%;left:0;z-index:200;background:#fff;border:1px solid var(--border);border-radius:0 12px 12px 12px;box-shadow:rgba(50,50,93,0.10) 0px 12px 32px -6px, rgba(0,0,0,0.06) 0px 4px 12px;min-width:220px;padding:8px;white-space:nowrap}
 .dropdown:hover .dropdown-content{display:block}
 .dropdown-content a{display:block;padding:10px 14px;color:var(--text-light);text-decoration:none;font-size:.82rem;font-weight:500;border-radius:8px;transition:all .15s}
 .dropdown-content a:hover{background:var(--bg-light);color:var(--primary)}
@@ -81,7 +81,7 @@ body{
 }
 .picks-hero .container{position:relative}
 .picks-hero h1{
-  font-size:2rem;font-weight:700;color:#fff;line-height:1.2;margin-bottom:8px;letter-spacing:-.5px;
+  font-size:2rem;font-weight:700;color:#fff;line-height:1.2;margin-bottom:8px;letter-spacing:-0.8px;
 }
 .picks-hero h1 span{color:var(--peach)}
 .picks-hero p{font-size:.9rem;color:rgba(255,255,255,.75);max-width:560px;margin:0 auto}
@@ -96,7 +96,7 @@ body{
   overflow:hidden;text-decoration:none;transition:all .25s;
   display:flex;flex-direction:column;
 }
-.pick-card:hover{transform:translateY(-4px);box-shadow:0 16px 40px rgba(91,75,138,.1);border-color:var(--primary-light)}
+.pick-card:hover{transform:translateY(-4px);box-shadow:rgba(50,50,93,0.15) 0px 16px 36px -12px, rgba(0,0,0,0.06) 0px 4px 14px;border-color:var(--primary-light)}
 .pick-card-img{
   height:180px;display:flex;align-items:center;justify-content:center;
   font-size:3rem;position:relative;overflow:hidden;
