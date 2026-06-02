@@ -72,6 +72,18 @@
   ]
 }
 </script>
+<!-- BreadcrumbList Schema -->
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "BreadcrumbList",
+"itemListElement": [
+{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://emmassleepadvice.com/"},
+{"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://emmassleepadvice.com/guides/"},
+{"@type": "ListItem", "position": 3, "name": "When to Stop Using a Baby Monitor"}
+]
+}
+</script>
 
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
@@ -120,7 +132,7 @@ body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-seri
 /* GUIDE BODY */
 .guide-body{padding:48px 0 64px}
 .guide-body h2{font-size:1.2rem;font-weight:600;color:var(--text);margin:40px 0 12px;padding-bottom:10px;border-bottom:2px solid var(--bg-light)}
-.guide-body h3{font-size:1rem;font-weight:600;color:var(--text);margin:28px 0 6px}
+.guide-body h3{font-size:1.05rem;font-weight:600;color:var(--text);margin:28px 0 6px}
 .guide-body p{font-size:.88rem;color:var(--text-light);line-height:1.8;margin-bottom:14px}
 .guide-body strong{color:var(--text)}
 .guide-body ul{margin:0 0 14px 20px}
@@ -146,6 +158,11 @@ body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-seri
 .stat-box{background:linear-gradient(135deg,var(--bg-light),#fff);border-left:4px solid var(--primary);padding:20px 24px;border-radius:10px;margin:28px 0}
 .stat-box .stat-number{font-size:2rem;font-weight:700;color:var(--primary);line-height:1;margin-bottom:4px}
 .stat-box p{font-size:.84rem;color:var(--text);margin:0 !important}
+/* BREADCRUMB */
+.breadcrumb{padding:0;margin-bottom:20px;font-size:.78rem;color:var(--text-muted)}
+.breadcrumb a{color:var(--primary);text-decoration:none;font-weight:500}
+.breadcrumb a:hover{text-decoration:underline}
+.breadcrumb span{color:var(--text-muted);margin:0 6px}
 /* AUTHOR BIO */
 .author-bio{display:flex;gap:24px;align-items:center;background:var(--bg-light);border:1px solid var(--border);border-radius:16px;padding:28px;margin:40px 0 24px}
 .author-avatar{flex:0 0 80px;width:80px;height:80px;border-radius:50%;overflow:hidden}
@@ -227,6 +244,9 @@ footer a:hover{color:#fff}
 
 <figure class="guide-feature-img"><img src="/images/guide-when-to-stop.webp" alt="Toddler sleeping peacefully in their own bed — signs your child is ready to stop using a baby monitor" width="800" height="533" loading="lazy"></figure>
 
+<nav class="breadcrumb" aria-label="Breadcrumb">
+<a href="/">Home</a> <span>›</span> <a href="/guides/">Guides</a> <span>›</span> <span>When to Stop Using a Baby Monitor</span>
+</nav>
 <a href="/best-baby-monitor-australia/" class="back-link">← See our top baby monitor picks</a>
 
 <p>You've been staring at that little screen for over a year now. Every grunt, every roll, every breath — you've watched it all. But at some point, every Australian parent asks the same question: <strong>when is it time to stop using the baby monitor?</strong></p>
