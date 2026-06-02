@@ -7,9 +7,14 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- Product Review Pillar -->
+  <!-- Product Review Pillars -->
   <url>
     <loc>https://emmassleepadvice.com/best-baby-monitor-australia/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://emmassleepadvice.com/best-baby-swaddle-australia/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -51,6 +56,28 @@
   </url>
   <url>
     <loc>https://emmassleepadvice.com/guides/how-to-set-up-baby-monitor/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Swaddle Guides -->
+  <url>
+    <loc>https://emmassleepadvice.com/guides/how-to-swaddle-a-baby/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://emmassleepadvice.com/guides/when-to-stop-swaddling-transition/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://emmassleepadvice.com/guides/swaddle-tog-temperature-guide/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://emmassleepadvice.com/guides/swaddle-vs-sleep-sack/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
