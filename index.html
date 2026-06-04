@@ -299,6 +299,7 @@ body{
 
 /* ═══════════ 7. LATEST GUIDES (2×2) ═══════════ */
 .guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.guide-grid>.article-card:nth-child(n+5){display:none} /* homepage cap: 4 cards max */
 .article-card{
   background:#fff;border:1px solid var(--border);border-radius:14px;
   overflow:hidden;transition:all .25s;text-decoration:none;display:flex;flex-direction:column;
