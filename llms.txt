@@ -1,23 +1,22 @@
-     1|# Emma's Sleep Advice
-     2|> Evidence-based baby sleep advice and honest product reviews for Australian parents. Written by Emma, an Australian mum — research-backed, no sponsored fluff.
-     3|
-     4|## 🏆 Best Picks (Product Reviews)
-     5|- [6 Best Baby Monitors Australia 2026](https://emmassleepadvice.com/best-baby-monitor-australia/): Honest comparison of 6 top baby monitors — Nooie, Cubo AI, Eufy, Lollipop, Uniden, VTech. Comparison table, pros and cons, verdict.
-     6|- [6 Best Baby Swaddles Australia 2026](https://emmassleepadvice.com/best-baby-swaddle-australia/): Love to Dream, ergoPouch, SwaddleMe and more. TOG options, sizing, and which swaddle works for Australian parents.
-     7|
-     8|## 📖 Baby Monitor Guides
-     9|- [How to Choose a Baby Monitor](https://emmassleepadvice.com/guides/how-to-choose-baby-monitor/): Video vs audio, WiFi vs non-WiFi, essential features, budget guide, buying checklist for Australian parents.
-    10|- [WiFi vs Non-WiFi Baby Monitor](https://emmassleepadvice.com/guides/wifi-vs-non-wifi-baby-monitor/): Security risks, range, cost, hybrid options. Which type fits your Australian family.
-    11|- [When to Stop Using a Baby Monitor](https://emmassleepadvice.com/guides/when-to-stop-using-baby-monitor/): Signs your child is ready, Red Nose Australia safety guidelines, baby vs toddler monitoring, alternatives.
-    12|- [Are Baby Monitors Worth It?](https://emmassleepadvice.com/guides/are-baby-monitors-worth-it/): Cost vs peace of mind. Real Australian parent experiences and Red Nose safe sleep advice.
-    13|- [How to Set Up a Baby Monitor](https://emmassleepadvice.com/guides/how-to-set-up-baby-monitor/): Placement, angle, cord safety, WiFi setup. Red Nose Australia safety checklist.
-    14|
-    15|## 🍼 Swaddle Guides
-    16|- [How to Swaddle a Baby](https://emmassleepadvice.com/guides/how-to-swaddle-a-baby/): Safe step-by-step guide, arms up vs down, common mistakes, Red Nose Australia safety checklist for newborns.
-    17|- [When to Stop Swaddling](https://emmassleepadvice.com/guides/when-to-stop-swaddling-transition/): Signs to stop, one-arm-out method, transitioning to sleep sacks, Red Nose Australia SIDS guidelines.
-    18|- [TOG & Temperature Guide](https://emmassleepadvice.com/guides/swaddle-tog-temperature-guide/): Understand TOG ratings for Australian weather. What to wear, overheating signs, temperature chart.
-    19|- [Swaddle vs Sleep Sack](https://emmassleepadvice.com/guides/swaddle-vs-sleep-sack/): Pros and cons, age-by-age guide, when to switch, AU$ cost comparison, Red Nose safety advice.
-    20|
-    21|## 👩‍👧 About
-    22|- [About Emma](https://emmassleepadvice.com/about/): The Australian mum behind Emma's Sleep Advice. No sponsors, no fake reviews — just honest advice from one tired mum to another.
-    23|
+# Emma's Sleep Advice
+> Evidence-based baby sleep advice and honest product reviews for Australian parents. Written by Emma, an Australian mum — research-backed, no sponsored fluff.
+
+## 🏆 Best Picks (Product Reviews)
+- [6 Best Baby Monitors Australia 2026](https://emmassleepadvice.com/best-baby-monitor-australia/): Honest comparison of 6 top baby monitors — Nooie, Cubo AI, Eufy, Lollipop, Uniden, VTech. Comparison table, pros and cons, verdict.
+- [6 Best Baby Swaddles Australia 2026](https://emmassleepadvice.com/best-baby-swaddle-australia/): Love to Dream, ergoPouch, SwaddleMe and more. TOG options, sizing, and which swaddle works for Australian parents.
+
+## 📖 Baby Monitor Guides
+- [How to Choose a Baby Monitor](https://emmassleepadvice.com/guides/how-to-choose-baby-monitor/): Video vs audio, WiFi vs non-WiFi, essential features, budget guide, buying checklist for Australian parents.
+- [WiFi vs Non-WiFi Baby Monitor](https://emmassleepadvice.com/guides/wifi-vs-non-wifi-baby-monitor/): Security risks, range, cost, hybrid options. Which type fits your Australian family.
+- [When to Stop Using a Baby Monitor](https://emmassleepadvice.com/guides/when-to-stop-using-baby-monitor/): Signs your child is ready, Red Nose Australia safety guidelines, baby vs toddler monitoring, alternatives.
+- [Are Baby Monitors Worth It?](https://emmassleepadvice.com/guides/are-baby-monitors-worth-it/): Cost vs peace of mind. Real Australian parent experiences and Red Nose safe sleep advice.
+- [How to Set Up a Baby Monitor](https://emmassleepadvice.com/guides/how-to-set-up-baby-monitor/): Placement, angle, cord safety, WiFi setup. Red Nose Australia safety checklist.
+
+## 🍼 Swaddle Guides
+- [How to Swaddle a Baby](https://emmassleepadvice.com/guides/how-to-swaddle-a-baby/): Safe step-by-step guide, arms up vs down, common mistakes, Red Nose Australia safety checklist for newborns.
+- [When to Stop Swaddling](https://emmassleepadvice.com/guides/when-to-stop-swaddling-transition/): Signs to stop, one-arm-out method, transitioning to sleep sacks, Red Nose Australia SIDS guidelines.
+- [TOG & Temperature Guide](https://emmassleepadvice.com/guides/swaddle-tog-temperature-guide/): Understand TOG ratings for Australian weather. What to wear, overheating signs, temperature chart.
+- [Swaddle vs Sleep Sack](https://emmassleepadvice.com/guides/swaddle-vs-sleep-sack/): Pros and cons, age-by-age guide, when to switch, AU$ cost comparison, Red Nose safety advice.
+
+## 👩‍👧 About
+- [About Emma](https://emmassleepadvice.com/about/): The Australian mum behind Emma's Sleep Advice. No sponsors, no fake reviews — just honest advice from one tired mum to another.

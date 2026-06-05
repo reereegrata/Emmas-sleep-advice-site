@@ -1,107 +1,106 @@
-     1|<?xml version="1.0" encoding="UTF-8"?>
-     2|<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     3|  <!-- Homepage -->
-     4|  <url>
-     5|    <loc>https://emmassleepadvice.com/</loc>
-     6|    <changefreq>weekly</changefreq>
-     7|    <priority>1.0</priority>
-     8|  </url>
-     9|
-    10|  <!-- Product Review Pillars -->
-    11|  <url>
-    12|    <loc>https://emmassleepadvice.com/best-baby-monitor-australia/</loc>
-    13|    <changefreq>monthly</changefreq>
-    14|    <priority>0.9</priority>
-    15|  </url>
-    16|  <url>
-    17|    <loc>https://emmassleepadvice.com/best-baby-swaddle-australia/</loc>
-    18|    <changefreq>monthly</changefreq>
-    19|    <priority>0.9</priority>
-    20|  </url>
-    21|
-    22|  <!-- Best Picks Hub -->
-    23|  <url>
-    24|    <loc>https://emmassleepadvice.com/best-picks/</loc>
-    25|    <changefreq>monthly</changefreq>
-    26|    <priority>0.9</priority>
-    27|  </url>
-    28|
-    29|  <!-- Guides Hub -->
-    30|  <url>
-    31|    <loc>https://emmassleepadvice.com/guides/</loc>
-    32|    <changefreq>monthly</changefreq>
-    33|    <priority>0.8</priority>
-    34|  </url>
-    35|
-    36|  <!-- Supporting Guides -->
-    37|  <url>
-    38|    <loc>https://emmassleepadvice.com/guides/how-to-choose-baby-monitor/</loc>
-    39|    <changefreq>monthly</changefreq>
-    40|    <priority>0.7</priority>
-    41|  </url>
-    42|  <url>
-    43|    <loc>https://emmassleepadvice.com/guides/wifi-vs-non-wifi-baby-monitor/</loc>
-    44|    <changefreq>monthly</changefreq>
-    45|    <priority>0.7</priority>
-    46|  </url>
-    47|  <url>
-    48|    <loc>https://emmassleepadvice.com/guides/when-to-stop-using-baby-monitor/</loc>
-    49|    <changefreq>monthly</changefreq>
-    50|    <priority>0.7</priority>
-    51|  </url>
-    52|  <url>
-    53|    <loc>https://emmassleepadvice.com/guides/are-baby-monitors-worth-it/</loc>
-    54|    <changefreq>monthly</changefreq>
-    55|    <priority>0.7</priority>
-    56|  </url>
-    57|  <url>
-    58|    <loc>https://emmassleepadvice.com/guides/how-to-set-up-baby-monitor/</loc>
-    59|    <changefreq>monthly</changefreq>
-    60|    <priority>0.7</priority>
-    61|  </url>
-    62|
-    63|  <!-- Swaddle Guides -->
-    64|  <url>
-    65|    <loc>https://emmassleepadvice.com/guides/how-to-swaddle-a-baby/</loc>
-    66|    <changefreq>monthly</changefreq>
-    67|    <priority>0.7</priority>
-    68|  </url>
-    69|  <url>
-    70|    <loc>https://emmassleepadvice.com/guides/when-to-stop-swaddling-transition/</loc>
-    71|    <changefreq>monthly</changefreq>
-    72|    <priority>0.7</priority>
-    73|  </url>
-    74|  <url>
-    75|    <loc>https://emmassleepadvice.com/guides/swaddle-tog-temperature-guide/</loc>
-    76|    <changefreq>monthly</changefreq>
-    77|    <priority>0.7</priority>
-    78|  </url>
-    79|  <url>
-    80|    <loc>https://emmassleepadvice.com/guides/swaddle-vs-sleep-sack/</loc>
-    81|    <changefreq>monthly</changefreq>
-    82|    <priority>0.7</priority>
-    83|  </url>
-    84|
-    85|  <!-- Utility Pages -->
-    86|  <url>
-    87|    <loc>https://emmassleepadvice.com/about/</loc>
-    88|    <changefreq>yearly</changefreq>
-    89|    <priority>0.5</priority>
-    90|  </url>
-    91|  <url>
-    92|    <loc>https://emmassleepadvice.com/contact/</loc>
-    93|    <changefreq>yearly</changefreq>
-    94|    <priority>0.3</priority>
-    95|  </url>
-    96|  <url>
-    97|    <loc>https://emmassleepadvice.com/affiliate-disclosure/</loc>
-    98|    <changefreq>yearly</changefreq>
-    99|    <priority>0.3</priority>
-   100|  </url>
-   101|  <url>
-   102|    <loc>https://emmassleepadvice.com/privacy-policy/</loc>
-   103|    <changefreq>yearly</changefreq>
-   104|    <priority>0.3</priority>
-   105|  </url>
-   106|</urlset>
-   107|
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Homepage -->
+<url>
+<loc>https://emmassleepadvice.com/</loc>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+
+<!-- Product Review Pillars -->
+<url>
+<loc>https://emmassleepadvice.com/best-baby-monitor-australia/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/best-baby-swaddle-australia/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<!-- Best Picks Hub -->
+<url>
+<loc>https://emmassleepadvice.com/best-picks/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.9</priority>
+</url>
+
+<!-- Guides Hub -->
+<url>
+<loc>https://emmassleepadvice.com/guides/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<!-- Supporting Guides -->
+<url>
+<loc>https://emmassleepadvice.com/guides/how-to-choose-baby-monitor/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/wifi-vs-non-wifi-baby-monitor/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/when-to-stop-using-baby-monitor/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/are-baby-monitors-worth-it/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/how-to-set-up-baby-monitor/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<!-- Swaddle Guides -->
+<url>
+<loc>https://emmassleepadvice.com/guides/how-to-swaddle-a-baby/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/when-to-stop-swaddling-transition/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/swaddle-tog-temperature-guide/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/swaddle-vs-sleep-sack/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
+<!-- Utility Pages -->
+<url>
+<loc>https://emmassleepadvice.com/about/</loc>
+<changefreq>yearly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/contact/</loc>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/affiliate-disclosure/</loc>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/privacy-policy/</loc>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+</urlset>
