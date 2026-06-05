@@ -87,6 +87,28 @@
 <priority>0.7</priority>
 </url>
 
+<!-- White Noise Guides -->
+<url>
+<loc>https://emmassleepadvice.com/guides/does-white-noise-help-baby-sleep/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/white-noise-vs-pink-noise-vs-brown-noise/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/white-noise-decibel-safety-babies/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://emmassleepadvice.com/guides/how-to-wean-off-white-noise/</loc>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+
 <!-- Utility Pages -->
 <url>
 <loc>https://emmassleepadvice.com/about/</loc>
