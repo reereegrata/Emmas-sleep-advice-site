@@ -82,20 +82,21 @@ Homepage (/)
 |---------|-------------|--------|--------|
 | Baby Monitor | /best-baby-monitor-australia/ | 2 guides | ✅ Complete |
 | White Noise | /best-baby-white-noise-machine-australia/ | 4 guides | ✅ Complete |
-| Swaddle | ❌ NOT YET BUILT | 2 guides | ⚠️ Needs pillar page |
+| Swaddle | /best-baby-swaddle-australia/ | 4 guides | ✅ Complete |
 
 ---
 
 ## 3. All Pages
 
-### Product Pillars (2)
+### Product Pillars (3)
 
 | Page | Path | Status |
 |------|------|--------|
 | Best Baby Monitors | /best-baby-monitor-australia/ | ✅ Live |
 | Best White Noise Machines | /best-baby-white-noise-machine-australia/ | ✅ Live |
+| Best Baby Swaddles | /best-baby-swaddle-australia/ | ✅ Live |
 
-### Informational Guides (8)
+### Informational Guides (12)
 
 | Page | Path | Cluster | Status |
 |------|------|---------|--------|
@@ -105,14 +106,16 @@ Homepage (/)
 | Does White Noise Help Baby Sleep | /guides/does-white-noise-help-baby-sleep/ | White Noise | ✅ Live |
 | White Noise Decibel Safety | /guides/white-noise-decibel-safety-babies/ | White Noise | ✅ Live |
 | How to Wean Off White Noise | /guides/how-to-wean-off-white-noise/ | White Noise | ✅ Live |
+| How to Swaddle a Baby | /guides/how-to-swaddle-a-baby/ | Swaddle | ✅ Live |
 | Swaddle vs Sleep Sack | /guides/swaddle-vs-sleep-sack/ | Swaddle | ✅ Live |
 | When to Stop Swaddling | /guides/when-to-stop-swaddling-transition/ | Swaddle | ✅ Live |
+| TOG & Temperature Guide | /guides/swaddle-tog-temperature-guide/ | Swaddle | ✅ Live |
 
 ### Hub Pages (2)
 
 | Page | Path | Status |
 |------|------|--------|
-| Best Picks Hub | /best-picks/ | ✅ Live (3 cards: Monitor ✅, White Noise ✅, Swaddle ⏳) |
+| Best Picks Hub | /best-picks/ | ✅ Live (3 cards: Monitor ✅, White Noise ✅, Swaddle ✅) |
 | Guides Hub | /guides/ | ✅ Live |
 
 ### Site Pages (3)
@@ -149,10 +152,12 @@ Shows how many links each guide sends TO the pillar page:
 
 | Guide | Links to Pillar | Notes |
 |-------|:---------------:|-------|
-| Swaddle vs Sleep Sack | 0 | ⚠️ No pillar page exists yet — links go to Best Picks Hub instead |
-| When to Stop Swaddling | 0 | ⚠️ Same — no pillar page yet |
+| How to Swaddle a Baby | 2 | ✅ Linked from nav + CTA section |
+| Swaddle vs Sleep Sack | 3 | ✅ Linked from nav, body, and CTA section |
+| When to Stop Swaddling | 2 | ✅ Linked from nav + CTA section |
+| TOG & Temperature Guide | 3 | ✅ Linked from nav, body, and CTA section |
 
-**Rule:** All guides within a cluster must link to their pillar page 3-6 times. Swaddle guides cannot link to a pillar that doesn't exist yet — once built, add internal links.
+**Rule:** All guides within a cluster must link to their pillar page 3-6 times. Swaddle guides are linked from nav (global — 2 links per page) + body/CTA sections.
 
 ---
 
@@ -173,8 +178,11 @@ Shows how many links each guide sends TO the pillar page:
 | Does White Noise Help | ✅ | ✅ | — | — | — | ✅ | ✅ |
 | Decibel Safety | ✅ | ✅ | — | — | — | ✅ | ✅ |
 | How to Wean | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| Swaddle Pillar | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| How to Swaddle | ✅ | ✅ | — | — | — | ✅ | ✅ |
 | Swaddle vs Sleep Sack | ✅ | ✅ | — | — | — | ✅ | ✅ |
 | When to Stop Swaddling | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| TOG & Temperature Guide | ✅ | ✅ | — | — | — | ✅ | ✅ |
 
 ---
 
@@ -360,7 +368,6 @@ Proposed future content, not yet prioritized:
 
 | Task | Priority | Notes |
 |------|:--------:|-------|
-| Swaddle pillar page | **High** | 2 guides exist but no pillar to link to |
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
 | Decibel Safety — no impressions | Medium | Page exists but Google hasn't discovered it |
 | Guides zero CTR | Medium | Guides have 7-10 impressions but 0 clicks — meta hooks weak |
@@ -368,7 +375,6 @@ Proposed future content, not yet prioritized:
 | Content: Sleep Regression Guide | Medium | Draft may exist, needs refresh |
 | Content: Room Temperature Guide | Low | New content |
 | Content: Nap Schedules Guide | Low | New content |
-| Image: White Noise pillar feature | Low | Uses product photo as OG image, could have dedicated feature image |
 | Stage 5: Off-Page SEO | Low | Too early for link building (site is new) |
 
 ---
