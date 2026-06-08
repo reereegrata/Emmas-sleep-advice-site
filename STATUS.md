@@ -118,13 +118,26 @@ Homepage (/)
 | Best Picks Hub | /best-picks/ | ✅ Live (3 cards: Monitor ✅, White Noise ✅, Swaddle ✅) |
 | Guides Hub | /guides/ | ✅ Live |
 
-### Site Pages (3)
+### Site Pages (5)
 
 | Page | Path | Status |
 |------|------|--------|
 | Homepage | / | ✅ Live |
-| About | /about.html | ✅ Live |
-| Contact | /contact.html | ✅ Live |
+| About | /about/ | ✅ Live |
+| Contact | /contact/ | ✅ Live |
+| Privacy Policy | /privacy-policy/ | ✅ Live |
+| Affiliate Disclosure | /affiliate-disclosure/ | ✅ Live |
+
+---
+
+### Full Page Inventory (24 HTML files)
+
+**3 Product Pillars:** Best Baby Monitor (1,855w), Best Baby Swaddle (2,331w), Best White Noise Machine (2,357w)
+**12 Informational Guides:** 5 Monitor cluster, 4 White Noise cluster, 4 Swaddle cluster
+**2 Hub Pages:** /guides/ (517w), /best-picks/ (258w)
+**5 Site Pages:** Homepage (1,584w), About (430w), Contact (224w), Privacy Policy (619w), Affiliate Disclosure (505w)
+**1 Utility:** Google Search Console verification file
+**20 public-facing pages** total
 
 ---
 
