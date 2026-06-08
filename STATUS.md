@@ -23,7 +23,40 @@
 
 ---
 
-## 2. All Pages (9 pages + 2 hubs)
+## 2. Site Architecture (Silo Structure)
+
+```
+Homepage (/)
+├── Best Picks Hub (/best-picks/)
+│   ├── 🏆 Best Baby Monitors AU (pillar)
+│   │   ├── How to Choose a Baby Monitor (guide)
+│   │   └── WiFi vs Non-WiFi Baby Monitor (guide)
+│   ├── 🏆 Best White Noise Machines AU (pillar)
+│   │   ├── Noise Comparison: Brown vs White vs Pink (guide)
+│   │   ├── Does White Noise Help Baby Sleep (guide)
+│   │   ├── White Noise Decibel Safety (guide)
+│   │   └── How to Wean Off White Noise (guide)
+│   └── 🏆 Best Baby Swaddles AU (pillar — NOT YET BUILT)
+│       ├── Swaddle vs Sleep Sack (guide)
+│       └── When to Stop Swaddling (guide)
+├── Guides Hub (/guides/)
+│   ├── All guides listed above
+│   └── More coming soon...
+├── About (/about.html)
+└── Contact (/contact.html)
+```
+
+### Content Clusters
+
+| Cluster | Pillar Page | Guides | Status |
+|---------|-------------|--------|--------|
+| Baby Monitor | /best-baby-monitor-australia/ | 2 guides | ✅ Complete |
+| White Noise | /best-baby-white-noise-machine-australia/ | 4 guides | ✅ Complete |
+| Swaddle | ❌ NOT YET BUILT | 2 guides | ⚠️ Needs pillar page |
+
+---
+
+## 3. All Pages
 
 ### Product Pillars (2)
 
@@ -32,7 +65,7 @@
 | Best Baby Monitors | /best-baby-monitor-australia/ | ✅ Live |
 | Best White Noise Machines | /best-baby-white-noise-machine-australia/ | ✅ Live |
 
-### Informational Guides (7)
+### Informational Guides (8)
 
 | Page | Path | Cluster | Status |
 |------|------|---------|--------|
@@ -49,40 +82,117 @@
 
 | Page | Path | Status |
 |------|------|--------|
-| Best Picks Hub | /best-picks/ | ✅ Live |
+| Best Picks Hub | /best-picks/ | ✅ Live (3 cards: Monitor ✅, White Noise ✅, Swaddle ⏳) |
 | Guides Hub | /guides/ | ✅ Live |
 
-### Site Pages (4)
+### Site Pages (3)
 
 | Page | Path | Status |
 |------|------|--------|
 | Homepage | / | ✅ Live |
 | About | /about.html | ✅ Live |
 | Contact | /contact.html | ✅ Live |
-| Best Picks Hub | /best-picks/ | ✅ Live |
 
 ---
 
-## 3. GSC Performance (Last 28 Days: May 11 — Jun 8)
+## 4. Internal Link Matrix
+
+Shows how many links each guide sends TO the pillar page:
+
+### Baby Monitor Cluster
+
+| Guide | Links to Pillar | Notes |
+|-------|:---------------:|-------|
+| How to Choose a Baby Monitor | 4 | ✅ Within 3-6 range |
+| WiFi vs Non-WiFi | 4 | ✅ Within 3-6 range (was 9, optimized down) |
+
+### White Noise Cluster
+
+| Guide | Links to Pillar | Notes |
+|-------|:---------------:|-------|
+| Noise Comparison | 6 | ✅ Within 3-6 range |
+| Does White Noise Help | 5 | ✅ |
+| Decibel Safety | 5 | ✅ |
+| How to Wean | 5 | ✅ |
+
+### Swaddle Cluster
+
+| Guide | Links to Pillar | Notes |
+|-------|:---------------:|-------|
+| Swaddle vs Sleep Sack | 0 | ⚠️ No pillar page exists yet — links go to Best Picks Hub instead |
+| When to Stop Swaddling | 0 | ⚠️ Same — no pillar page yet |
+
+**Rule:** All guides within a cluster must link to their pillar page 3-6 times. Swaddle guides cannot link to a pillar that doesn't exist yet — once built, add internal links.
+
+---
+
+## 5. Schema Inventory (Per Page)
+
+| Page | Article | FAQPage | Product | AggregateRating | Review | BreadcrumbList | WebPage |
+|------|:-------:|:-------:|:-------:|:---------------:|:-----:|:--------------:|:-------:|
+| Homepage | — | — | — | — | — | — | ✅ |
+| About | — | — | — | — | — | — | ✅ |
+| Contact | — | — | — | — | — | — | ✅ |
+| Best Picks Hub | — | — | — | — | — | ✅ | ✅ |
+| Guides Hub | — | — | — | — | — | ✅ | ✅ |
+| Monitor Pillar | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| How to Choose Monitor | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| WiFi vs Non-WiFi | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| White Noise Pillar | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Noise Comparison | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| Does White Noise Help | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| Decibel Safety | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| How to Wean | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| Swaddle vs Sleep Sack | ✅ | ✅ | — | — | — | ✅ | ✅ |
+| When to Stop Swaddling | ✅ | ✅ | — | — | — | ✅ | ✅ |
+
+---
+
+## 6. Image Inventory
+
+| Image | Page | Width | Format | Size | Alt Text |
+|-------|------|:-----:|:------:|:----:|----------|
+| whitenoise-hatch-rest2.webp | White Noise Pillar | 800 | WebP | — | Hatch Rest 2 — smart white noise machine |
+| whitenoise-dreamegg-d1.webp | White Noise Pillar | 800 | WebP | — | Dreamegg D1 Classic — white noise machine |
+| whitenoise-welcare-sleeptight.webp | White Noise Pillar | 800 | WebP | — | Welcare Sleep-Tight — portable white noise |
+| whitenoise-ergopouch-driftaway.webp | White Noise Pillar | 800 | WebP | — | ergoPouch Drift Away — portable white noise |
+| whitenoise-kyro.webp | White Noise Pillar | 800 | WebP | — | Kyro — white noise machine |
+| whitenoise-nooie-sound.webp | White Noise Pillar | 800 | WebP | — | Nooie Sound — white noise machine |
+| guide-noise-colors.webp | Noise Comparison | 800×450 | WebP | — | Brown vs white vs pink noise comparison |
+| guide-does-it-help.webp | Does White Noise Help | 800×500 | WebP | — | Peaceful sleeping baby — does white noise help |
+| guide-decibel-safety.webp | Decibel Safety | 800×600 | WebP | — | Safe nursery setup — decibel safety guide |
+| guide-wean-white-noise.webp | How to Wean | 800×501 | WebP | — | Baby sleeping peacefully — weaning off white noise |
+| emma-avatar.webp | All content pages | 400×400 | WebP | 11.7 KB | Emma — founder of Emma's Sleep Advice |
+| logo-header.svg | All pages | — | SVG | — | Emma's Sleep Advice |
+
+**Total image weight:** ~160 KB across all pages (estimated).
+
+---
+
+## 7. GSC Performance (Last 28 Days: May 11 — Jun 8)
 
 | Page | Impressions | Clicks | Avg Position |
 |------|:-----------:|:------:|:------------:|
 | Homepage | 19 | 4 | 1.1 |
 | Best Baby Monitor pillar | 33 | 3 | 29.5 |
 | Guides Hub | 18 | 2 | 2.0 |
-| White Noise pillar | 7 | 1 | 5.1 |
+| White Noise pillar | 7 | 1 | 5.1 ✅ (best position) |
 | How to Wean | 10 | 0 | 7.0 |
 | Does White Noise Help | 9 | 0 | 11.0 |
 | Noise Comparison | 7 | 0 | 19.6 |
 | Swaddle vs Sleep Sack | 3 | 1 | 4.0 |
 | When to Stop Swaddling | 1 | 0 | 5.0 |
-| Decibel Safety | 0 | 0 | — |
+| Decibel Safety | 0 | 0 | — ❌ (not discovered yet) |
 
-**Total: 107 impressions, 11 clicks across all pages.**
+**Total: 107 impressions, 11 clicks.**
+
+### CTR Issue
+- White Noise pillar: 14.3% CTR (good! — 1 click from 7 impressions)
+- All guides: **0 clicks** despite 7-10 impressions each — meta descriptions may need better hooks
 
 ---
 
-## 4. Technical Status
+## 8. Technical Status
 
 | Item | Status | Notes |
 |------|--------|-------|
@@ -92,24 +202,17 @@
 | SSL/HTTPS | ✅ | Cloudflare Full mode |
 | Mobile responsive | ✅ | Hamburger menu, breakpoints |
 | Canonical tags | ✅ | Self-referencing on all pages |
-| Schema: Article | ✅ | All content pages |
-| Schema: FAQPage | ✅ | All guides with FAQs |
-| Schema: Product | ✅ | Pillar pages |
-| Schema: AggregateRating | ✅ | Pillar pages |
-| Schema: BreadcrumbList | ✅ | All pages |
-| Schema: WebPage | ✅ | All pages |
-| Author bio (E-E-A-T) | ✅ | Emma on all content pages |
+| Navigation: crawlable | ✅ | CSS-only hover dropdown |
 | Image alt text | ✅ | All images descriptive |
 | Images: WebP format | ✅ | All images converted |
-| Navigation: crawlable | ✅ | CSS-only hover dropdown |
-| Red Nose external links | ✅ | All guides link to rednose.org.au |
-| Internal links (guides→pillar) | ✅ | 3-6 per guide |
+| Author bio (E-E-A-T) | ✅ | Emma on all content pages |
+| Red Nose Australia links | ✅ | All guides link to rednose.org.au |
 | OG tags | ✅ | All present, no duplicates |
-| Twitter cards | ✅ | summary_large_image |
+| Twitter cards | ✅ | summary_large_image on all pages |
 
 ---
 
-## 5. Optimization Log
+## 9. Optimization History
 
 ### 2026-06-08 — Stage 4 On-Page Fixes
 
@@ -158,20 +261,22 @@
 
 ---
 
-## 6. What's NOT Yet Done
+## 10. What's NOT Yet Done
 
 | Task | Priority | Notes |
 |------|:--------:|-------|
+| Swaddle pillar page | **High** | 2 guides exist but no pillar to link to |
 | Amazon AU affiliate account | High | Need to apply — no affiliate links active yet |
-| Google Search Console verified | ✅ Done | Connected via OAuth |
 | Google Analytics | Medium | Not yet set up |
-| New content clusters | Medium | Swaddle cluster has 2 guides, needs pillar page |
+| Decibel Safety — no impressions | Medium | Page exists but Google hasn't discovered it |
+| Guides zero CTR | Medium | Guides have 7-10 impressions but 0 clicks — meta hooks weak |
+| Image: White Noise pillar feature | Low | Uses product photo as OG image, could have dedicated feature image |
 | Stage 5: Off-Page SEO | Low | Too early for link building (site is new) |
-| Image: White Noise pillar | Medium | Missing feature image (OG image uses product photo instead) |
+| New content clusters | Low | Room for: room temperature, sleep regression, nap schedules |
 
 ---
 
-## 7. Optimization Rules (Over-Optimization Prevention)
+## 11. Optimization Rules (Over-Optimization Prevention)
 
 1. **One optimization pass per page per month** — unless critical bug (broken link, missing schema)
 2. **Meta title:** Only trim if over 71 chars. Do NOT change content/topic.
