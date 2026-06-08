@@ -27,10 +27,10 @@
 |--------|-------|
 | Profile | agentnyroh |
 | Hermes home | /opt/data/profiles/agentnyroh/ |
-| GSC credentials | /opt/data/profiles/agentnyroh/scripts/gsc_credentials.json |
+| GSC credentials | /opt/data/profiles/agentnyroh/scripts/gsc_credentials.json (new Web app client) |
 | GSC venv | /opt/data/profiles/agentnyroh/scripts/gsc_venv/ |
-| GSC token | /opt/data/profiles/agentnyroh/scripts/gsc_token.json |
-| GSC connected sites | sc-domain:bookshelfmemories.com, https://emmassleepadvice.com/ |
+| GSC token | /opt/data/profiles/agentnyroh/scripts/gsc_token.json (PERMANENT — no expiry) |
+| GSC connected sites | https://emmassleepadvice.com/ (URL property) |
 
 ### Deploy Process
 
@@ -368,7 +368,15 @@ Proposed future content, not yet prioritized:
 
 **No optimization needed** — cluster is technically complete. Possible future: expand FAQs 3→5 per guide, add Red Nose external links (same pattern as white noise).
 
-### 2026-05-28 to 2026-05-30 — Homepage & Initial Setup
+### 2026-06-08 — GSC Permanent Auth
+
+- OAuth app published to **Production** (no more 7-day token expiry)
+- New Web application client created (replaced Desktop type)
+- Redirect URI: `https://emmassleepadvice.com/gsc-callback`
+- Client ID: `37241543550-bcv6uifi37cjv009ks4b46nvkh755hlh.apps.googleusercontent.com`
+- **Permanent refresh token** — no expiration!
+- Connected via URL property: `https://emmassleepadvice.com/` (sc-domain not available for this property)
+- Credentials saved at: `/opt/data/profiles/agentnyroh/scripts/gsc_credentials.json` + `gsc_token.json`
 
 - Homepage design: purple/pink palette, sticky nav, age grid, Editor's Choice, FAQ accordion
 - About page, Contact page
@@ -382,7 +390,6 @@ Proposed future content, not yet prioritized:
 | Task | Priority | Notes |
 |------|:--------:|-------|
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
-| **GSC token expired** | **High** | Need re-authorization — refresh token expired, setup with production OAuth credentials |
 | Decibel Safety — no impressions | Medium | Page exists but Google hasn't discovered it |
 | Guides zero CTR | Medium | Guides have 7-10 impressions but 0 clicks — meta hooks weak |
 | Google Analytics | Medium | Not yet set up |
