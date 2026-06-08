@@ -332,6 +332,21 @@ Proposed future content, not yet prioritized:
 | Navigation | CSS-only dropdown (crawlable) |
 | All pages | OG tags + Twitter cards + BreadcrumbList |
 
+### 2026-06-08 — Baby Monitor Cluster Audit
+
+| Page | Cross-links to other guides | Note |
+|------|:--------------------------:|------|
+| Best Baby Monitor pillar | N/A (pillar) | Has FAQPage + Product + AggregateRating schemas |
+| How to Choose | ✅ → WiFi vs Non-WiFi, How to Set Up, Are Monitors Worth It, When to Stop | Complete — 4 other guides linked |
+| WiFi vs Non-WiFi | ✅ → How to Choose | Links to 1 other guide |
+| When to Stop | ✅ → Are Monitors Worth It, How to Choose | Links to 2 other guides |
+| Are Monitors Worth It | ✅ → When to Stop, How to Choose, WiFi vs Non-WiFi | Most connected — 3 other guides linked |
+| How to Set Up | ✅ → WiFi vs Non-WiFi, How to Choose, When to Stop | Links to 3 other guides |
+
+**No technical issues found:** All pages have Article schema, FAQPage schema (3 Qs each), OG tags, Twitter cards, canonicals, Red Nose citations, BreadcrumbList. No duplicate tags, no broken links.
+
+**No optimization needed** — cluster is technically complete. Possible future: expand FAQs 3→5 per guide, add Red Nose external links (same pattern as white noise).
+
 ### 2026-05-28 to 2026-05-30 — Homepage & Initial Setup
 
 - Homepage design: purple/pink palette, sticky nav, age grid, Editor's Choice, FAQ accordion
