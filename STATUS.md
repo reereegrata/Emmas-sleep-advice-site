@@ -137,7 +137,7 @@ Homepage (/)
 **2 Hub Pages:** /guides/ (517w), /best-picks/ (258w)
 **5 Site Pages:** Homepage (1,584w), About (430w), Contact (224w), Privacy Policy (619w), Affiliate Disclosure (505w)
 **1 Utility:** Google Search Console verification file
-**20 public-facing pages** total
+**23 public-facing pages** total
 
 ---
 
