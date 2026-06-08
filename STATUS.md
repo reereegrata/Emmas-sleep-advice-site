@@ -382,6 +382,7 @@ Proposed future content, not yet prioritized:
 | Task | Priority | Notes |
 |------|:--------:|-------|
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
+| **GSC token expired** | **High** | Need re-authorization — refresh token expired, setup with production OAuth credentials |
 | Decibel Safety — no impressions | Medium | Page exists but Google hasn't discovered it |
 | Guides zero CTR | Medium | Guides have 7-10 impressions but 0 clicks — meta hooks weak |
 | Google Analytics | Medium | Not yet set up |
