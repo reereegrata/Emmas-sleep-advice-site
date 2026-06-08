@@ -21,6 +21,36 @@
 | Font | Poppins |
 | Affiliate | Amazon AU (not yet applied), direct AU brands later |
 
+### Hermes Setup (for this server)
+
+| Detail | Value |
+|--------|-------|
+| Profile | agentnyroh |
+| Hermes home | /opt/data/profiles/agentnyroh/ |
+| GSC credentials | /opt/data/profiles/agentnyroh/scripts/gsc_credentials.json |
+| GSC venv | /opt/data/profiles/agentnyroh/scripts/gsc_venv/ |
+| GSC token | /opt/data/profiles/agentnyroh/scripts/gsc_token.json |
+| GSC connected sites | sc-domain:bookshelfmemories.com, https://emmassleepadvice.com/ |
+
+### Deploy Process
+
+```bash
+cd /tmp/Emmas-sleep-advice-site
+git add -A
+git commit -m "description of changes"
+GIT_SSH_COMMAND="ssh -i /opt/data/.ssh/id_ed25519_emma -o IdentitiesOnly=yes" git push origin main
+```
+
+- Clone via HTTPS: `git clone https://github.com/reereegrata/Emmas-sleep-advice-site.git /tmp/Emmas-sleep-advice-site`
+- Push via SSH deploy key (registered in GitHub repo settings)
+- Site auto-deploys via GitHub Pages — no manual steps needed
+
+### Cron Jobs
+
+| Job | Schedule | Status |
+|-----|----------|--------|
+| Weekly GSC report | Every Monday 9am | ✅ Active (set up via cronjob tool) |
+
 ---
 
 ## 2. Site Architecture (Silo Structure)
@@ -212,7 +242,57 @@ Shows how many links each guide sends TO the pillar page:
 
 ---
 
-## 9. Optimization History
+## 9. Design System Reference
+
+| Element | Value |
+|---------|-------|
+| Primary color | Purple #5B4B8A |
+| Accent color | Pink #E8758A |
+| Font | Poppins (all weights) |
+| Max content width | 1200px |
+| Card border-radius | 12px |
+| Button border-radius | 25px (pill shape) |
+| Feature image | 800px wide, WebP, max-height:400px, object-fit:contain |
+| Guide image | 800px wide, WebP, q60-80 |
+| Avatar | 400×400, circular, WebP, 11.7 KB |
+| Navigation | Sticky, CSS-only hover dropdown |
+| No emojis/icons in content | Clean text only |
+| No "coming soon" visible | Don't link to non-existent pages |
+
+---
+
+## 10. Affiliate Programs Status
+
+| Program | Status | Notes |
+|---------|--------|-------|
+| Amazon AU Associates | ❌ Not yet applied | Need to register — highest priority for monetization |
+| Baby Bunting | ❌ Not yet applied | Via Partnerize network |
+| Love to Dream | ❌ Not yet applied | Direct affiliate program |
+| Chemist Warehouse | ❌ Not yet applied | Via Commission Factory |
+
+**Note:** No affiliate links are active on the site yet. All product mentions are currently generic recommendations.
+
+---
+
+## 11. Content Ideas Backlog
+
+Proposed future content, not yet prioritized:
+
+| Topic | Type | Cluster | Notes |
+|-------|------|---------|-------|
+| Best Baby Swaddle Australia | Pillar page | Swaddle | **Highest priority** — 2 guides exist but need pillar to link to |
+| Room Temperature for Baby Sleep | Guide | General | TOG ratings, Australian seasons |
+| 4-Month Sleep Regression Guide | Guide | General | Existing draft may need refresh |
+| Baby Nap Schedules by Age | Guide | General | Newborn → 12 months |
+| Best Baby Cot Mattress Australia | Pillar page | Cot/Mattress | New cluster — mentioned early in project |
+| Best Baby Sleep Sacks Australia | Pillar page | Swaddle/Sleep Sack | Could complement swaddle cluster |
+| How to Set Up Baby Monitor | Guide | Baby Monitor | Informational, fills out monitor cluster |
+| When to Stop Using Baby Monitor | Guide | Baby Monitor | Another monitor cluster fill |
+| Are Baby Monitors Worth It | Guide | Baby Monitor | Informational/commercial hybrid |
+
+---
+
+## 12. Optimization History
 
 ### 2026-06-08 — Stage 4 On-Page Fixes
 
@@ -261,22 +341,24 @@ Shows how many links each guide sends TO the pillar page:
 
 ---
 
-## 10. What's NOT Yet Done
+## 13. What's NOT Yet Done
 
 | Task | Priority | Notes |
 |------|:--------:|-------|
 | Swaddle pillar page | **High** | 2 guides exist but no pillar to link to |
-| Amazon AU affiliate account | High | Need to apply — no affiliate links active yet |
-| Google Analytics | Medium | Not yet set up |
+| Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
 | Decibel Safety — no impressions | Medium | Page exists but Google hasn't discovered it |
 | Guides zero CTR | Medium | Guides have 7-10 impressions but 0 clicks — meta hooks weak |
+| Google Analytics | Medium | Not yet set up |
+| Content: Sleep Regression Guide | Medium | Draft may exist, needs refresh |
+| Content: Room Temperature Guide | Low | New content |
+| Content: Nap Schedules Guide | Low | New content |
 | Image: White Noise pillar feature | Low | Uses product photo as OG image, could have dedicated feature image |
 | Stage 5: Off-Page SEO | Low | Too early for link building (site is new) |
-| New content clusters | Low | Room for: room temperature, sleep regression, nap schedules |
 
 ---
 
-## 11. Optimization Rules (Over-Optimization Prevention)
+## 14. Optimization Rules (Over-Optimization Prevention)
 
 1. **One optimization pass per page per month** — unless critical bug (broken link, missing schema)
 2. **Meta title:** Only trim if over 71 chars. Do NOT change content/topic.
