@@ -30,7 +30,7 @@
 | GSC credentials | /opt/data/profiles/agentnyroh/scripts/gsc_credentials.json (new Web app client) |
 | GSC venv | /opt/data/profiles/agentnyroh/scripts/gsc_venv/ |
 | GSC token | /opt/data/profiles/agentnyroh/scripts/gsc_token.json (PERMANENT — no expiry) |
-| GSC connected sites | https://emmassleepadvice.com/ (URL property) |
+| GSC connected sites | https://emmassleepadvice.com/ ONLY (bookshelfmemories removed) |
 
 ### Deploy Process
 
@@ -377,6 +377,15 @@ Proposed future content, not yet prioritized:
 - **Permanent refresh token** — no expiration!
 - Connected via URL property: `https://emmassleepadvice.com/` (sc-domain not available for this property)
 - Credentials saved at: `/opt/data/profiles/agentnyroh/scripts/gsc_credentials.json` + `gsc_token.json`
+
+### 2026-06-08 — GSC First Full Data Pull
+
+- **90-day data** pulled: Mar 10 → Jun 8, 2026
+- **10 unique queries**, **9 pages with data**, **11 total clicks**
+- Pages with clicks: Homepage (4), Monitor Pillar (3), Guides Hub (2), White Noise Pillar (1), Swaddle vs Sleep Sack (1)
+- Top query: "best baby monitor australia" — 4 imps, pos 73.0
+- **Bookshelfmemories.com removed** from GSC — wala kaming access
+- GSC script hardcoded to `https://emmassleepadvice.com/` only
 
 - Homepage design: purple/pink palette, sticky nav, age grid, Editor's Choice, FAQ accordion
 - About page, Contact page
