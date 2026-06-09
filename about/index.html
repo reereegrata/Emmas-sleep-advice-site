@@ -68,9 +68,27 @@ body{
 .header-nav a:hover{color:var(--primary);background:var(--bg-light)}
 .header-nav .nav-active{color:var(--primary);background:var(--bg-light);font-weight:600}
 .header-nav .nav-disclosure{
-  font-size:.7rem;color:var(--text-muted);padding:10px 12px;text-decoration:none;font-weight:400;
+font-size:.7rem;color:var(--text-muted);padding:10px 12px;text-decoration:none;font-weight:400;
 }
 .hamburger{display:none;background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--text);padding:8px}
+
+/* DROPDOWN */
+.dropdown{position:relative;display:inline-block}
+.dropdown > a{padding:10px 16px;color:var(--text-light);text-decoration:none;font-size:.85rem;font-weight:500;border-radius:8px;cursor:default}
+.dropdown:hover > a{color:var(--primary);background:var(--bg-light)}
+.dropdown-arrow{font-size:.6rem;margin-left:3px;display:inline-block}
+.dropdown-content{display:none;position:absolute;top:100%;left:0;z-index:200;background:#fff;border:1px solid var(--border);border-radius:0 12px 12px 12px;box-shadow:rgba(50,50,93,0.10) 0px 12px 32px -6px, rgba(0,0,0,0.06) 0px 4px 12px;min-width:220px;padding:8px;white-space:nowrap}
+.dropdown:hover .dropdown-content{display:block}
+.dropdown-content a{display:block;padding:10px 14px;color:var(--text-light);text-decoration:none;font-size:.82rem;font-weight:500;border-radius:8px;transition:all .15s}
+.dropdown-content a:hover{background:var(--bg-light);color:var(--primary)}
+.dropdown-content .dropdown-label{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--text-muted);padding:6px 14px 2px;cursor:default}
+.dropdown-content .dropdown-all{display:block;padding:10px 14px 6px;color:var(--primary);text-decoration:none;font-size:.78rem;font-weight:600;border-top:1px solid var(--border-light);margin-top:4px}
+.dropdown-content .dropdown-all:hover{color:var(--primary-dark);background:transparent}
+
+@media(max-width:640px){
+.dropdown{display:block}
+.dropdown-content{position:static;display:none;box-shadow:none;border:none;padding-left:16px}
+}
 
 /* ═══════════ HERO — About ═══════════ */
 .about-hero{
