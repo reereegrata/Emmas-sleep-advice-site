@@ -437,7 +437,7 @@ Proposed future content, not yet prioritized:
 | Task | Priority | Notes |
 |------|:--------:|-------|
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
-| 6 pages not indexed (requested via GSC web UI) | **High** | /about/, /affiliate-disclosure/, /best-picks/ (content expanded), /contact/, /privacy-policy/, /guides/white-noise-decibel-safety-babies/ |
+|| All 23 pages indexed (confirmed via API June 9) | **Done** | All pages "Submitted and indexed" via real-time API. Dashboard delay 24-48h. |
 | Google Analytics | Medium | Not yet set up |
 | Content: Sleep Regression Guide | **Medium** | In planning — heading architecture drafted, awaiting Ahrefs keyword data |
 | Content: Room Temperature Guide | Low | New content |
