@@ -220,26 +220,32 @@ Shows how many links each guide sends TO the pillar page:
 
 ---
 
-## 7. GSC Performance (Last 28 Days: May 11 — Jun 8)
+## 7. GSC Performance (90 days: Mar 11 — Jun 9)
 
 | Page | Impressions | Clicks | Avg Position |
 |------|:-----------:|:------:|:------------:|
-| Homepage | 19 | 4 | 1.1 |
-| Best Baby Monitor pillar | 33 | 3 | 29.5 |
-| Guides Hub | 18 | 2 | 2.0 |
-| White Noise pillar | 7 | 1 | 5.1 ✅ (best position) |
-| How to Wean | 10 | 0 | 7.0 |
-| Does White Noise Help | 9 | 0 | 11.0 |
-| Noise Comparison | 7 | 0 | 19.6 |
-| Swaddle vs Sleep Sack | 3 | 1 | 4.0 |
-| When to Stop Swaddling | 1 | 0 | 5.0 |
+| Homepage | 26 | 4 | 1.0 |
+| Best Baby Monitor pillar | 40 | 3 | 25.0 |
+| Guides Hub | 25 | 2 | 2.0 |
+| White Noise pillar | 17 | 2 | 11.4 |
+| How to Wean | 18 | 0 | 8.7 |
+| Does White Noise Help | 15 | 0 | 11.9 |
+| White Noise vs Pink vs Brown | 13 | 0 | 20.8 |
+| Swaddle vs Sleep Sack | 10 | 1 | 5.1 |
+| How to Choose Baby Monitor | 7 | 1 | 7.3 |
+| How to Swaddle | 5 | 0 | 9.6 |
+| How to Set Up Baby Monitor | 5 | 0 | 12.0 |
+| Are Baby Monitors Worth It | 5 | 0 | 7.0 |
+| When to Stop Swaddling | 5 | 0 | 7.6 |
+| WiFi vs Non-WiFi | 5 | 0 | 18.2 |
+| When to Stop Using Baby Monitor | 4 | 0 | 22.8 |
+| Best Baby Swaddle pillar | 5 | 1 | 3.0 |
+| Swaddle TOG Guide | 6 | 0 | 4.8 |
 | Decibel Safety | 0 | 0 | — ❌ (not discovered yet) |
 
-**Total: 107 impressions, 11 clicks.**
+**Total (from search analytics): 17 pages with data, 0 queries with clicks** (90d view changed since last pull).
 
-### CTR Issue
-- White Noise pillar: 14.3% CTR (good! — 1 click from 7 impressions)
-- All guides: **0 clicks** despite 7-10 impressions each — meta descriptions may need better hooks
+**5 pages are in Google index** (shown in site: search) — /guides/are-baby-monitors-worth-it/, /guides/how-to-choose-baby-monitor/, /guides/how-to-set-up-baby-monitor/, /guides/when-to-stop-using-baby-monitor/, /guides/wifi-vs-non-wifi-baby-monitor/ — but GSC dashboard still lists them as "Discovered - currently not indexed" (reporting delay).
 
 ---
 
@@ -414,8 +420,7 @@ Proposed future content, not yet prioritized:
 | Task | Priority | Notes |
 |------|:--------:|-------|
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
-| Decibel Safety — no impressions | Medium | Page exists but Google hasn't discovered it |
-| Guides zero CTR | Medium | Guides have 7-10 impressions but 0 clicks — meta hooks weak |
+| 6 pages not indexed (requested via GSC web UI) | **High** | /about/, /affiliate-disclosure/, /best-picks/ (content expanded), /contact/, /privacy-policy/, /guides/white-noise-decibel-safety-babies/ |
 | Google Analytics | Medium | Not yet set up |
 | Content: Sleep Regression Guide | Medium | Draft may exist, needs refresh |
 | Content: Room Temperature Guide | Low | New content |
