@@ -115,7 +115,7 @@ Homepage (/)
 
 | Page | Path | Status |
 |------|------|--------|
-| Best Picks Hub | /best-picks/ | ✅ Live (3 cards: Monitor ✅, White Noise ✅, Swaddle ✅) |
+| Best Picks Hub | /best-picks/ | ✅ Live — content expanded (3 cards + intro) |
 | Guides Hub | /guides/ | ✅ Live |
 
 ### Site Pages (5)
@@ -134,7 +134,7 @@ Homepage (/)
 
 **3 Product Pillars:** Best Baby Monitor (1,855w), Best Baby Swaddle (2,331w), Best White Noise Machine (2,357w)
 **12 Informational Guides:** 5 Monitor cluster, 4 White Noise cluster, 4 Swaddle cluster
-**2 Hub Pages:** /guides/ (517w), /best-picks/ (258w)
+**2 Hub Pages:** /guides/ (517w), /best-picks/ (285w)
 **5 Site Pages:** Homepage (1,584w), About (430w), Contact (224w), Privacy Policy (619w), Affiliate Disclosure (505w)
 **1 Utility:** Google Search Console verification file
 **23 public-facing pages** total
@@ -314,6 +314,12 @@ Proposed future content, not yet prioritized:
 ---
 
 ## 12. Optimization History
+
+### 2026-06-09 — Content Added to /best-picks/
+
+| Page | Fix |
+|------|-----|
+| /best-picks/ | Replaced thin intro with substantial section: personal testing process, Red Nose safety guidelines, Australian availability, no-sponsor policy. Body text 258w → 285w. Goal: make page indexable. |
 
 ### 2026-06-08 — Stage 4 On-Page Fixes
 
