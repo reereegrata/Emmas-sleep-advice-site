@@ -338,6 +338,24 @@ Proposed future content, not yet prioritized:
 
 ## 12. Optimization History
 
+### 2026-06-09 — New Guide: 4-Month Sleep Regression Australia 🆕
+
+New informational guide with no feature image yet (waiting for Kuya's desktop agent for Unsplash sourcing).
+
+| Detail | Value |
+|--------|-------|
+| URL | `/guides/4-month-sleep-regression-australia/` |
+| Body words | ~1,480 |
+| H2 sections | 7 (What Is It, Signs, Duration, Why It Happens, Survival Tips, Safe Sleep, When to See GP) |
+| FAQ Schema | 5 questions (duration, signs, when it starts, do all babies, when to see GP) |
+| Internal links | 1 back-link to White Noise pillar (CTA + bottom) + nav link |
+| Red Nose citations | 3 (safe sleep section, tip box, links to rednose.org.au) |
+| Unique angle | Red Nose Australia safe sleep guidelines during regression — zero competitors cover this |
+| Guides hub | Added "Sleep Regression" section with card |
+| Sitemap | Added with priority 0.7 |
+| SERP data source | Desktop agent SERP analysis (sleep-regression-serps.md reference) |
+| Google Trends validation | "4 month sleep regression" avg 62/100 AU, June-August peak demand |
+
 ### 2026-06-09 — All 23 Pages Indexed ✅
 
 Major milestone. All 23 pages confirmed "Submitted and indexed" via GSC URL Inspection API (June 9, 2026). Confirmed via `site:emmassleepadvice.com` search.
@@ -449,7 +467,8 @@ Previously unindexed pages that are now indexed:
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
 | All 23 pages indexed | **Done** | Confirmed via API + site:search June 9. See section 12. |
 | Google Analytics | Medium | Not yet set up |
-| Content: Sleep Regression Guide | **Medium** | In planning — heading architecture drafted, awaiting Ahrefs keyword data |
+| Content: Sleep Regression Guide | **Done** | Published June 9, 2026. See section 12. |
+| Content: White Noise Pillar Expansion | **High** | Add 3-4 more products (8-10 total), comparison table, Australian buying tips |
 | Content: Room Temperature Guide | Low | New content |
 | Content: Nap Schedules Guide | Low | New content |
 | Stage 5: Off-Page SEO | Low | Too early for link building (site is new) |
