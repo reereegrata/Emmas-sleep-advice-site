@@ -422,7 +422,7 @@ Proposed future content, not yet prioritized:
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
 | 6 pages not indexed (requested via GSC web UI) | **High** | /about/, /affiliate-disclosure/, /best-picks/ (content expanded), /contact/, /privacy-policy/, /guides/white-noise-decibel-safety-babies/ |
 | Google Analytics | Medium | Not yet set up |
-| Content: Sleep Regression Guide | Medium | Draft may exist, needs refresh |
+| Content: Sleep Regression Guide | **Medium** | In planning — heading architecture drafted, awaiting Ahrefs keyword data |
 | Content: Room Temperature Guide | Low | New content |
 | Content: Nap Schedules Guide | Low | New content |
 | Stage 5: Off-Page SEO | Low | Too early for link building (site is new) |
