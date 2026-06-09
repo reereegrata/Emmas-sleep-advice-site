@@ -479,7 +479,7 @@ Previously unindexed pages that are now indexed:
 |------|:--------:|-------|
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
 | All 23 pages indexed | **Done** | Confirmed via API + site:search June 9. See section 12. |
-| Google Analytics | Medium | Not yet set up |
+| Google Analytics | **Done** | GA4 set up Jun 9 — G-L1KN4L71L9 on all 24 pages |
 | Content: Sleep Regression Guide | **Done** | Published June 9, 2026. See section 12. |
 | Content: White Noise Pillar Expansion | **Done** | Expanded 6→9 products June 9. See section 12. |
 | Content: Room Temperature Guide | Low | New content |
