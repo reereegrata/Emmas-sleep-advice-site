@@ -367,6 +367,7 @@ Expanded from 6 to 9 products based on Amazon AU Best Seller + Baby Bunting rese
 | Taf Toys Portable Sound Machine | AU$45-55 | Amazon AU | Cry sensor (unique feature) |
 
 **Updated:** H1 (6→9), At-a-Glance table, Full Comparison Table (3 new columns), Budget Tiers (new "Under $40" tier + adjusted pricing), Final Verdict table.
+**Updated (2nd pass):** Meta title, meta description, OG title, OG description, Twitter title, Twitter description, Article schema (headline, description, dateModified), Product schema (description, reviewCount→9, +3 new reviews). All now reflect 9 products.
 
 **Search intent check:** Does the page cover all budgets now? ✅ Yes — from AU$29.95 to AU$130. Does it answer "which one should I buy?" ✅ Yes — 9 options across budget/portable/premium with clear verdicts.
 
