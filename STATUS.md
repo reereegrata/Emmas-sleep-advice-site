@@ -338,6 +338,16 @@ Proposed future content, not yet prioritized:
 
 ## 12. Optimization History
 
+### 2026-06-09 — All 23 Pages Indexed ✅
+
+Major milestone. All 23 pages confirmed "Submitted and indexed" via GSC URL Inspection API (June 9, 2026). Confirmed via `site:emmassleepadvice.com` search.
+
+Previously unindexed pages that are now indexed:
+- `/about/`, `/contact/`, `/privacy-policy/`, `/affiliate-disclosure/`, `/best-picks/`, `/guides/white-noise-decibel-safety-babies/`
+- 5 baby monitor guides that showed "Discovered - currently not indexed" are also indexed
+
+**Note:** GSC dashboard may still show "Discovered - currently not indexed" for up to 48h — this is a reporting delay. URL Inspection API is the authoritative real-time source.
+
 ### 2026-06-09 — Content Added to /best-picks/
 
 | Page | Fix |
@@ -437,7 +447,7 @@ Proposed future content, not yet prioritized:
 | Task | Priority | Notes |
 |------|:--------:|-------|
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
-|| All 23 pages indexed (confirmed via API June 9) | **Done** | All pages "Submitted and indexed" via real-time API. Dashboard delay 24-48h. |
+| All 23 pages indexed | **Done** | Confirmed via API + site:search June 9. See section 12. |
 | Google Analytics | Medium | Not yet set up |
 | Content: Sleep Regression Guide | **Medium** | In planning — heading architecture drafted, awaiting Ahrefs keyword data |
 | Content: Room Temperature Guide | Low | New content |
