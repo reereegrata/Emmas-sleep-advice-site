@@ -2,7 +2,24 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-06-08
+> Last updated: 2026-06-09
+
+## 0. Google Knowledge Base — Saved Reference
+
+All Google Search docs knowledge consolidated into skill `google-seo-docs-master` (replaces 3 old skills).
+
+**What's inside that skill:**
+- How Search Works + SEO Fundamentals + AI Content Policy
+- Crawling & Indexing (sitemaps, robots.txt, noindex, canonical, recrawl)
+- Search Appearance (titles, meta descriptions, images, video, structured data)
+- Ranking Updates History (all core updates 2023-2026)
+- Debugging Traffic Drops (step-by-step)
+- GSC Guide + E-E-A-T + Penalties
+- Reference file: `references/ranking-updates-timeline.md`
+
+**Next expected core update:** August-September 2026 (~3 month cycle). Target: have all pages optimized before then.
+
+**If traffic drops:** check https://status.search.google.com/ FIRST before changing anything on the site.
 
 ---
 
