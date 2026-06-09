@@ -356,7 +356,19 @@ New informational guide with no feature image yet (waiting for Kuya's desktop ag
 | SERP data source | Desktop agent SERP analysis (sleep-regression-serps.md reference) |
 | Google Trends validation | "4 month sleep regression" avg 62/100 AU, June-August peak demand |
 
-### 2026-06-09 — All 23 Pages Indexed ✅
+### 2026-06-09 — White Noise Pillar Expansion: 6 → 9 Products
+
+Expanded from 6 to 9 products based on Amazon AU Best Seller + Baby Bunting research (via Desktop agent). Filled 2 key gaps: budget under $40 and plush toy category.
+
+| New Product | Price | Where | Gap Filled |
+|-------------|:-----:|-------|------------|
+| Fisher-Price Soothe & Snuggle Otter | AU$36.79 | Baby Bunting | Plush toy, budget under $40 |
+| My Baby Sound Spa On The Go | AU$29.95 | Baby Bunting | Cheapest option, portable clip-on |
+| Taf Toys Portable Sound Machine | AU$45-55 | Amazon AU | Cry sensor (unique feature) |
+
+**Updated:** H1 (6→9), At-a-Glance table, Full Comparison Table (3 new columns), Budget Tiers (new "Under $40" tier + adjusted pricing), Final Verdict table.
+
+**Search intent check:** Does the page cover all budgets now? ✅ Yes — from AU$29.95 to AU$130. Does it answer "which one should I buy?" ✅ Yes — 9 options across budget/portable/premium with clear verdicts.
 
 Major milestone. All 23 pages confirmed "Submitted and indexed" via GSC URL Inspection API (June 9, 2026). Confirmed via `site:emmassleepadvice.com` search.
 
@@ -468,7 +480,7 @@ Previously unindexed pages that are now indexed:
 | All 23 pages indexed | **Done** | Confirmed via API + site:search June 9. See section 12. |
 | Google Analytics | Medium | Not yet set up |
 | Content: Sleep Regression Guide | **Done** | Published June 9, 2026. See section 12. |
-| Content: White Noise Pillar Expansion | **High** | Add 3-4 more products (8-10 total), comparison table, Australian buying tips |
+| Content: White Noise Pillar Expansion | **Done** | Expanded 6→9 products June 9. See section 12. |
 | Content: Room Temperature Guide | Low | New content |
 | Content: Nap Schedules Guide | Low | New content |
 | Stage 5: Off-Page SEO | Low | Too early for link building (site is new) |
