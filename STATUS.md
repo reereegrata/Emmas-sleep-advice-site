@@ -321,6 +321,15 @@ Proposed future content, not yet prioritized:
 |------|-----|
 | /best-picks/ | Replaced thin intro with substantial section: personal testing process, Red Nose safety guidelines, Australian availability, no-sponsor policy. Body text 258w → 285w. Goal: make page indexable. |
 
+### 2026-06-09 — Navigation Standardization (4 Pages)
+
+| Page | Fix |
+|------|-----|
+| /about/ | Replaced old flat nav with proper dropdown header (Best Picks + Guides dropdowns), removed emoji from nav |
+| /contact/ | Replaced entire page nav CSS + HTML with standardized header, updated footer to match site |
+| /privacy-policy/ | Same as contact — new nav, new footer, removed emojis |
+| /affiliate-disclosure/ | Same as above — new nav, new footer, no emojis |
+
 ### 2026-06-08 — Stage 4 On-Page Fixes
 
 | Page | Fix |

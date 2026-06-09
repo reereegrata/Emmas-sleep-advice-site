@@ -30,16 +30,38 @@
 <style>
 *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7;color:#1A1A2E;background:#FFFFFF}
-:root{--primary:#5B4B8A;--primary-dark:#3D2E6B;--text:#1A1A2E;--text-light:#6B6B7B;--text-muted:#9A9AB0;--bg-light:#F6F4F1;--border:#EDEAF3;--border-light:#F5F3F8}
-.container{max-width:800px;margin:0 auto;padding:0 24px}
+body{font-family:'Poppins',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.6;color:#1A1A2E;background:#FFFFFF}
+:root{--primary:#5B4B8A;--primary-dark:#3D2E6B;--primary-light:#7B6BAE;--accent:#E8758A;--text:#1A1A2E;--text-light:#6B6B7B;--text-muted:#9A9AB0;--bg-light:#F6F4F1;--border:#EDEAF3;--border-light:#F5F3F8;--sage:#7EC8A8;--peach:#F4D0B4}
+.container{max-width:960px;margin:0 auto;padding:0 24px}
 
-nav{background:#fff;border-bottom:1px solid var(--border-light);position:sticky;top:0;z-index:100}
-nav .nav-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 24px}
-nav .nav-brand{font-weight:700;color:var(--primary);text-decoration:none;font-size:1rem;padding:16px 0;display:flex;align-items:center;gap:8px}
-nav ul{list-style:none;display:flex;gap:4px}
-nav a.nav-link{display:block;padding:16px 16px;color:var(--text-light);text-decoration:none;font-size:.88rem;font-weight:500;transition:color .2s}
-nav a.nav-link:hover{color:var(--primary)}
+/* HEADER */
+.header{position:sticky;top:0;z-index:100;background:#fff;border-bottom:1px solid var(--border-light);backdrop-filter:blur(8px)}
+.header-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:0 24px;height:64px}
+.header-logo{font-weight:700;color:var(--primary);text-decoration:none;font-size:1rem;display:flex;align-items:center;gap:8px}
+.header-nav{display:flex;align-items:center;gap:2px;list-style:none}
+.header-nav a{padding:10px 16px;color:var(--text-light);text-decoration:none;font-size:.85rem;font-weight:500;transition:color .2s;border-radius:8px}
+.header-nav a:hover{color:var(--primary);background:var(--bg-light)}
+.header-nav .nav-active{color:var(--primary);background:var(--bg-light);font-weight:600}
+.header-nav .nav-disclosure{font-size:.7rem;color:var(--text-muted);padding:10px 12px;text-decoration:none;font-weight:400}
+.hamburger{display:none;background:none;border:none;font-size:1.5rem;cursor:pointer;color:var(--text);padding:8px}
+
+/* DROPDOWN */
+.dropdown{position:relative;display:inline-block}
+.dropdown > a{padding:10px 16px;color:var(--text-light);text-decoration:none;font-size:.85rem;font-weight:500;border-radius:8px;cursor:default}
+.dropdown:hover > a{color:var(--primary);background:var(--bg-light)}
+.dropdown-arrow{font-size:.6rem;margin-left:3px;display:inline-block}
+.dropdown-content{display:none;position:absolute;top:100%;left:0;z-index:200;background:#fff;border:1px solid var(--border);border-radius:0 12px 12px 12px;box-shadow:rgba(50,50,93,0.10) 0px 12px 32px -6px, rgba(0,0,0,0.06) 0px 4px 12px;min-width:220px;padding:8px;white-space:nowrap}
+.dropdown:hover .dropdown-content{display:block}
+.dropdown-content a{display:block;padding:10px 14px;color:var(--text-light);text-decoration:none;font-size:.82rem;font-weight:500;border-radius:8px;transition:all .15s}
+.dropdown-content a:hover{background:var(--bg-light);color:var(--primary)}
+.dropdown-content .dropdown-label{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.6px;color:var(--text-muted);padding:6px 14px 2px;cursor:default}
+.dropdown-content .dropdown-all{display:block;padding:10px 14px 6px;color:var(--primary);text-decoration:none;font-size:.78rem;font-weight:600;border-top:1px solid var(--border-light);margin-top:4px}
+.dropdown-content .dropdown-all:hover{color:var(--primary-dark);background:transparent}
+
+@media(max-width:640px){
+.dropdown{display:block}
+.dropdown-content{position:static;display:none;box-shadow:none;border:none;padding-left:16px}
+}
 
 .page-header{background:linear-gradient(135deg,var(--primary-dark),var(--primary));padding:72px 24px 64px;text-align:center}
 .page-header h1{font-size:2.2rem;font-weight:600;color:#fff;margin-bottom:12px}
@@ -55,38 +77,56 @@ nav a.nav-link:hover{color:var(--primary)}
 .highlight-box{background:var(--bg-light);border:1px solid var(--border);border-radius:12px;padding:24px;margin:24px 0}
 .highlight-box p{font-size:.9rem;margin-bottom:0}
 
-footer{background:#1A1A2E;color:#9A9AB0;padding:48px 24px 36px}
-footer .footer-inner{max-width:1100px;margin:0 auto}
-footer .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:32px}
-footer .footer-col-heading{color:#fff;font-size:.78rem;font-weight:600;margin-bottom:14px;text-transform:uppercase;letter-spacing:1px;display:block}
-footer p,footer li{font-size:.76rem;line-height:2.2;list-style:none}
+footer{border-top:1px solid var(--border-light);background:#1A1A2E;color:#9A9AB0;font-size:.78rem;padding:32px 0;text-align:center}
 footer a{color:#B8A9E8;text-decoration:none}
 footer a:hover{color:#fff}
-footer .footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:20px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:.68rem}
 
 @media(max-width:768px){
-  nav ul{display:none}
-  .page-header h1{font-size:1.6rem}
-  footer .footer-grid{grid-template-columns:1fr 1fr}
+.header-nav{gap:0}
+.header-nav a{padding:10px 10px;font-size:.78rem}
+.hamburger{display:block}
+.page-header h1{font-size:1.6rem}
 }
-@media(max-width:480px){
-  footer .footer-grid{grid-template-columns:1fr}
+@media(max-width:640px){
+.header-nav{display:none}
+.hamburger{display:block}
 }
 </style>
 </head>
 <body>
 
-<nav>
-<div class="nav-inner">
-<a href="/" class="nav-brand"><img src="/logo-header.svg" alt="Emma's Sleep Advice" height="36" style="vertical-align:middle"></a>
-<ul>
-<li><a href="/" class="nav-link">Home</a></li>
-<li><a href="/#editors-choice" class="nav-link">🏆 Best Picks</a></li>
-<li><a href="/#latest-guides" class="nav-link">📖 Guides</a></li>
-<li><a href="/about/" class="nav-link">👩 About</a></li>
-</ul>
+<!-- HEADER -->
+<header class="header">
+<div class="header-inner">
+<a href="/" class="header-logo"><img src="/logo-header.svg" alt="Emma's Sleep Advice" height="40" style="vertical-align:middle"></a>
+<nav class="header-nav">
+<a href="/">Home</a>
+<div class="dropdown">
+<a href="/best-picks/">Best Picks <span class="dropdown-arrow">▼</span></a>
+<div class="dropdown-content">
+<div class="dropdown-label">Product Reviews</div>
+<a href="/best-baby-monitor-australia/">Best Baby Monitor 2026</a>
+<a href="/best-baby-swaddle-australia/">Best Baby Swaddle 2026</a>
+<a href="/best-baby-white-noise-machine-australia/">Best Baby White Noise 2026</a>
+<a href="/best-picks/" class="dropdown-all">View All Best Picks →</a>
 </div>
+</div>
+<div class="dropdown">
+<a href="/guides/">Guides <span class="dropdown-arrow">▼</span></a>
+<div class="dropdown-content">
+<div class="dropdown-label">Sleep Guides</div>
+<a href="/best-baby-monitor-australia/">Baby Monitors</a>
+<a href="/best-baby-swaddle-australia/">Swaddles</a>
+<a href="/best-baby-white-noise-machine-australia/">White Noise</a>
+<a href="/guides/" class="dropdown-all">View All Guides →</a>
+</div>
+</div>
+<a href="/about/">About</a>
+<a href="/affiliate-disclosure/" class="nav-active nav-disclosure">Affiliate Disclosure</a>
 </nav>
+<button class="hamburger" onclick="var n=document.querySelector('.header-nav');if(n.style.display==='flex'){n.style.display='none'}else{n.style.display='flex';n.style.flexDirection='column';n.style.position='absolute';n.style.top='64px';n.style.left='0';n.style.right='0';n.style.background='#fff';n.style.padding='16px';n.style.boxShadow='0 8px 24px rgba(0,0,0,.1)'}">☰</button>
+</div>
+</header>
 
 <section class="page-header">
 <h1>Affiliate Disclosure</h1>
@@ -144,29 +184,9 @@ footer .footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:20p
 </div>
 
 <footer>
-<div class="footer-inner">
-<div class="footer-grid">
-<div>
-<span class="footer-col-heading">Emma's Sleep Advice</span>
-<p>Helping Australian bubs sleep better — honest advice from one tired mom to another.</p>
-</div>
-<div>
-<span class="footer-col-heading">Best Picks</span>
-<ul><li><a href="/#editors-choice">Best Mattress</a></li><li><a href="/#editors-choice">Best Swaddle</a></li><li><a href="/#editors-choice">Best White Noise</a></li><li><a href="/#editors-choice">Best Monitors</a></li></ul>
-</div>
-<div>
-<span class="footer-col-heading">Guides</span>
-<ul><li><a href="/#latest-guides">Newborn Sleep</a></li><li><a href="/#latest-guides">Baby Sleep</a></li><li><a href="/#latest-guides">Calming Tips</a></li><li><a href="/#latest-guides">View All →</a></li></ul>
-</div>
-<div>
-<span class="footer-col-heading">Company</span>
-<ul><li><a href="/about/">About Emma</a></li><li><a href="/contact/">Contact</a></li><li><a href="/affiliate-disclosure/">Affiliate Disclosure</a></li><li><a href="/privacy-policy/">Privacy Policy</a></li></ul>
-</div>
-</div>
-<div class="footer-bottom">
-<span>© 2026 Emma's Sleep Advice</span>
-<span>As an Amazon Associate, I earn from qualifying purchases.</span>
-</div>
+<div class="container">
+<p>© 2026 Emma's Sleep Advice. Australian-owned. Aussie mum-approved.</p>
+<p style="margin-top:6px"><a href="/privacy-policy/">Privacy</a> · <a href="/affiliate-disclosure/">Disclosure</a> · <a href="/about/">About Emma</a></p>
 </div>
 </footer>
 
