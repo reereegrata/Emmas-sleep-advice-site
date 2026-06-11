@@ -1,0 +1,20 @@
+# Credentials and secrets
+gsc_token.json
+gsc_credentials.json
+gsc_combined.json
+
+# Local development
+.env
+*.local
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
