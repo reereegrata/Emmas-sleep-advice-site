@@ -483,7 +483,7 @@ Previously unindexed pages that are now indexed:
 | Content: Sleep Regression Guide | **Done** | Published June 9, 2026. See section 12. |
 | Content: White Noise Pillar Expansion | **Done** | Expanded 6→9 products June 9. See section 12. |
 | Content: Room Temperature Guide | **Medium** | Google Trends avg 4, peak 100 — AU winter NOW (Jun-Aug) |
-| Content: Baby Sleep Training Guide | **Medium** | Google Trends avg 32, peak 100 — high sustained demand |
+| Content: Baby Sleep Training Guide | **In Progress** | Heading architecture approved June 11. SERP + Trends validated. Ready to write. |
 | Content: Baby Teething & Sleep Guide | **Medium** | Google Trends avg 79, peak 100 — year-round, July peak |
 | Content: Witching Hour Guide | Low | Trends avg 17, peak 85 — "what is witching hour" rising |
 | Content: Dream Feeding Guide | Low | Trends avg 2, peak 100 — niche but real spikes |
