@@ -502,3 +502,7 @@ Previously unindexed pages that are now indexed:
 6. **Schema:** Present on all pages. Do NOT add more types unless for new content.
 7. **Content text:** Do NOT re-optimize unless GSC shows >5 position drop.
 8. **Check this file FIRST** before any optimization suggestion.
+
+## 15. Agent Memory Archive
+
+Full Hermes agent memory + user profile backup saved to [MEMORY-ARCHIVE.md](./MEMORY-ARCHIVE.md) (June 11, 2026). Memory was cleared to free up space — this is the permanent reference.
