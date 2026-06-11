@@ -2,7 +2,7 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-06-09
+> Last updated: 2026-06-11
 
 ## 0. Google Knowledge Base — Saved Reference
 
@@ -356,6 +356,21 @@ New informational guide with no feature image yet (waiting for Kuya's desktop ag
 | SERP data source | Desktop agent SERP analysis (sleep-regression-serps.md reference) |
 | Google Trends validation | "4 month sleep regression" avg 62/100 AU, June-August peak demand |
 
+### 2026-06-11 — New Guide: Sleep Training Methods (Australia)
+
+New informational guide targeting "sleep training methods australia" keyword — fills the biggest Koray entity gap in Sleep Techniques.
+
+| Detail | Value |
+|--------|-------|
+| URL | `/guides/sleep-training-methods-australia/` |
+| Body words | ~1,480 |
+| H2 sections | 8 (What Is It, Ferber, Chair Method, Pick-Up-Put-Down, Fading, No-Cry, How to Choose, FAQs) |
+| Unique angle | Australian GP sleep training recommendations + Red Nose safe sleep |
+| FAQ Schema | 6 questions (age to start, Ferber vs chair method, fading overview, most effective, hours to check, starting older babies) |
+| Guides hub | Added "Sleep Training" section |
+| Sitemap | Added with priority 0.7 |
+| Koray framework gap | Sleep Techniques — Entity 3 (was ❌ Not covered, now ✅ Covered) |
+
 ### 2026-06-09 — White Noise Pillar Expansion: 6 → 9 Products
 
 Expanded from 6 to 9 products based on Amazon AU Best Seller + Baby Bunting research (via Desktop agent). Filled 2 key gaps: budget under $40 and plush toy category.
@@ -483,7 +498,7 @@ Previously unindexed pages that are now indexed:
 | Content: Sleep Regression Guide | **Done** | Published June 9, 2026. See section 12. |
 | Content: White Noise Pillar Expansion | **Done** | Expanded 6→9 products June 9. See section 12. |
 | Content: Room Temperature Guide | **Medium** | Google Trends avg 4, peak 100 — AU winter NOW (Jun-Aug) |
-| Content: Baby Sleep Training Guide | **In Progress** | Heading architecture approved June 11. SERP + Trends validated. Ready to write. |
+| Content: Baby Sleep Training Guide | **Done** | Published June 11, 2026. See section 12. |
 | Content: Baby Teething & Sleep Guide | **Medium** | Google Trends avg 79, peak 100 — year-round, July peak |
 | Content: Witching Hour Guide | Low | Trends avg 17, peak 85 — "what is witching hour" rising |
 | Content: Dream Feeding Guide | Low | Trends avg 2, peak 100 — niche but real spikes |
@@ -494,7 +509,7 @@ Previously unindexed pages that are now indexed:
 
 ## 14. Optimization Rules (Over-Optimization Prevention)
 
-1. **One optimization pass per page per month** — unless critical bug (broken link, missing schema)
+| 1. **One optimization pass per page per month** — unless critical bug (broken link, missing schema)
 2. **Meta title:** Only trim if over 71 chars. Do NOT change content/topic.
 3. **OG tags:** Only fix if duplicate or missing. Do NOT change content.
 4. **Internal links:** Already 3-6 per guide. Do NOT add more.
