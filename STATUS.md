@@ -506,3 +506,15 @@ Previously unindexed pages that are now indexed:
 ## 15. Agent Memory Archive
 
 Full Hermes agent memory + user profile backup saved to [MEMORY-ARCHIVE.md](./MEMORY-ARCHIVE.md) (June 11, 2026). Memory was cleared to free up space — this is the permanent reference.
+
+## 16. Required Skills for Every SEO Task
+
+**Mandatory loading order for every SEO task (content, optimization, audit, etc.):**
+1. `seo-mastery-workflow` — base SEO workflow (stages, checklists, audit format)
+2. `google-seo-docs-master` — Google's official Search docs (rules, policies, technical)
+3. `koray-topical-authority-framework` — Koray's Topical Authority framework (QDP/QDH/QDS, entity mapping, siteFocusScore)
+
+These three are complementary layers, not alternatives:
+- Mastery Workflow = **the how** (process)
+- Google Docs = **the rules** (official policies)
+- Koray Framework = **the what and why** (content structure for topical authority)
