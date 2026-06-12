@@ -545,15 +545,15 @@ Full Hermes agent memory + user profile backup saved to [MEMORY-ARCHIVE.md](./ME
 
 ## 16. Tier 3 Progress
 
-Last updated: 2026-06-12 (v2 — Toddler Sleep complete)
+**✅ TIER 3 CLEARED — June 12, 2026**
 
-| Topic | Type | Trends | SERP | Ahrefs | Status |
-|:------|:----:|:------:|:----:|:------:|:------:|
-| Best Baby Cot Mattress AU | QDP | avg 80 ✅ | 2/10 AU, vacuum ✅ | Zero competitor pillar ✅ | **Promoted to Tier 2 (#8)** |
-| Toddler Sleep Guide (12-36mo) | QDP | avg 73 ✅ | 2/10 AU, zero commercial ✅ | raisingchildren 1,998 traffic, zero commercial ✅ | **Promoted to Tier 2 (#9)** |
-| Nap Transitions Guide | QDH (likely) | ❌ Pending | ❌ Pending | ❌ Pending | Last in Tier 3 |
+| Topic | Type | Trends | SERP | Ahrefs | Outcome |
+|:------|:----:|:------:|:----:|:------:|:--------|
+| Best Baby Cot Mattress AU | QDP | avg 80 ✅ | 2/10 AU, vacuum ✅ | Zero competitor pillar ✅ | → Tier 2 #8 |
+| Toddler Sleep Guide (12-36mo) | QDP | avg 73 ✅ | 2/10 AU, zero commercial ✅ | raisingchildren 1,998 traffic ✅ | → Tier 2 #9 |
+| Nap Transitions | QDH | "baby nap transitions" 0, "toddler dropping naps" 2 — dead | Not needed (QDH) | Not needed (QDH) | → Tier 4 (sections in Sleep Schedule + Toddler Sleep) |
 
-**Next action:** Nap Transitions Trends → Desktop agent. 1 cluster (nap transitions toddler + dropping naps toddler).
+**All 3 topics resolved. No Tier 3 remaining.** Topical map now has 9 Tier 1+2 topics ready for content + 14 Tier 4 side quests.
 
 ## 17. Required Skills for Every SEO Task
 

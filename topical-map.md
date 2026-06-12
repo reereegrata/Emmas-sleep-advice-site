@@ -1,6 +1,6 @@
 # Topical Map — Emma's Sleep Advice
 > Source of truth. Check this FIRST before writing any content.
-> Last updated: 2026-06-12 (v4 — Toddler Sleep promoted to Tier 2: Trends 73 ✅, SERP 2/10 AU ✅, Ahrefs 1,998 ✅)
+> Last updated: 2026-06-12 (v5 — Tier 3 cleared. Nap Transitions → Tier 4 QDH.)
 
 ---
 
@@ -17,7 +17,7 @@
 | Ahrefs CSV (ngala.com.au) | Sleep pages 16-25 traffic | ✅ Done |
 | Ahrefs CSV (thesleepteacher.com.au) | ~0 organic traffic | ✅ Done |
 | Desktop Agent Manual Audit | Initial competitor gap list | ✅ Done |
-| Google Trends (via Desktop Agent) | Baby sleep schedule avg 12 steady ✅; 6mo regression avg 6 ⚠️; Cot mattress avg 80 steady ✅; **Toddler sleep avg 73 steady ✅** | ✅ Done |
+| Google Trends (via Desktop Agent) | Baby sleep schedule avg 12 steady ✅; 6mo regression avg 6 ⚠️; Cot mattress avg 80 steady ✅; Toddler sleep avg 73 steady ✅; **Nap transitions: "baby nap transitions" 0, "toddler dropping naps" 2 — QDH ✅** | ✅ Done |
 | SERP Check (via Desktop Agent) | Baby sleep schedule — AI wants tables, US dominates; Sleeping bags — 50% camping intent; Cot mattress — 2/10 AU, zero dedicated competitor pillar ✅; **Toddler sleep — 2/10 AU, zero commercial ✅** | ✅ Done |
 
 ---
@@ -78,7 +78,7 @@
 | Newborn sleep (0-3mo) | QDH | RC Ahrefs 24 traffic; Low solo | **Tier 3** | Part of Sleep Schedule guide (age section) |
 | 6-9 Month sleep regression | **QDH** | Trends avg 6, 2 spikes/yr (Apr, Oct) | **Tier 4** | **Updated: QDH** — add section to 4-month regression guide, NOT standalone (Trends avg 6 < 10 threshold) |
 | **Teething & Baby Sleep** | **QDP** | **Trends avg 79, July peak ✅** | **Tier 2** | July timing — write before end of June | 
-| Nap transitions | QDH | RC + Desktop audit | **Tier 3** | ⏳ Needs Trends test; add to Sleep Schedule guide |
+| Nap transitions | QDH | Trends: "baby nap transitions" 0, "toddler dropping naps" 2 — dead keywords. Concept lives under broader topics. | **Tier 4** | Reclassified QDH. Baby nap transitions → Sleep Schedule guide. Toddler dropping naps → Toddler Sleep guide. |
 | Toddler sleep | QDP | Trends avg **73** steady ✅; SERP 2/10 AU, zero commercial ✅; Ahrefs: raisingchildren 1,998 traffic, zero commercial ✅ | **Tier 2** | All data complete — promote from Tier 3. Entity gap filled (12-36mo). |
 | Witching hour | QDH | Trends avg 17, peak 85 | **Tier 4** | Add to Sleep Schedule (newborn section) |
 
@@ -115,16 +115,18 @@
 | **8** | **Best Baby Cot Mattress AU** | **7/10** | **Sleep Products** | **QDP** | **Trends 80 avg ✅, SERP vacuum ✅, promoted from Tier 3** |
 | **9** | **Toddler Sleep Guide (12-36mo)** | **7.5/10** | **Sleep Stages** | **QDP** | **Trends 73 avg ✅, SERP 2/10 AU zero commercial ✅, Ahrefs 1,998 competitor traffic ✅** |
 
-### Tier 3 — Needs Trends Validation
+### Tier 3 — ✅ Cleared (June 12, 2026)
 
-| Rank | Topic | Entity | Type | What's Missing |
-|:----:|:------|:-------|:----:|:---------------|
-| 10 | Nap Transitions Guide | Sleep Stages | QDH | ❌ No Trends test yet |
+All 3 Tier 3 topics resolved:
+- Cot Mattress → Tier 2 #8
+- Toddler Sleep → Tier 2 #9
+- Nap Transitions → Tier 4 (QDH, sections in Sleep Schedule + Toddler Sleep guides)
 
 ### Tier 4 — QDH/QDS Low Effort (Side Quests)
 
 | Rank | Topic | Type | Where to Add |
 |:----:|:------|:----:|:-------------|
+| 10 | Nap Transitions | QDH | Baby naps → Sleep Schedule guide, Toddler naps → Toddler Sleep guide |
 | 11 | Dream Feeding | QDH | Sleep Training guide |
 | 12 | Drowsy But Awake | QDH | Sleep Schedule or Settling guide |
 | 13 | Phasing Out Sleep Habits | QDH | Sleep Training guide |
@@ -157,7 +159,7 @@
 | Week 8 | Best Baby Cot Mattress AU | QDP | ✅ Data complete — Trends 80 avg, SERP vacuum |
 | Week 9 | Toddler Sleep Guide (12-36mo) | QDP | ✅ Data complete — Trends 73 avg, SERP vacuum |
 
-> Tier 3 topics still needing Trends: Nap Transitions.
+> Tier 3 cleared — all topics promoted or reclassified.
 > Tier 4 side quests added in spare time between main articles.
 
 ---
