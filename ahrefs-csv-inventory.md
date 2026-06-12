@@ -1,6 +1,6 @@
 # Ahrefs CSV Inventory
 
-> Tracks all Ahrefs Top Pages CSV exports used for topical mapping.
+> Tracks all Ahrefs CSV exports used for Emma's Sleep Advice — Top Pages + Organic Keywords.
 > Last updated: 2026-06-12
 
 ---
@@ -9,7 +9,7 @@
 
 | Total CSVs | Competitors | Date Range |
 |:----------:|:-----------|:-----------|
-| 20 | 8 | June 12, 2026 (4 batches) |
+| **21** (20 on disk, 1 deleted) | 9 (8 Top Pages + 1 Organic Keywords) | June 1-12, 2026 |
 
 **CSV storage location:** `/opt/data/profiles/agentnyroh/cache/documents/`
 
@@ -27,6 +27,25 @@
 | 6 | karitane.com.au | 2 | 33 | Parenting support org |
 | 7 | ngala.com.au | 1 | 11 | Parenting support org |
 | 8 | thesleepteacher.com.au | 2 | 20 | Commercial sleep consultant |
+
+---
+
+## Batch 0 — June 1, 2026 (ProductReview.com.au — Organic Keywords)
+
+**CSV type:** Ahrefs Organic Keywords (NOT Top Pages)
+**File (deleted from disk):** `productreview_com_au_organic_keywords_subdo_2026_06_01_07_05_54.csv`
+**Status:** ❌ File deleted. Recoverable from session history only.
+
+Used for: Stage 1-2 of SEO Mastery Workflow — baby monitor keyword research for first pillar page.
+
+| Data Extracted | Detail |
+|:---------------|:-------|
+| Choice.com.au | Ranks #4.67 for "best baby monitor australia", 187 traffic/mo |
+| ProductReview.com.au | 26 traffic/mo for baby monitor keywords |
+| Keyword groups | 50+ keywords found: 18 long-tail commercial, 12 PAA-based, 7 competitor gap, 6 low competition, 5 local |
+| Intent | 30 commercial, 5 transactional, 8 informational |
+
+**Output:** First pillar page `/best-baby-monitor-australia/` with 6 products.
 
 ---
 
