@@ -383,8 +383,8 @@ Completed Phase 0 data gathering for entire site. 27 content gaps identified, or
 **Key outputs:**
 - `topical-map.md` — complete source of truth with all tiers, entities, schedule
 - `topical-mapping-checklist.md` — step-by-step process
-- Tier 1 (4 topics) + Tier 2 (3 topics) = **7 content ready to write** — all validated
-- Tier 3 (3 topics) needed Trends tests → Cot Mattress ✅ promoted to Tier 2, Toddler Sleep + Nap Transitions pending
+- Tier 1 (4 topics) + Tier 2 (5 topics) = **9 content ready to write** — all validated
+- Tier 3 (3 topics) needed Trends tests → Cot Mattress ✅ promoted to Tier 2, Toddler Sleep ✅ promoted to Tier 2, Nap Transitions pending
 - Tier 4 (13 side quests) — low-effort QDH/QDS to add as sections
 - 6-month sleep regression: validated Trends avg 6 → **QDH** (add to 4-month regression guide, not standalone)
 - Baby sleeping bags guide: SERP showed 50% camping intent → refined keyword to "baby sleeping bags australia"
