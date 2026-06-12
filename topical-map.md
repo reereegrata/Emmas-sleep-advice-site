@@ -1,6 +1,6 @@
 # Topical Map — Emma's Sleep Advice
 > Source of truth. Check this FIRST before writing any content.
-> Last updated: 2026-06-12 (v3 — Cot Mattress promoted to Tier 2 with Trends + SERP data)
+> Last updated: 2026-06-12 (v4 — Toddler Sleep promoted to Tier 2: Trends 73 ✅, SERP 2/10 AU ✅, Ahrefs 1,998 ✅)
 
 ---
 
@@ -17,8 +17,8 @@
 | Ahrefs CSV (ngala.com.au) | Sleep pages 16-25 traffic | ✅ Done |
 | Ahrefs CSV (thesleepteacher.com.au) | ~0 organic traffic | ✅ Done |
 | Desktop Agent Manual Audit | Initial competitor gap list | ✅ Done |
-| Google Trends (via Desktop Agent) | Baby sleep schedule avg 12 steady ✅; 6mo regression avg 6 ⚠️; **Cot mattress avg 80 steady ✅** | ✅ Done |
-| SERP Check (via Desktop Agent) | Baby sleep schedule — AI wants tables, US dominates; Sleeping bags — 50% camping intent; **Cot mattress — 2/10 AU, zero dedicated competitor pillar ✅** | ✅ Done |
+| Google Trends (via Desktop Agent) | Baby sleep schedule avg 12 steady ✅; 6mo regression avg 6 ⚠️; Cot mattress avg 80 steady ✅; **Toddler sleep avg 73 steady ✅** | ✅ Done |
+| SERP Check (via Desktop Agent) | Baby sleep schedule — AI wants tables, US dominates; Sleeping bags — 50% camping intent; Cot mattress — 2/10 AU, zero dedicated competitor pillar ✅; **Toddler sleep — 2/10 AU, zero commercial ✅** | ✅ Done |
 
 ---
 
@@ -79,7 +79,7 @@
 | 6-9 Month sleep regression | **QDH** | Trends avg 6, 2 spikes/yr (Apr, Oct) | **Tier 4** | **Updated: QDH** — add section to 4-month regression guide, NOT standalone (Trends avg 6 < 10 threshold) |
 | **Teething & Baby Sleep** | **QDP** | **Trends avg 79, July peak ✅** | **Tier 2** | July timing — write before end of June | 
 | Nap transitions | QDH | RC + Desktop audit | **Tier 3** | ⏳ Needs Trends test; add to Sleep Schedule guide |
-| Toddler sleep | QDP | RC + Desktop audit | **Tier 3** | ⏳ Needs Trends test |
+| Toddler sleep | QDP | Trends avg **73** steady ✅; SERP 2/10 AU, zero commercial ✅; Ahrefs: raisingchildren 1,998 traffic, zero commercial ✅ | **Tier 2** | All data complete — promote from Tier 3. Entity gap filled (12-36mo). |
 | Witching hour | QDH | Trends avg 17, peak 85 | **Tier 4** | Add to Sleep Schedule (newborn section) |
 
 ---
@@ -113,12 +113,12 @@
 | 6 | **Best Baby Sleep Sacks AU** | 6.5/10 | Sleep Products | QDP | 350/mo volume, pillar effort |
 | 7 | **Safe Sleep / SIDS Prevention Guide** | 6/10 | Sleep Safety | QDP | Comprehensive with Red Nose citations |
 | **8** | **Best Baby Cot Mattress AU** | **7/10** | **Sleep Products** | **QDP** | **Trends 80 avg ✅, SERP vacuum ✅, promoted from Tier 3** |
+| **9** | **Toddler Sleep Guide (12-36mo)** | **7.5/10** | **Sleep Stages** | **QDP** | **Trends 73 avg ✅, SERP 2/10 AU zero commercial ✅, Ahrefs 1,998 competitor traffic ✅** |
 
 ### Tier 3 — Needs Trends Validation
 
 | Rank | Topic | Entity | Type | What's Missing |
 |:----:|:------|:-------|:----:|:---------------|
-| 9 | Toddler Sleep Guide | Sleep Stages | QDP | ❌ No Trends test yet |
 | 10 | Nap Transitions Guide | Sleep Stages | QDH | ❌ No Trends test yet |
 
 ### Tier 4 — QDH/QDS Low Effort (Side Quests)
@@ -155,8 +155,9 @@
 | Week 6 | Best Baby Sleep Sacks AU | QDP | ✅ Ready — 350/mo volume |
 | Week 7 | Safe Sleep / SIDS Prevention Guide | QDP | ✅ Ready |
 | Week 8 | Best Baby Cot Mattress AU | QDP | ✅ Data complete — Trends 80 avg, SERP vacuum |
+| Week 9 | Toddler Sleep Guide (12-36mo) | QDP | ✅ Data complete — Trends 73 avg, SERP vacuum |
 
-> Tier 3 topics still needing Trends: Toddler Sleep, Nap Transitions.
+> Tier 3 topics still needing Trends: Nap Transitions.
 > Tier 4 side quests added in spare time between main articles.
 
 ---
@@ -169,9 +170,9 @@
 | Sleep Products | 3 | 0 | 2 (sleep sacks ✅, cot mattress ✅) |
 | Sleep Techniques | 5 | 1 (Sleep Training) | 2 (responsive settling added) |
 | Sleep Environments | 4 | 0 | 1 (room temp guide) |
-| Sleep Stages | 7 | 1 (4mo regression) | 3 (sleep schedule, teething added) |
+| Sleep Stages | 7 | 1 (4mo regression) | 4 (sleep schedule, teething added, **toddler sleep ✅**) |
 | AU Context | 3 | 0 | 0 |
-| **TOTAL** | **27** | **2** | **12 (8 new QDP + 4 remaining ⏳)** |
+| **TOTAL** | **27** | **2** | **13 (9 new QDP + 3 remaining ⏳)** |
 
 ---
 
