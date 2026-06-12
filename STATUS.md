@@ -328,7 +328,6 @@ Proposed future content, not yet prioritized:
 | Room Temperature for Baby Sleep | Guide | General | TOG ratings, Australian seasons |
 | 4-Month Sleep Regression Guide | Guide | General | Existing draft may need refresh |
 | Baby Nap Schedules by Age | Guide | General | Newborn → 12 months |
-| Best Baby Cot Mattress Australia | Pillar page | Cot/Mattress | New cluster — mentioned early in project |
 | Best Baby Sleep Sacks Australia | Pillar page | Swaddle/Sleep Sack | Could complement swaddle cluster |
 | How to Set Up Baby Monitor | Guide | Baby Monitor | Informational, fills out monitor cluster |
 | When to Stop Using Baby Monitor | Guide | Baby Monitor | Another monitor cluster fill |
@@ -385,7 +384,7 @@ Completed Phase 0 data gathering for entire site. 27 content gaps identified, or
 - `topical-map.md` — complete source of truth with all tiers, entities, schedule
 - `topical-mapping-checklist.md` — step-by-step process
 - Tier 1 (4 topics) + Tier 2 (3 topics) = **7 content ready to write** — all validated
-- Tier 3 (3 topics) needs Trends tests: Cot Mattress, Toddler Sleep, Nap Transitions
+- Tier 3 (3 topics) needed Trends tests → Cot Mattress ✅ promoted to Tier 2, Toddler Sleep + Nap Transitions pending
 - Tier 4 (13 side quests) — low-effort QDH/QDS to add as sections
 - 6-month sleep regression: validated Trends avg 6 → **QDH** (add to 4-month regression guide, not standalone)
 - Baby sleeping bags guide: SERP showed 50% camping intent → refined keyword to "baby sleeping bags australia"
@@ -544,7 +543,19 @@ Previously unindexed pages that are now indexed:
 
 Full Hermes agent memory + user profile backup saved to [MEMORY-ARCHIVE.md](./MEMORY-ARCHIVE.md) (June 11, 2026). Memory was cleared to free up space — this is the permanent reference.
 
-## 16. Required Skills for Every SEO Task
+## 16. Tier 3 Progress
+
+Last updated: 2026-06-12
+
+| Topic | Type | Trends | SERP | Status |
+|:------|:----:|:------:|:----:|:------:|
+| Best Baby Cot Mattress AU | QDP | avg 80 ✅ | 2/10 AU, vacuum ✅ | **Promoted to Tier 2 (#8)** |
+| Toddler Sleep Guide | QDP (likely) | ❌ Pending | ❌ Pending | Waiting for Desktop agent Trends test |
+| Nap Transitions Guide | QDH (likely) | ❌ Pending | ❌ Pending | Waiting for Toddler Sleep results first |
+
+**Next action:** kuya relays Toddler Sleep Trends task to Desktop agent. 1 cluster (toddler sleep + toddler bedtime AU). If passes (avg 10+), SERP check next. Nap Transitions follows in separate session.
+
+## 17. Required Skills for Every SEO Task
 
 **Mandatory loading order for every SEO task (content, optimization, audit, etc.):**
 1. `seo-mastery-workflow` — base SEO workflow (stages, checklists, audit format)
