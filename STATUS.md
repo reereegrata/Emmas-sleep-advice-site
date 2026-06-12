@@ -76,8 +76,11 @@ GIT_SSH_COMMAND="ssh -i /opt/data/.ssh/id_ed25519_emma -o IdentitiesOnly=yes" gi
 Homepage (/)
 ├── Best Picks Hub (/best-picks/)
 │   ├── 🏆 Best Baby Monitors AU (pillar)
-│   │   ├── How to Choose a Baby Monitor (guide)
-│   │   └── WiFi vs Non-WiFi Baby Monitor (guide)
+│   │   ├── How to Choose a Baby Monitor
+│   │   ├── WiFi vs Non-WiFi Baby Monitor
+│   │   ├── How to Set Up a Baby Monitor
+│   │   ├── Are Baby Monitors Worth It
+│   │   └── When to Stop Using a Baby Monitor
 │   ├── 🏆 Best White Noise Machines AU (pillar)
 │   │   ├── Noise Comparison: Brown vs White vs Pink (guide)
 │   │   ├── Does White Noise Help Baby Sleep (guide)
@@ -97,9 +100,10 @@ Homepage (/)
 
 | Cluster | Pillar Page | Guides | Status |
 |---------|-------------|--------|--------|
-| Baby Monitor | /best-baby-monitor-australia/ | 2 guides | ✅ Complete |
+| Baby Monitor | /best-baby-monitor-australia/ | 5 guides | ✅ Complete |
 | White Noise | /best-baby-white-noise-machine-australia/ | 4 guides | ✅ Complete |
 | Swaddle | /best-baby-swaddle-australia/ | 4 guides | ✅ Complete |
+| General | — | 2 guides (Sleep Training, 4-Month Regression) | ✅ Complete |
 
 ---
 
@@ -113,12 +117,15 @@ Homepage (/)
 | Best White Noise Machines | /best-baby-white-noise-machine-australia/ | ✅ Live |
 | Best Baby Swaddles | /best-baby-swaddle-australia/ | ✅ Live |
 
-### Informational Guides (12)
+### Informational Guides (15)
 
 | Page | Path | Cluster | Status |
 |------|------|---------|--------|
 | How to Choose a Baby Monitor | /guides/how-to-choose-baby-monitor/ | Baby Monitor | ✅ Live |
 | WiFi vs Non-WiFi Baby Monitor | /guides/wifi-vs-non-wifi-baby-monitor/ | Baby Monitor | ✅ Live |
+| How to Set Up a Baby Monitor | /guides/how-to-set-up-baby-monitor/ | Baby Monitor | ✅ Live |
+| Are Baby Monitors Worth It | /guides/are-baby-monitors-worth-it/ | Baby Monitor | ✅ Live |
+| When to Stop Using a Baby Monitor | /guides/when-to-stop-using-baby-monitor/ | Baby Monitor | ✅ Live |
 | Noise Comparison (Brown vs White vs Pink) | /guides/white-noise-vs-pink-noise-vs-brown-noise/ | White Noise | ✅ Live |
 | Does White Noise Help Baby Sleep | /guides/does-white-noise-help-baby-sleep/ | White Noise | ✅ Live |
 | White Noise Decibel Safety | /guides/white-noise-decibel-safety-babies/ | White Noise | ✅ Live |
@@ -127,6 +134,8 @@ Homepage (/)
 | Swaddle vs Sleep Sack | /guides/swaddle-vs-sleep-sack/ | Swaddle | ✅ Live |
 | When to Stop Swaddling | /guides/when-to-stop-swaddling-transition/ | Swaddle | ✅ Live |
 | TOG & Temperature Guide | /guides/swaddle-tog-temperature-guide/ | Swaddle | ✅ Live |
+| Sleep Training Methods | /guides/sleep-training-methods-australia/ | General | ✅ Live |
+| 4-Month Sleep Regression | /guides/4-month-sleep-regression-australia/ | General | ✅ Live |
 
 ### Hub Pages (2)
 
@@ -147,14 +156,14 @@ Homepage (/)
 
 ---
 
-### Full Page Inventory (24 HTML files)
+### Full Page Inventory (27 HTML files)
 
 **3 Product Pillars:** Best Baby Monitor (1,855w), Best Baby Swaddle (2,331w), Best White Noise Machine (2,357w)
-**12 Informational Guides:** 5 Monitor cluster, 4 White Noise cluster, 4 Swaddle cluster
+**15 Informational Guides:** 5 Monitor cluster, 4 White Noise cluster, 4 Swaddle cluster, 2 General
 **2 Hub Pages:** /guides/ (517w), /best-picks/ (285w)
 **5 Site Pages:** Homepage (1,584w), About (430w), Contact (224w), Privacy Policy (619w), Affiliate Disclosure (505w)
 **1 Utility:** Google Search Console verification file
-**23 public-facing pages** total
+**26 public-facing pages** total
 
 ---
 
@@ -168,6 +177,9 @@ Shows how many links each guide sends TO the pillar page:
 |-------|:---------------:|-------|
 | How to Choose a Baby Monitor | 4 | ✅ Within 3-6 range |
 | WiFi vs Non-WiFi | 4 | ✅ Within 3-6 range (was 9, optimized down) |
+| How to Set Up a Baby Monitor | — | Needs audit |
+| Are Baby Monitors Worth It | — | Needs audit |
+| When to Stop Using a Baby Monitor | — | Needs audit |
 
 ### White Noise Cluster
 
