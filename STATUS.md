@@ -545,15 +545,15 @@ Full Hermes agent memory + user profile backup saved to [MEMORY-ARCHIVE.md](./ME
 
 ## 16. Tier 3 Progress
 
-Last updated: 2026-06-12
+Last updated: 2026-06-12 (v2 — Toddler Sleep complete)
 
-| Topic | Type | Trends | SERP | Status |
-|:------|:----:|:------:|:----:|:------:|
-| Best Baby Cot Mattress AU | QDP | avg 80 ✅ | 2/10 AU, vacuum ✅ | **Promoted to Tier 2 (#8)** |
-| Toddler Sleep Guide | QDP (likely) | ❌ Pending | ❌ Pending | Waiting for Desktop agent Trends test |
-| Nap Transitions Guide | QDH (likely) | ❌ Pending | ❌ Pending | Waiting for Toddler Sleep results first |
+| Topic | Type | Trends | SERP | Ahrefs | Status |
+|:------|:----:|:------:|:----:|:------:|:------:|
+| Best Baby Cot Mattress AU | QDP | avg 80 ✅ | 2/10 AU, vacuum ✅ | Zero competitor pillar ✅ | **Promoted to Tier 2 (#8)** |
+| Toddler Sleep Guide (12-36mo) | QDP | avg 73 ✅ | 2/10 AU, zero commercial ✅ | raisingchildren 1,998 traffic, zero commercial ✅ | **Promoted to Tier 2 (#9)** |
+| Nap Transitions Guide | QDH (likely) | ❌ Pending | ❌ Pending | ❌ Pending | Last in Tier 3 |
 
-**Next action:** kuya relays Toddler Sleep Trends task to Desktop agent. 1 cluster (toddler sleep + toddler bedtime AU). If passes (avg 10+), SERP check next. Nap Transitions follows in separate session.
+**Next action:** Nap Transitions Trends → Desktop agent. 1 cluster (nap transitions toddler + dropping naps toddler).
 
 ## 17. Required Skills for Every SEO Task
 
