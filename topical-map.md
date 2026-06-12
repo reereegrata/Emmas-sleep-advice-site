@@ -1,6 +1,6 @@
 # Topical Map — Emma's Sleep Advice
 > Source of truth. Check this FIRST before writing any content.
-> Last updated: 2026-06-12 (v2 — with complete data)
+> Last updated: 2026-06-12 (v3 — Cot Mattress promoted to Tier 2 with Trends + SERP data)
 
 ---
 
@@ -17,8 +17,8 @@
 | Ahrefs CSV (ngala.com.au) | Sleep pages 16-25 traffic | ✅ Done |
 | Ahrefs CSV (thesleepteacher.com.au) | ~0 organic traffic | ✅ Done |
 | Desktop Agent Manual Audit | Initial competitor gap list | ✅ Done |
-| Google Trends (via Desktop Agent) | Baby sleep schedule avg 12 steady ✅; 6mo regression avg 6 ⚠️ | ✅ Done |
-| SERP Check (via Desktop Agent) | Baby sleep schedule — AI wants tables, US dominates; Sleeping bags — 50% camping intent | ✅ Done |
+| Google Trends (via Desktop Agent) | Baby sleep schedule avg 12 steady ✅; 6mo regression avg 6 ⚠️; **Cot mattress avg 80 steady ✅** | ✅ Done |
+| SERP Check (via Desktop Agent) | Baby sleep schedule — AI wants tables, US dominates; Sleeping bags — 50% camping intent; **Cot mattress — 2/10 AU, zero dedicated competitor pillar ✅** | ✅ Done |
 
 ---
 
@@ -40,7 +40,7 @@
 | Gap | Type | Data | Status | Notes |
 |:----|:---:|:-----|:------:|:------|
 | Best Baby Sleep Sacks AU | QDP | RN Ahrefs 88 traffic; keyword AU vol 350/mo ⚡ | **Tier 2** | Pillar page, similar to swaddle |
-| Best Baby Cot Mattress AU | QDP | Desktop audit gap | **Tier 3** | ⏳ Needs Trends test |
+| Best Baby Cot Mattress AU | QDP | Trends avg **80** steady ✅; SERP 2/10 AU ✅; PAA ✅; Zero competitor pillar ✅ | **Tier 2** | Strong data — promote from Tier 3. Safety intro + size guide + comparison + FAQ + AU retailers |
 | Room thermometers | QDH | Desktop audit gap | **Tier 4** | Add to Room Temperature guide |
 
 ---
@@ -112,12 +112,12 @@
 | 5 | **Teething & Baby Sleep** | 7/10 | Sleep Stages | QDP | Trends avg 79, July peak — write before end of June |
 | 6 | **Best Baby Sleep Sacks AU** | 6.5/10 | Sleep Products | QDP | 350/mo volume, pillar effort |
 | 7 | **Safe Sleep / SIDS Prevention Guide** | 6/10 | Sleep Safety | QDP | Comprehensive with Red Nose citations |
+| **8** | **Best Baby Cot Mattress AU** | **7/10** | **Sleep Products** | **QDP** | **Trends 80 avg ✅, SERP vacuum ✅, promoted from Tier 3** |
 
 ### Tier 3 — Needs Trends Validation
 
 | Rank | Topic | Entity | Type | What's Missing |
 |:----:|:------|:-------|:----:|:---------------|
-| 8 | Best Baby Cot Mattress AU | Sleep Products | QDP | ❌ No Trends test yet |
 | 9 | Toddler Sleep Guide | Sleep Stages | QDP | ❌ No Trends test yet |
 | 10 | Nap Transitions Guide | Sleep Stages | QDH | ❌ No Trends test yet |
 
@@ -154,8 +154,9 @@
 | Week 5 | Teething & Baby Sleep | QDP | ✅ Ready — July peak, write before end June |
 | Week 6 | Best Baby Sleep Sacks AU | QDP | ✅ Ready — 350/mo volume |
 | Week 7 | Safe Sleep / SIDS Prevention Guide | QDP | ✅ Ready |
+| Week 8 | Best Baby Cot Mattress AU | QDP | ✅ Data complete — Trends 80 avg, SERP vacuum |
 
-> Tier 3 topics (Cot Mattress, Toddler Sleep, Nap Transitions) added after Trends tests.
+> Tier 3 topics still needing Trends: Toddler Sleep, Nap Transitions.
 > Tier 4 side quests added in spare time between main articles.
 
 ---
@@ -165,12 +166,12 @@
 | Entity | Total Gaps | Now Covered | After 7 Weeks |
 |:-------|:---------:|:-----------:|:------------:|
 | Sleep Safety | 5 | 0 | 3 (baby sleeping bags, temp/dress, safe sleep) |
-| Sleep Products | 3 | 0 | 2 (sleep sacks, cot mattress pending) |
+| Sleep Products | 3 | 0 | 2 (sleep sacks ✅, cot mattress ✅) |
 | Sleep Techniques | 5 | 1 (Sleep Training) | 2 (responsive settling added) |
 | Sleep Environments | 4 | 0 | 1 (room temp guide) |
 | Sleep Stages | 7 | 1 (4mo regression) | 3 (sleep schedule, teething added) |
 | AU Context | 3 | 0 | 0 |
-| **TOTAL** | **27** | **2** | **11 (7 new QDP + 2 existing)** |
+| **TOTAL** | **27** | **2** | **12 (8 new QDP + 4 remaining ⏳)** |
 
 ---
 
