@@ -371,7 +371,29 @@ New informational guide targeting "sleep training methods australia" keyword —
 | Sitemap | Added with priority 0.7 |
 | Koray framework gap | Sleep Techniques — Entity 3 (was ❌ Not covered, now ✅ Covered) |
 
-### 2026-06-09 — White Noise Pillar Expansion: 6 → 9 Products
+### 2026-06-12 — Full Topical Mapping Phase 0 Complete
+
+Completed Phase 0 data gathering for entire site. 27 content gaps identified, organized by entity, validated with 3 skills (Mastery Workflow + Google SEO Docs + Koray Framework).
+
+**Data sources used:**
+- Ahrefs CSVs: 8 competitors (raisingchildren, rednose, pregnancybirthbaby, tresillian, betterhealth, karitane, ngala, thesleepteacher)
+- Desktop agent: Manual audit, Google Trends, SERP checks
+- Koray entity-attribute framework: 6 entities, QDP/QDH/QDS classification
+- Google SEO Docs: Technical compliance check
+
+**Key outputs:**
+- `topical-map.md` — complete source of truth with all tiers, entities, schedule
+- `topical-mapping-checklist.md` — step-by-step process
+- Tier 1 (4 topics) + Tier 2 (3 topics) = **7 content ready to write** — all validated
+- Tier 3 (3 topics) needs Trends tests: Cot Mattress, Toddler Sleep, Nap Transitions
+- Tier 4 (13 side quests) — low-effort QDH/QDS to add as sections
+- 6-month sleep regression: validated Trends avg 6 → **QDH** (add to 4-month regression guide, not standalone)
+- Baby sleeping bags guide: SERP showed 50% camping intent → refined keyword to "baby sleeping bags australia"
+- All topics passed: entity check ✅, QDP classification ✅, siteFocusScore ✅, template match ✅, Google rules ✅
+
+**Repo files added:**
+- `topical-map.md` — source of truth (v2, 18592c7)
+- `topical-mapping-checklist.md` — step-by-step checklist
 
 Expanded from 6 to 9 products based on Amazon AU Best Seller + Baby Bunting research (via Desktop agent). Filled 2 key gaps: budget under $40 and plush toy category.
 
