@@ -6,20 +6,26 @@ Map all content gaps first (data-driven), then execute. No guessing, no hula.
 ---
 
 ## Step 1: Google Trends Validation (1 cluster per session)
-- [ ] Room Temperature & Baby Sleep (AU) — partial data: avg 4, peak 100 June-Aug
-- [ ] Baby Teething & Sleep (AU) — partial data: avg 79, July peak
-- [ ] Newborn Sleep 0-3 Months (AU) — no data yet
-- [ ] Best Baby Cot Mattress Australia — no data yet
-- [ ] Best Baby Sleep Sacks Australia — no data yet
-- [ ] 6-9 Month Sleep Regression (AU) — no data yet
-- [ ] Toddler Sleep Guide (AU) — no data yet
-- [ ] Nap Transitions / Nap Schedules (AU) — no data yet
-- [ ] Dream Feeding (AU) — no data yet
-- [ ] Witching Hour (AU) — partial data: avg 17, peak 85
-- [ ] Room Sharing / Co-sleeping Safety (AU) — no data yet
-- [ ] Blackout Curtains Baby Sleep (AU) — no data yet
-- [ ] Baby Sleep Position Safety (AU) — no data yet
-- [ ] Secondhand Cot Safety (AU) — no data yet
+> Last updated: 2026-06-16
+
+### ✅ Validated (Trends + SERP done)
+- [x] Baby Sleep Schedule by Age (AU) — avg 12 steady, AU vol 600/mo ✅
+- [x] Baby Sleeping Bags Guide (AU) — Ahrefs 350/mo, SERP done, keyword refined ✅
+- [x] Room Temperature & Baby Sleep (AU) — avg 4, peak 100 June-Aug ✅
+- [x] Responsive Settling Techniques (AU) — Ahrefs 150/mo, RC 107+51 traffic ✅
+- [x] Baby Teething & Sleep (AU) — avg 79, July peak ✅
+- [x] Best Baby Cot Mattress Australia — avg 80 steady, SERP vacuum ✅
+- [x] Toddler Sleep Guide (AU) — avg 73 steady, SERP 2/10 AU ✅
+- [x] 6-9 Month Sleep Regression (AU) — avg 6 → QDH (section in 4mo regression guide) ✅
+- [x] Nap Transitions (AU) — 0 on "baby nap transitions", 2 on "toddler dropping naps" → QDH ✅
+- [x] Witching Hour (AU) — avg 17, peak 85 → Tier 4 QDH ✅
+
+### ⚠️ Partial Data — Still Need Desktop Agent
+- [ ] Best Baby Sleep Sacks AU (Tier 2 #6) — Ahrefs only, no Trends/SERP
+- [ ] Safe Sleep / SIDS Prevention (Tier 2 #7) — concept + Ahrefs only, no Trends/SERP
+
+### ❌ Tier 4 QDH/QDS — Low priority, no Trends needed
+- [ ] Dream Feeding / Room Sharing / Blackout Curtains / Baby Sleep Position / Secondhand Cot Safety — sections only, not standalone pages
 
 ## Step 2: Desktop Agent → Competitor Topical Audit (Ahrefs)
 - [ ] Identify top 10 competitors for "baby sleep australia"
