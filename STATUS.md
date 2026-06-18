@@ -32,11 +32,16 @@ All Google Search docs knowledge consolidated into skill `google-seo-docs-master
 | Repo | github.com/reereegrata/Emmas-sleep-advice-site |
 | Deploy key | /opt/data/.ssh/id_ed25519_emma |
 | Tech | Static HTML/CSS (no frameworks, no CMS) |
+| Last updated | 2026-06-18 |
 | Niche | Baby sleep advice — Australian audience |
 | Brand | Emma (personal brand, Australian mum) |
 | Colors | Purple #5B4B8A, Pink #E8758A |
 | Font | Poppins |
 | Affiliate | Amazon AU (not yet applied), direct AU brands later |
+| GEO Score | **69/100** (Good) — homepage. All 20 pages in green zone (66-70). |
+| GEO Skill | `geo-optimizer` — installed at `scripts/geo_venv/`. Run `geo audit --url <url>` |
+| AI Content Structure | `emmas-site-guide-building` → Step 4. Reference: `references/ai-optimized-content-structure.md` |
+
 
 ### Hermes Setup (for this server)
 
