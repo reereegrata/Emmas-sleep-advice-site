@@ -36,6 +36,72 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Emma's Sleep Advice",
+  "url": "https://emmassleepadvice.com/",
+  "logo": "https://emmassleepadvice.com/images/emma-avatar.webp",
+  "description": "Evidence-based baby sleep advice and honest product reviews for Australian parents.",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://emmassleepadvice.com/contact/"
+  },
+  "sameAs": [
+    "https://emmassleepadvice.com/about/"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best baby monitor in Australia?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Nooie Baby Monitor 360 is our top pick for 2026 for its video quality, pan-tilt feature, and affordable price. See our full comparison for all 6 options."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best baby swaddle for Australian weather?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Love to Dream Swaddle Up is the most popular choice among Australian parents. For warmer climates, the ergoPouch Cocoon Swaddle Bag in 0.2 TOG is ideal for summer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is white noise safe for babies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, white noise is safe when used correctly. Keep the volume under 50 dB, place the machine at least 1 metre from the cot, and follow Red Nose Australia guidelines for safe sleep."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should I stop swaddling my baby?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Stop swaddling when your baby shows signs of rolling over, usually around 2-4 months. Transition to a sleep sack for safe sleep."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the 4-month sleep regression last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The 4-month sleep regression typically lasts 2-6 weeks. It's a permanent change in your baby's sleep cycles, not a phase they 'grow out of' — adjusting sleep habits helps."
+      }
+    }
+  ]
+}
+</script>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -315,7 +381,10 @@ body{
 
 /* ═══════════ 7. LATEST GUIDES (2×2) ═══════════ */
 .guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
-.guide-grid>.article-card:nth-child(n+5){display:none} /* homepage cap: 4 cards max */
+.guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-height:540px;overflow:hidden;position:relative}
+.guide-grid::after{content:'View All Guides →';display:block;grid-column:1/-1;text-align:center;padding:12px;color:var(--primary);font-weight:600;font-size:.85rem;cursor:pointer;text-decoration:underline}
+.guide-grid:target,.guide-grid:hover{max-height:none;overflow:visible}
+.guide-grid:target::after,.guide-grid:hover::after{display:none}
 .article-card{
   background:#fff;border:1px solid var(--border);border-radius:14px;
   overflow:hidden;transition:all .25s;text-decoration:none;display:flex;flex-direction:column;
