@@ -1,0 +1,26 @@
+# Emma's Sleep Advice — AI Crawler Permissions
+# https://emmassleepadvice.com/.well-known/ai.txt
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: Claude-SearchBot
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: Meta-ExternalAgent
+Allow: /

@@ -1,0 +1,19 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Emma's Sleep Advice",
+  "url": "https://emmassleepadvice.com",
+  "description": "Evidence-based baby sleep advice and honest product reviews for Australian parents. Real mum, honest reviews, better sleep.",
+  "dateModified": "2026-06-19",
+  "about": {
+    "@type": "Thing",
+    "name": "Baby Sleep",
+    "description": "Expert guides, product reviews, and safe sleep advice for Australian parents with babies 0-24 months."
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Emma's Sleep Advice",
+    "url": "https://emmassleepadvice.com",
+    "logo": "https://emmassleepadvice.com/images/emma-avatar.webp"
+  }
+}
