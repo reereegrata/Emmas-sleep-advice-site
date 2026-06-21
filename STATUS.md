@@ -2,7 +2,7 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-06-11
+> Last updated: 2026-06-20
 
 ## 0. Google Knowledge Base — Saved Reference
 
@@ -354,6 +354,20 @@ Proposed future content, not yet prioritized:
 
 ## 12. Optimization History
 
+### 2026-06-20 — June Content Pause + July Execution Plan
+
+**Decision:** No new pages for the rest of June. Site has 25 pages in under 1 month — Google needs time to calibrate. The two newest pages (Sleep Training + 4-Month Regression) just got indexed and have zero impressions.
+
+**July Plan (start July 1):**
+| Priority | Topic | Why |
+|:--------:|-------|-----|
+| #1 | Baby Sleep Schedule by Age (0-12mo) | 9.5/10 score. Most data-complete. Foundation guide. |
+| #2 | Teething & Baby Sleep | July peak — publish early July for Google to index before peak |
+
+**GSC Check (June 20):** 25/25 pages "Submitted and indexed" via URL Inspection API. 23/25 appearing in GSC search data. 2 newest at 0 impressions (normal for fresh index).
+
+**Remaining queue:** 7 of 9 Tier 1+2 topics still to write. See topical-map.md for full priority.
+
 ### 2026-06-09 — New Guide: 4-Month Sleep Regression Australia 🆕
 
 New informational guide with no feature image yet (waiting for Kuya's desktop agent for Unsplash sourcing).
@@ -526,22 +540,19 @@ Previously unindexed pages that are now indexed:
 
 ---
 
-## 13. What's NOT Yet Done
+## 13. What's NOT Yet Done + July Plan
 
 | Task | Priority | Notes |
 |------|:--------:|-------|
 | Amazon AU affiliate account | **High** | Need to apply — no affiliate links active yet |
-| All 23 pages indexed | **Done** | Confirmed via API + site:search June 9. See section 12. |
+| All 25 pages indexed | **Done** | Confirmed via URL Inspection API June 20. 25/25 "Submitted and indexed." |
 | Google Analytics | **Done** | GA4 set up Jun 9 — G-L1KN4L71L9 on all 24 pages |
-| Content: Sleep Regression Guide | **Done** | Published June 9, 2026. See section 12. |
-| Content: White Noise Pillar Expansion | **Done** | Expanded 6→9 products June 9. See section 12. |
-| Content: Room Temperature Guide | **Medium** | Google Trends avg 4, peak 100 — AU winter NOW (Jun-Aug) |
-| Content: Baby Sleep Training Guide | **Done** | Published June 11, 2026. See section 12. |
-| Content: Baby Teething & Sleep Guide | **Medium** | Google Trends avg 79, peak 100 — year-round, July peak |
-| Content: Witching Hour Guide | Low | Trends avg 17, peak 85 — "what is witching hour" rising |
-| Content: Dream Feeding Guide | Low | Trends avg 2, peak 100 — niche but real spikes |
-| Content: Nap Schedules Guide | Low | New content idea |
+| **NO NEW PAGES — June pause** | **Decision** | 25 pages in 1 month is enough. Let Google calibrate. Resume July. |
+| Content: Baby Sleep Schedule (0-12mo) | **#1 July** | 9.5/10 score. Foundation guide. Start July 1. |
+| Content: Teething & Baby Sleep | **#2 July** | July peak. Publish early July. |
+| Content: Room Temperature Guide | **After** | Winter peak Jun-Aug — still time |
 | Stage 5: Off-Page SEO | Low | Too early for link building (site is new) |
+| June content pause | **Active** | No new pages until July. See Section 12. |
 
 ---
 
