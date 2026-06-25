@@ -37,6 +37,10 @@
 ### Desktop Agent SERP Tasks
 1. [serp-task-prompt-template.md](serp-task-prompt-template.md) — Template for sending structured SERP tasks to Kuya's Desktop agent
 
+### Skills Setup & Image Workflow
+1. [../SKILLS-SETUP.md](../SKILLS-SETUP.md) — Which Hermes skills to install + exact commands
+2. [IMAGE-WORKFLOW.md](IMAGE-WORKFLOW.md) — Who handles images and how (Desktop vs Telegram agent tools)
+
 ### Homepage Updates
 1. [homepage-latest-section.md](homepage-latest-section.md) — Updating the "Latest Guides" section
 2. [homepage-start-here-section.md](homepage-start-here-section.md) — The "Start Here" section pattern
