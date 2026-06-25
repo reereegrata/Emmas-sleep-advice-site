@@ -71,6 +71,8 @@ From `topical-map.md` — 9 topics validated with Trends + Ahrefs + SERP data:
 
 **Schedule rule:** 1 topic per week, 2 uploads max per week. Gather all data FIRST before writing.
 
+> **For the COMPLETE project plan (all phases, monetization, multi-site strategy):** read `ROADMAP.md`
+
 ---
 
 ## 5. Mandatory Rules (Do NOT Skip Any of These)
