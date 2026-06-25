@@ -2,7 +2,7 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-06-20
+> Last updated: 2026-06-25
 
 ## 0. Google Knowledge Base — Saved Reference
 
@@ -582,6 +582,27 @@ Full Hermes agent memory + user profile backup saved to [MEMORY-ARCHIVE.md](./ME
 | Nap Transitions | QDH | "baby nap transitions" 0, "toddler dropping naps" 2 — dead | Not needed (QDH) | Not needed (QDH) | → Tier 4 (sections in Sleep Schedule + Toddler Sleep) |
 
 **All 3 topics resolved. No Tier 3 remaining.** Topical map now has 9 Tier 1+2 topics ready for content + 14 Tier 4 side quests.
+
+### 2026-06-25 — Desktop Agent Onboarding: docs/ + ONBOARD.md
+
+Onboard package for Kuya's Hermes Desktop agent so it can work on emmassleepadvice.com independently:
+- `ONBOARD.md` — comprehensive onboarding document in repo root (site identity, rules, setup, workflow)
+- `docs/` directory — 19 files copied from `emmas-site-guide-building` skill:
+  - Complete 14-step site building workflow (SKILL.md)
+  - Pillar page pipeline (7 phases: build → audit → publish)
+  - AI-optimized content structure template
+  - Google Trends workflow + content discovery + rate-limit pitfall
+  - Inline CSS requirement (critical bug prevention)
+  - Image sourcing, git auth, GA4 setup, homepage patterns
+  - Desktop agent SERP task prompt template
+  - Automated pillar audit checklist script
+- `docs/INDEX.md` — roadmap: which doc to read for which task
+
+**Purpose:** Desktop agent can now clone the repo and read `/docs/INDEX.md` → get full parity with Telegram agent's workflow knowledge. No more guessing or asking "how do I do X on Emma's site?"
+
+No site pages changed. Documentation only.
+
+---
 
 ## 17. Required Skills for Every SEO Task
 
