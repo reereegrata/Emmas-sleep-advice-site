@@ -2,7 +2,16 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-06-25
+> Last updated: 2026-07-02
+
+### 2026-07-02 -- SERP Analysis + Content Pipeline Update
+
+- SERP analysis completed for both Phase 1 drafts (keyword-research-agent, Jul 1)
+- Baby Sleep Schedule: 5 competitors deep-scanned, 9 gaps found
+- Teething & Baby Sleep: 3 competitors, 6 gaps, ZERO AU competitors
+- Both drafts ready for HTML conversion and publishing
+- Sea King: 7 H1 fix tasks created, RankMath installed, Off-Canvas deleted
+- Obsidian vault reorganized: Hub -> indexes -> sub-files, zero orphans
 
 ## 0. Google Knowledge Base — Saved Reference
 
@@ -122,7 +131,7 @@ Homepage (/)
 | Best White Noise Machines | /best-baby-white-noise-machine-australia/ | ✅ Live |
 | Best Baby Swaddles | /best-baby-swaddle-australia/ | ✅ Live |
 
-### Informational Guides (15)
+### Informational Guides (16)
 
 | Page | Path | Cluster | Status |
 |------|------|---------|--------|
@@ -141,6 +150,7 @@ Homepage (/)
 | TOG & Temperature Guide | /guides/swaddle-tog-temperature-guide/ | Swaddle | ✅ Live |
 | Sleep Training Methods | /guides/sleep-training-methods-australia/ | General | ✅ Live |
 | 4-Month Sleep Regression | /guides/4-month-sleep-regression-australia/ | General | ✅ Live |
+| Teething and Baby Sleep | /guides/teething-baby-sleep/ | General | ⏳ Draft built (2026-07-02) — awaiting Kuya review |
 
 ### Hub Pages (2)
 
@@ -161,14 +171,14 @@ Homepage (/)
 
 ---
 
-### Full Page Inventory (27 HTML files)
+### Full Page Inventory (28 HTML files)
 
 **3 Product Pillars:** Best Baby Monitor (1,855w), Best Baby Swaddle (2,331w), Best White Noise Machine (2,357w)
-**15 Informational Guides:** 5 Monitor cluster, 4 White Noise cluster, 4 Swaddle cluster, 2 General
+**16 Informational Guides:** 5 Monitor cluster, 4 White Noise cluster, 4 Swaddle cluster, 3 General
 **2 Hub Pages:** /guides/ (517w), /best-picks/ (285w)
 **5 Site Pages:** Homepage (1,584w), About (430w), Contact (224w), Privacy Policy (619w), Affiliate Disclosure (505w)
 **1 Utility:** Google Search Console verification file
-**26 public-facing pages** total
+**27 public-facing pages** total (+1 draft: teething guide)
 
 ---
 
@@ -353,6 +363,57 @@ Proposed future content, not yet prioritized:
 ---
 
 ## 12. Optimization History
+
+### 2026-07-02 — New Guide: Teething and Baby Sleep (Draft) 🆕
+
+New informational guide targeting "teething baby sleep australia" — Priority #2 from July content schedule.
+
+| Detail | Value |
+|--------|-------|
+| URL | `/guides/teething-baby-sleep/` |
+| Body words | ~1,500 |
+| H2 sections | 9 (Timeline, How Teething Wrecks Sleep, Red Nose Safe Sleep, 7 Settling Tips, Safe Products, Sleep Training, Ear Infections, FAQs, Bottom Line) |
+| FAQ Schema | 6 questions (sleep disruption, duration, extra sleep, safest remedy, Panadol nightly, sleeping position) |
+| Internal links | 5 (4-month regression, TOG guide, sleep training, white noise pillar, back to guides hub) |
+| Red Nose citations | 5 (safe sleep guidelines, winter overheating, cot safety, amber necklace warning, product warnings) |
+| Unique angle | Red Nose Australia + TGA-approved remedies combined — AU winter teething context no competitor covers |
+| Guides hub | Added to "Sleep Regression & Teething" section |
+| Sitemap | Added with priority 0.7 |
+| **⚠️ Pending** | Paracetamol/ibuprofen dosing needs verification against Raising Children Network. Feature image needs sourcing from Unsplash. Draft awaiting Kuya review — do NOT push. |
+
+### 2026-07-01 — Monthly Health Report (July 2026)
+
+**Overall Score: 83/100 (Good)**
+
+Automated site-wide scan (25 pages) cross-referenced with GSC data (Jun 29 pull).
+
+**Top findings:**
+- 12 pages have title tags over 60 characters (Google truncation risk)
+- 8 pages have meta descriptions over 160 characters
+- 6 pages have >20 GSC impressions with 0% CTR — need query-level investigation before touching titles
+- Zero missing OG tags, canonical tags, alt text, or H1 tags
+- Zero stale dateModified (oldest: 30 days)
+- Zero broken internal links detected
+
+**Low-CTR pages flagged (GSC: >20 imp, 0% CTR):**
+| Page | Imp | Pos |
+|------|----:|----:|
+| /guides/swaddle-tog-temperature-guide/ | 131 | 54.2 |
+| /guides/white-noise-vs-pink-noise-vs-brown-noise/ | 66 | 49.7 |
+| /guides/how-to-swaddle-a-baby/ | 43 | 46.7 |
+| /guides/how-to-wean-off-white-noise/ | 39 | 15.6 |
+| /guides/does-white-noise-help-baby-sleep/ | 38 | 18.0 |
+| /best-picks/ | 24 | 24.9 |
+
+**Pillar pages with low CTR:**
+- /best-baby-white-noise-machine-australia/ — 212 imp, 0.94% CTR
+- /best-baby-monitor-australia/ — 188 imp, 1.60% CTR
+
+**GEO Score:** 69/100. Target 80+. Schedule GEO audit for Phase 1 pages.
+
+**Recommendation:** No pushes without Kuya approval. Low-CTR pages need GSC query-level data before any title/meta changes. Full scan results at `reports/monthly/_scan_results.json`.
+
+Kanban card: `t_3f8c429b` (TRIAGE)
 
 ### 2026-06-20 — June Content Pause + July Execution Plan
 
