@@ -154,4 +154,9 @@
 <changefreq>yearly</changefreq>
 <priority>0.3</priority>
 </url>
+  <url>
+    <loc>https://emmasleepadvice.com/guides/safe-sleep-sids-prevention-australia/</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.80</priority>
+  </url>
 </urlset>
