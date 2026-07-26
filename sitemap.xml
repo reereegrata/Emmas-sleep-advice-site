@@ -117,14 +117,14 @@
 <!-- Sleep Training Guides -->
 <url>
 <loc>https://emmassleepadvice.com/guides/sleep-training-methods-australia/</loc>
-    <url>
-        <loc>https://emmassleepadvice.com/guides/responsive-settling-techniques-australia/</loc>
-        <lastmod>2026-07-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
+</url>
+<url>
+    <loc>https://emmassleepadvice.com/guides/responsive-settling-techniques-australia/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
 </url>
 
 <!-- Sleep Regression &amp; Teething Guides -->
@@ -161,7 +161,7 @@
 <priority>0.3</priority>
 </url>
   <url>
-    <loc>https://emmasleepadvice.com/guides/safe-sleep-sids-prevention-australia/</loc>
+    <loc>https://emmassleepadvice.com/guides/safe-sleep-sids-prevention-australia/</loc>
     <lastmod>2026-07-17</lastmod>
     <priority>0.80</priority>
   </url>
