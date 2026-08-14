@@ -18,16 +18,33 @@
 - [When to Stop Swaddling](https://emmassleepadvice.com/guides/when-to-stop-swaddling-transition/): Signs to stop, one-arm-out method, transitioning to sleep sacks, Red Nose Australia SIDS guidelines.
 - [TOG & Temperature Guide](https://emmassleepadvice.com/guides/swaddle-tog-temperature-guide/): Understand TOG ratings for Australian weather. What to wear, overheating signs, temperature chart.
 - [Swaddle vs Sleep Sack](https://emmassleepadvice.com/guides/swaddle-vs-sleep-sack/): Pros and cons, age-by-age guide, when to switch, AU$ cost comparison, Red Nose safety advice.
+- [Baby Sleeping Bags — TOG & Safety](https://emmassleepadvice.com/guides/baby-sleeping-bags-australia/): Red Nose safety-checked guide to sleeping bags in Australia. TOG ratings, sizing, age recommendations.
 
 ## 🔊 White Noise Guides
 - [How to Wean Baby Off White Noise](https://emmassleepadvice.com/guides/how-to-wean-off-white-noise/): Signs your baby is ready, step-by-step weaning plan, age-by-age approach, Red Nose Australia safety advice.
 - [White Noise Decibel Safety for Babies](https://emmassleepadvice.com/guides/white-noise-decibel-safety-babies/): Safe volume levels, distance vs. decibel table, volume recommendations by age, AAP and Red Nose Australia guidelines.
-- [White Noise vs Pink Noise vs Brown Noise](https://emmassleepadvice.com/guides/white-noise-vs-pink-noise-vs-brown-noise/): Differences explained, side-by-side comparison table, which noise colour works best for baby sleep, machine colour mapping.
+- [White Noise vs Pink Noise vs Brown Noise](https://emmassleepadvice.com/guides/white-noise-vs-pink-noise-vs-brown-noise/): Differences explained, side-by-side comparison table, which noise colour works best for baby sleep.
 - [Does White Noise Help Baby Sleep?](https://emmassleepadvice.com/guides/does-white-noise-help-baby-sleep/): Research evidence (Spencer 1990, AAP 2014), benefits and potential downsides, Red Nose Australia safe sleep guidelines.
 
-## 🌙 Sleep Stages & Teething
+## 🌙 Sleep Schedules by Age
 - [Baby Sleep Schedule by Age (0-12 Months)](https://emmassleepadvice.com/guides/baby-sleep-schedule-by-age/): Hourly schedules for newborn to 12 months, nap transitions, wake windows, Red Nose Australia safe sleep for every age.
-- [Teething and Baby Sleep](https://emmassleepadvice.com/guides/teething-baby-sleep/): Teething timeline, TGA-approved remedies, settling techniques, how to tell teething from an ear infection, Red Nose safe sleep.
+- [0–3 Month Sleep Schedule](https://emmassleepadvice.com/guides/0-3-month-sleep-schedule/): Newborn wake windows, routines, day/night confusion fixes.
+- [4–6 Month Sleep Schedule](https://emmassleepadvice.com/guides/4-6-month-sleep-schedule/): Wake windows, 4-month regression survival, 3-to-2 nap transition.
+- [7–9 Month Sleep Schedule](https://emmassleepadvice.com/guides/7-9-month-sleep-schedule/): Wake windows, 8-month regression, separation anxiety at bedtime.
+- [10–12 Month Sleep Schedule](https://emmassleepadvice.com/guides/10-12-month-sleep-schedule/): Wake windows, 11-month regression, 2-to-1 nap readiness.
+- [Toddler Sleep Guide (12–36 Months)](https://emmassleepadvice.com/guides/toddler-sleep/): Schedules, nap transitions, regressions, cot-to-bed transition, bedtime battles.
+
+## 💤 Sleep Regressions
+- [Baby Sleep Regressions by Age](https://emmassleepadvice.com/guides/baby-sleep-regressions/): Complete guide to every regression — signs, duration, survival tips.
+- [4-Month Sleep Regression](https://emmassleepadvice.com/guides/4-month-sleep-regression-australia/): Signs, how long it lasts, survival tips for Australian parents.
+- [6-Month Sleep Regression](https://emmassleepadvice.com/guides/6-month-sleep-regression-australia/): Signs, causes, and how long the 6-month regression lasts.
+
+## 🛏️ Safe Sleep & Settling
+- [Safe Sleep & SIDS Prevention](https://emmassleepadvice.com/guides/safe-sleep-sids-prevention-australia/): Red Nose Australia six SIDS prevention recommendations, safe cot setup, room sharing.
+- [Baby Room Temperature](https://emmassleepadvice.com/guides/room-temperature-baby-sleep-australia/): Safe room temperature, dressing tips by age and season.
+- [Responsive Settling Techniques](https://emmassleepadvice.com/guides/responsive-settling-techniques-australia/): Step-by-step gentle settling for Australian parents.
+- [Sleep Training Methods](https://emmassleepadvice.com/guides/sleep-training-methods-australia/): Gentle to graduated techniques for Australian families.
+- [Teething and Baby Sleep](https://emmassleepadvice.com/guides/teething-baby-sleep/): Teething timeline, TGA-approved remedies, settling techniques.
 
 ## 👩‍👧 About
 - [About Emma](https://emmassleepadvice.com/about/): The Australian mum behind Emma's Sleep Advice. No sponsors, no fake reviews — just honest advice from one tired mum to another.

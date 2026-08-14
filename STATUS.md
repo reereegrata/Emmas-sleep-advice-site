@@ -2,7 +2,18 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-07-02
+> Last updated: 2026-07-28
+
+### 2026-07-28 — QDH: Baby Sleep Cycles H2 Added to Schedule Hub
+
+- **Page:** `/guides/baby-sleep-schedule-by-age/`
+- **Section:** `<h2 id="baby-sleep-cycles">Baby Sleep Cycles Explained — REM, Deep Sleep and Your Baby</h2>`
+- **Words:** ~395
+- **Position:** After H2 #1 ("How Baby Sleep Changes in the First Year"), before H2 #2 ("Newborn Sleep Schedule: 0–3 Months")
+- **Internal links:** `/guides/sleep-training-methods-australia/` (self-settle), `/guides/4-month-sleep-regression-australia/` (regression tied to cycle maturation)
+- **Cited:** Raising Children Network, Tresillian
+- **Verified:** `grep -c 'baby-sleep-cycles'` → 1, total H2s → 9
+- **PG updated:** content.word_count (3780→4175), daily_log entry, pipeline_stages Stage 4 summary
 
 ### 2026-07-02 -- SERP Analysis + Content Pipeline Update
 
