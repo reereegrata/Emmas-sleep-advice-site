@@ -2,7 +2,38 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-07-28
+> Last updated: 2026-08-14
+
+### 2026-08-14 — Full SEO+GEO Remediation (Batches A/B/C/D)
+
+**Context:** 2-month audit complete. Site: 2 clicks / 3,261 impressions, 11 core pages "Discovered - currently not indexed" (new-site trust gate, not technical fault).
+
+**Batch A — Technical:**
+- Fixed corrupted `@context` schema on `/guides/toddler-sleep/` (3 JSON-LD blocks: `https://***@type` → `https://schema.org`)
+- Repointed 7 broken links `/best-baby-sleep-sacks-australia/` (404) → `/best-baby-swaddle-australia/`
+- Rebuilt llms.txt: 19 → 32 URLs
+- Added 11 homepage cards for unindexed guides
+- Sitemap lastmod 11 → 38/38 + resubmitted
+- GSC inspection: all 11 pages "Discovered - currently not indexed" (sitemap present, not blocked)
+
+**Batch D — Cannibalization:**
+- Monitor guide: dropped "Buying Guide" (transactional) → "(2026 Guide)"; collapsed "Where to Buy" → pillar link. Locks informational intent.
+- Schedule hub: 4 age sections 438-549w → 74-89w summaries + link out (hands query ownership to age pages)
+
+**Batch C — GEO authority links:**
+- Red Nose Australia `.org.au` link added to 4 schedule pages + 6-month regression + schedule hub
+- toddler-sleep: Red Nose + Sleep Health Foundation links
+- Left health.gov.au immunisation link (on-topic SIDS factor — agent was wrong to flag it)
+
+**Batch B — Meta + readability:**
+- 14 titles ≤60 chars, 9 descs ≤160 (rendered); "Australia" geo signal folded in
+- Em-dash humanizer: 1035 em-dashes across 35 pages → colons/commas (context-aware)
+
+**Pending (deferred per Kuya):**
+- Word-count trims (4 over-ceiling pages: teething, room-temp, 4-month-regression, white-noise pillar)
+- Off-page authority build (Batch E) — the indexation unlock
+
+**Indexation status (2026-08-14):** waiting on Google. Monitoring via cron. Expected days-weeks for a 2-month-old low-authority site.
 
 ### 2026-07-28 — QDH: Baby Sleep Cycles H2 Added to Schedule Hub
 
