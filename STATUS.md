@@ -2,7 +2,23 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-08-14
+> Last updated: 2026-08-26
+
+### 2026-08-26 — Live Audit + Internal Link Hygiene Fix
+
+**Context:** Pulled LIVE GSC + crawled the deployed site (not the local checkout) to check current state and verify the internal-link structure.
+
+**Live GSC (28-day, Jul 29 - Aug 26):** 1 click / 1,412 impressions / avg position 67.2 / 403 queries / 26 pages with data.
+
+**Indexation (live URL Inspection):** 26 "Submitted and indexed", 11 "Discovered - currently not indexed", 1 "Crawled - currently not indexed" (`does-white-noise-help-baby-sleep`). The 11 stuck pages are all Phase 1 Tier 1/2 content: 4 schedule spokes, toddler-sleep, baby-sleep-regressions, 6-month regression, safe-sleep, room-temperature, sleeping-bags, responsive-settling.
+
+**Live internal-link crawl:** 38 pages, all HTTP 200, zero true orphans. Every one of the 11 stuck pages already had a homepage link AND a hub link. Conclusion: internal linking was already well structured; the indexation block is the new-site trust gate (authority), not crawl paths.
+
+**Fix (commit `eca653e`, deployed + verified live):**
+- Contact added to global footer on 36 pages (was orphaned: 3 → 37 inlinks).
+- Regression pillar linked from 4-month regression guide + schedule hub (3 → 5 inlinks).
+
+**Strategic conclusion:** Phase 1 content is effectively complete (7 of 9 Tier 1+2 topics live; 2 product pillars remain: Best Baby Sleep Sacks AU + Best Baby Cot Mattress AU). The binding constraint is now off-page authority (Batch E), not content or internal links. Amazon AU Associates application is still the #1 human blocker (monetization).
 
 ### 2026-08-14 — Full SEO+GEO Remediation (Batches A/B/C/D)
 
