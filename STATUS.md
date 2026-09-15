@@ -2,7 +2,27 @@
 
 > Central reference for everything on the site.
 > Check this FIRST before suggesting changes, adding content, or running optimizations.
-> Last updated: 2026-08-26
+> Last updated: 2026-09-15
+
+### 2026-09-15 — Homepage "Latest from Emma": trim 22 cards to 4 + grid nesting fix
+
+**Context:** The `#latest-guides` shelf on `/` had grown to 22 guide cards. Kuya approved trimming it to the 4 newest posts and repairing the section markup.
+
+**Two defects fixed in one edit (commit on `main`, deployed via GitHub Pages):**
+
+1. **Trim (22 -> 4 cards).** The shelf now shows the 4 newest posts by `datePublished`, newest first:
+   - `/guides/baby-sleep-regressions/` (2026-08-11)
+   - `/guides/6-month-sleep-regression-australia/` (2026-08-03)
+   - `/guides/0-3-month-sleep-schedule/` (2026-07-25)
+   - `/guides/7-9-month-sleep-schedule/` (2026-07-25)
+   Card markup reused verbatim: same title, description, image and alt. No new copy. 18 pages lost their homepage card and keep hub links only (approved; no replacement block, no extra cross-links, no sitemap `lastmod` bump).
+2. **Nesting fix.** `.guide-grid` closed after card 11, so cards 12 to 22 were stray siblings of the grid inside `.container` and rendered stacked full width instead of in the 2-column layout. The section is now `.container > [.text-center, .guide-grid (4 cards), .view-all-wrap]`. `.view-all-wrap` stays a direct child of `.container` (not moved into the grid).
+
+**Dead CSS removed** from the inline `<style>` (4 rule groups): the second `.guide-grid{...;max-height:540px;overflow:hidden;position:relative}`, `.guide-grid::after{content:'View All Guides ...'}`, `.guide-grid:target,.guide-grid:hover{max-height:none;overflow:visible}`, `.guide-grid:target::after,.guide-grid:hover::after{display:none}`. The base 2-column `.guide-grid` rule and both mobile 1-column overrides are kept. The `::after` rule was injecting a fake, non-focusable duplicate of the real `.view-all-btn`.
+
+**Verification:** local DOM parse confirms exactly 4 `.article-card` anchors inside one `.guide-grid`, zero stray cards, `.view-all-wrap` intact, whole document tag-balanced, 0 occurrences of `max-height:540px` and of the `::after` content string. Live raw-HTML fetch of `https://emmassleepadvice.com/` re-checked after the Pages deploy.
+
+**Policy:** `docs/homepage-latest-section.md` rewritten. New policy = 4 newest by `datePublished`; tie-break = (1) cluster/intent spread, (2) fewest inbound internal links, (3) most recent sitemap `lastmod`. Rotation happens inside content-publish tasks, no automation. The June 2026 "9 cards, rotate by GSC clicks" policy is marked SUPERSEDED there.
 
 ### 2026-08-26 — Live Audit + Internal Link Hygiene Fix
 

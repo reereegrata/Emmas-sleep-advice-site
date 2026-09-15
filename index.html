@@ -392,10 +392,6 @@ body{
 
 /* ═══════════ 7. LATEST GUIDES (2×2) ═══════════ */
 .guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
-.guide-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-height:540px;overflow:hidden;position:relative}
-.guide-grid::after{content:'View All Guides →';display:block;grid-column:1/-1;text-align:center;padding:12px;color:var(--primary);font-weight:600;font-size:.85rem;cursor:pointer;text-decoration:underline}
-.guide-grid:target,.guide-grid:hover{max-height:none;overflow:visible}
-.guide-grid:target::after,.guide-grid:hover::after{display:none}
 .article-card{
   background:#fff;border:1px solid var(--border);border-radius:14px;
   overflow:hidden;transition:all .25s;text-decoration:none;display:flex;flex-direction:column;
@@ -865,139 +861,12 @@ The ideal baby room temperature is <strong>18-22°C</strong>. Australian summers
 <p class="section-sub">Fresh sleep guides and honest product comparisons: written for real Australian parents.</p>
 </div>
 <div class="guide-grid">
-<a href="/guides/how-to-choose-baby-monitor/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-choose-monitor.webp" alt="How to Choose a Baby Monitor in Australia" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
+<a href="/guides/baby-sleep-regressions/" class="article-card">
+<div class="card-img guides-bg"><img src="/images/guide-sleep-regressions.webp" alt="Baby sleep regressions by age: complete survival guide" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
 <div class="card-body">
-<div class="cat-tag guides">Buying Guide</div>
-<h3>How to Choose a Baby Monitor in Australia</h3>
-<p>WiFi vs non-WiFi, video vs audio, range, night vision, and which features actually matter for Aussie families.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/wifi-vs-non-wifi-baby-monitor/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-wifi-vs-nonwifi.webp" alt="WiFi vs Non-WiFi baby monitor comparison guide" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Comparison Guide</div>
-<h3>WiFi vs Non-WiFi Baby Monitor</h3>
-<p>Security, range, cost, and ease of use. Which type is right for your family?</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/when-to-stop-using-baby-monitor/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-when-to-stop.webp" alt="When to stop using a baby monitor guide" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Parenting Guide</div>
-<h3>When to Stop Using a Baby Monitor</h3>
-<p>Signs your child is ready, what Red Nose Australia says, and what to use instead.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/are-baby-monitors-worth-it/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-are-monitors-worth-it.webp" alt="Are baby monitors worth it: cost vs peace of mind" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Decision Guide</div>
-<h3>Are Baby Monitors Worth It?</h3>
-<p>Real costs, genuine benefits, and when you can comfortably save your money.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/how-to-set-up-baby-monitor/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-how-to-set-up.webp" alt="How to set up a baby monitor: step by step" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Setup Guide</div>
-<h3>How to Set Up a Baby Monitor</h3>
-<p>Camera placement, cord safety, WiFi and non-WiFi setup: get it right first time.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/best-baby-monitor-australia/" class="article-card">
-  <div class="card-img reviews-bg"><img src="/images/monitor-article-card.webp" alt="Nooie and Lionelo baby monitors side by side comparison" width="600" height="300" loading="lazy"></div>
-  <div class="card-body">
-    <div class="cat-tag reviews">Comparison</div>
-    <h3>6 Best Baby Monitors Australia 2026</h3>
-    <p>We compared 6 top baby monitors from ~AU$30 to AU$449. Nooie, Cubo AI, Eufy, Lollipop, Uniden, and VTech: honest reviews for Aussie parents.</p>
-    <div class="card-footer">Read Full Review →</div>
-  </div>
-</a>
-<a href="/guides/how-to-swaddle-a-baby/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-how-to-swaddle.webp" alt="How to swaddle a newborn baby: step-by-step guide" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="572"></div>
-<div class="card-body">
-<div class="cat-tag guides">How-To Guide</div>
-<h3>How to Swaddle a Baby: Safe Step-by-Step</h3>
-<p>Red Nose Australia approved swaddling techniques. Arms up vs down, common mistakes, and safety checklist for newborns.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/when-to-stop-swaddling-transition/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-stop-swaddling-1.webp" alt="When to stop swaddling and transition safely" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="600" height="800"></div>
-<div class="card-body">
-<div class="cat-tag guides">Transition Guide</div>
-<h3>When to Stop Swaddling: Transition Guide</h3>
-<p>When to stop, how to transition arms-out safely, switching to sleep sacks, and Red Nose Australia SIDS guidelines.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/swaddle-tog-temperature-guide/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-tog-1.webp" alt="Baby swaddle TOG and temperature guide for Australian parents" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="561"></div>
-<div class="card-body">
-<div class="cat-tag guides">Temperature Guide</div>
-<h3>TOG &amp; Temperature Guide for Aussie Bubs</h3>
-<p>Understand TOG ratings for Australian weather. What to wear under a swaddle, overheating signs, and Red Nose safety tips.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/swaddle-vs-sleep-sack/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-swaddle-vs-sack-1.webp" alt="Swaddle vs sleep sack comparison guide for Australian parents" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="534"></div>
-<div class="card-body">
-<div class="cat-tag guides">Comparison Guide</div>
-<h3>Swaddle vs Sleep Sack: Which One for Your Baby?</h3>
-<p>Pros and cons, age-by-age guide, when to switch, AU$ costs, and Red Nose Australia safety advice.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/best-baby-swaddle-australia/" class="article-card">
-<div class="card-img reviews-bg"><img src="/images/swaddle-lovetodream-swaddleup.webp" alt="Love to Dream Swaddle Up: best arms-up baby swaddle Australia" width="600" height="584" loading="lazy" style="object-fit:contain"></div>
-<div class="card-body">
-<div class="cat-tag reviews">Reviews</div>
-<h3>6 Best Baby Swaddles in Australia for 2026</h3>
-<p>Love to Dream, ergoPouch, SwaddleMe &amp; more, which swaddle actually works for your baby's sleep?</p>
-<div class="card-footer">Read Reviews →</div>
-</div>
-</a>
-</div>
-<a href="/guides/0-3-month-sleep-schedule/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/0-3-month-sleep-hero.webp" alt="0-3 month newborn sleep schedule for Australian parents" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Sleep Schedule</div>
-<h3>0–3 Month Sleep Schedule: Newborn Routine & Wake Windows</h3>
-<p>Newborn wake windows, feeding-sleep rhythm, and how to fix day/night confusion: for the first 3 months.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/4-6-month-sleep-schedule/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/4-6-month-sleep-schedule-hero.webp" alt="4-6 month baby sleep schedule and wake windows" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Sleep Schedule</div>
-<h3>4–6 Month Sleep Schedule: Wake Windows & Naps</h3>
-<p>Wake windows, the 4-month regression, and the 3-to-2 nap transition: a sample day for 4–6 month olds.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/7-9-month-sleep-schedule/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/baby-sleeping.webp" alt="7-9 month baby sleep schedule and wake windows" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Sleep Schedule</div>
-<h3>7–9 Month Sleep Schedule: Wake Windows & Naps</h3>
-<p>The 8-month regression, separation anxiety at bedtime, and settling into a predictable two-nap day.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/10-12-month-sleep-schedule/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/baby-sleep-schedule-hero.webp" alt="10-12 month baby sleep schedule and wake windows" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Sleep Schedule</div>
-<h3>10–12 Month Sleep Schedule: Wake Windows & Naps</h3>
-<p>Two-nap to one-nap readiness, the 11-month regression, and a sample day for 10–12 month olds.</p>
+<div class="cat-tag guides">Sleep Regression</div>
+<h3>Baby Sleep Regressions: Ages, Signs & Survival Guide</h3>
+<p>Every regression from 4 weeks to toddlerhood: signs, how long each lasts, and survival tips.</p>
 <div class="card-footer">Read Guide →</div>
 </div>
 </a>
@@ -1010,60 +879,25 @@ The ideal baby room temperature is <strong>18-22°C</strong>. Australian summers
 <div class="card-footer">Read Guide →</div>
 </div>
 </a>
-<a href="/guides/baby-sleep-regressions/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-sleep-regressions.webp" alt="Baby sleep regressions by age: complete survival guide" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
+<a href="/guides/0-3-month-sleep-schedule/" class="article-card">
+<div class="card-img guides-bg"><img src="/images/0-3-month-sleep-hero.webp" alt="0-3 month newborn sleep schedule for Australian parents" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
 <div class="card-body">
-<div class="cat-tag guides">Sleep Regression</div>
-<h3>Baby Sleep Regressions: Ages, Signs & Survival Guide</h3>
-<p>Every regression from 4 weeks to toddlerhood: signs, how long each lasts, and survival tips.</p>
+<div class="cat-tag guides">Sleep Schedule</div>
+<h3>0–3 Month Sleep Schedule: Newborn Routine & Wake Windows</h3>
+<p>Newborn wake windows, feeding-sleep rhythm, and how to fix day/night confusion: for the first 3 months.</p>
 <div class="card-footer">Read Guide →</div>
 </div>
 </a>
-<a href="/guides/baby-sleeping-bags-australia/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-sleeping-bags.webp" alt="Baby sleeping bags TOG and safety guide for Australia" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
+<a href="/guides/7-9-month-sleep-schedule/" class="article-card">
+<div class="card-img guides-bg"><img src="/images/baby-sleeping.webp" alt="7-9 month baby sleep schedule and wake windows" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
 <div class="card-body">
-<div class="cat-tag guides">Sleep Safety</div>
-<h3>Baby Sleeping Bags: TOG & Safety Guide</h3>
-<p>Red Nose safety-checked guide to sleeping bags. TOG ratings, sizing, and what to look for.</p>
+<div class="cat-tag guides">Sleep Schedule</div>
+<h3>7–9 Month Sleep Schedule: Wake Windows & Naps</h3>
+<p>The 8-month regression, separation anxiety at bedtime, and settling into a predictable two-nap day.</p>
 <div class="card-footer">Read Guide →</div>
 </div>
 </a>
-<a href="/guides/responsive-settling-techniques-australia/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/responsive-settling-hero.jpg" alt="Responsive settling techniques for Australian babies" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Settling</div>
-<h3>Responsive Settling Techniques for Australian Parents</h3>
-<p>Step-by-step gentle settling: Red Nose approved. Newborn through toddler, without cry-it-out.</p>
-<div class="card-footer">Read Guide →</div>
 </div>
-</a>
-<a href="/guides/room-temperature-baby-sleep-australia/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-room-temperature.webp" alt="Baby room temperature safe sleep guide for Australia" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Sleep Safety</div>
-<h3>Baby Room Temperature: Safe Sleep Guide</h3>
-<p>The safest room temperature for your baby, dressing by season, and Red Nose recommendations.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/safe-sleep-sids-prevention-australia/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/guide-safe-sleep.webp" alt="Safe sleep and SIDS prevention guide for Australian parents" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Sleep Safety</div>
-<h3>Safe Sleep & SIDS Prevention Guide</h3>
-<p>Red Nose Australia's six SIDS prevention recommendations: safe cot setup, room sharing, and more.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
-<a href="/guides/toddler-sleep/" class="article-card">
-<div class="card-img guides-bg"><img src="/images/toddler-sleep-guide-hero.webp" alt="Toddler sleep guide: schedules, regressions and bedtime tips" loading="lazy" style="width:100%;height:100%;object-fit:contain" width="800" height="500"></div>
-<div class="card-body">
-<div class="cat-tag guides">Toddler Sleep</div>
-<h3>Toddler Sleep Guide: Schedules, Regressions & Tips</h3>
-<p>12–36 month schedules, the 2-to-1 nap transition, bedtime battles, and the cot-to-bed move.</p>
-<div class="card-footer">Read Guide →</div>
-</div>
-</a>
 <div class="view-all-wrap">
 <a href="/guides/" class="view-all-btn">View All Guides →</a>
 </div>
